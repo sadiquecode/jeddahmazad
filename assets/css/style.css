@@ -89,7 +89,7 @@ a {
 .custom_dropdown .drop_menu li a,
 .custom_dropdown .drop_menu:active {
     color           : var(--blue-zodiac) !important;
-    background-color: transparent !important;
+    background-color: var(--white) !important;
 }
 
 .custom_dropdown .drop_menu li a:hover {
@@ -108,6 +108,7 @@ a {
 .custom_dropdown .drop_menu2 li a {
     height     : 50px;
     align-items: center;
+    color      : var(--blue-zodiac) !important;
 }
 
 .form-check-input:checked {
