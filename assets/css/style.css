@@ -71,7 +71,7 @@ a {
 .custom_dropdown .dropdown-menu {
     border     : none;
     filter     : var(--dropmenu-box-shadow) !important;
-    margin-top : 7px;
+    margin-top : 14px;
     margin-left: 70px;
 }
 
@@ -120,6 +120,11 @@ a {
     box-shadow: none !important;
 }
 
+.navbar .navbar-nav .nav-link {
+    padding    : 0;
+    line-height: 50px;
+}
+
 .navbar .navbar-nav .nav-link,
 .navbar .navbar-nav .nav-link .dropdown-toggle {
     color: var(--blue-zodiac);
@@ -127,9 +132,8 @@ a {
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link {
-    color      : var(--blue-zodiac);
-    font-size  : 16.81px;
-    line-height: 20px;
+    color    : var(--blue-zodiac);
+    font-size: 17px;
 }
 
 
@@ -149,18 +153,18 @@ a {
 }
 
 .logout::before {
-    margin-top    : 6px;
-    vertical-align: middle;
-    border        : none;
-    content       : "│";
-    color         : var(--blue-zodiac);
+    margin-top : 10px;
+    content    : "\007C";
+    font-weight: 800;
+    width      : 21px;
+    color      : var(--blue-zodiac);
 }
 
 /* ==============================Topbar End============================== */
 /* ==============================Navbar Start============================== */
 .branding img {
-    max-width : 241px;
-    max-height: 62px;
+    width : 241px;
+    height: auto;
 }
 
 .search-form {
@@ -197,6 +201,15 @@ a {
 
 .search-bar {
     min-width: 300px;
+}
+
+.add_post span {
+    line-height: 17px;
+}
+
+.add_post i {
+    color    : var(--blue-zodiac);
+    font-size: 25px;
 }
 
 .search-bar,
