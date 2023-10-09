@@ -42,7 +42,7 @@
 body {
     font-family     : var(--primary-font);
     background-color: var(--white);
-    overflow-x      : hidden;
+    overflow-x      : hidden !important;
 }
 
 a {
@@ -313,10 +313,94 @@ a {
 }
 
 /* ==============================Navbar End ============================== */
+/* ============================== Banner Start ============================== */
+.item_carousel {
+    position: relative;
+}
+
+.item_carousel .caption_carousel {
+    color     : var(--white);
+    position  : absolute;
+    right     : 0%;
+    left      : -50%;
+    text-align: center;
+}
+
+.caption_carousel h5 {
+    font-size  : 53px;
+    font-weight: 400;
+}
+
+.caption_carousel a {
+    background-color: var(--leather);
+    color           : var(--white);
+    font-size       : 30px;
+    border-radius   : 10px;
+    padding         : 2px 23px 2px 23px;
+    line-height     : 52px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../images/icons/Left\ Arrow.png');
+}
+
+.carousel-control-next-icon {
+    background-image: url('../images/icons/Right\ Arrow.png');
+}
+
+
+/* ============================== Banner End ============================== */
+/* ============================== Auction Card Start ============================== */
+.heading {
+    position: relative
+}
+
+.heading h4 {
+    color      : var(--blue-zodiac);
+    font-size  : 25px;
+    font-weight: normal;
+}
+
+.heading span:before {
+    content      : " ";
+    border-bottom: 2px solid var(--leather);
+    left         : 0;
+    position     : absolute;
+    top          : 0;
+    bottom       : 32px;
+    width        : 125px;
+}
+
+.auction_card img {
+    border-radius: 11px;
+    filter       : var(--card-box-shadow);
+}
+
+.card_text small {
+    width         : 100%;
+    letter-spacing: -0.1px;
+    line-height   : 20px;
+}
+
+.card_bidbtn {
+    background-color: var(--white);
+    color           : var(--leather) !important;
+    filter          : var(--btn-box-shadow);
+    font-size       : 20px;
+    padding         : 9px 65px 9px 65px;
+    border-radius   : 7px;
+}
+
+/* ============================== Auction Card End ============================== */
 /* Responsive  */
 @media (max-width: 1239px) {
     .search-bar {
-        min-width: 100%;
+        min-width: 100% !important;
     }
 }
 
@@ -349,4 +433,33 @@ a {
         display: block !important;
     }
 
+    .caption_carousel h5 {
+        font-size: 43px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .caption_carousel h5 {
+        font-size    : 20px;
+        margin-bottom: 0;
+    }
+
+    .caption_carousel a {
+        font-size    : 20px;
+        padding      : 0px 10px 0px 10px;
+        border-radius: 6px;
+    }
+
+    .item_carousel .caption_carousel {
+        padding-bottom: 0;
+        bottom        : 10px;
+    }
+}
+
+@media (max-width: 499px) {
+    .caption_carousel h5 {
+        font-size    : 16px;
+        margin-bottom: 0;
+    }
 }
