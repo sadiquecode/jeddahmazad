@@ -18,16 +18,16 @@
 
 :root {
     /* Color */
-    --white          : #fff;
-    --white-smoke    : #F5F5F5;
-    --blue-zodiac    : #16204A;
-    --leather        : #AD7B2B;
-    --luxor-gold     : #AE7E30;
-    --black          : #000000;
-    --oslo-grey      : #8F8F8F;
-    --bg-gradient    : linear-gradient(15deg, #dcdbd8 0.00%, #f8f8f6 50.00%, #ecedea 100.00%);
-    --card-box-shadow: drop-shadow(0px 0px 19px rgba(0, 0, 0, 0.19));
-    ;
+    --white              : #fff;
+    --white-smoke        : #F5F5F5;
+    --blue-zodiac        : #16204A;
+    --leather            : #AD7B2B;
+    --luxor-gold         : #AE7E30;
+    --black              : #000000;
+    --oslo-grey          : #8F8F8F;
+    --ecebea             : #e5e2df;
+    --bg-gradient        : linear-gradient(15deg, #dcdbd8 0.00%, #f8f8f6 50.00%, #ecedea 100.00%);
+    --card-box-shadow    : drop-shadow(0px 0px 19px rgba(0, 0, 0, 0.19));
     --btn-box-shadow     : drop-shadow(0px 0px 10.5px rgba(0, 0, 0, 0.26));
     --icon-box-shadow    : drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.33));
     --dropmenu-box-shadow: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.09));
@@ -42,11 +42,19 @@
 body {
     font-family     : var(--primary-font);
     background-color: var(--white);
-    overflow-x      : hidden !important;
+    overflow-x      : hidden;
 }
 
 a {
     text-decoration: none;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    max-width: 1050px;
 }
 
 /* =============================== General End ===============================*/
@@ -68,7 +76,8 @@ a {
     color: var(--blue-zodiac) !important;
 }
 
-.custom_dropdown .dropdown-menu {
+.custom_dropdown .drop_menu,
+.custom_dropdown .drop_menu2 {
     border     : none;
     filter     : var(--dropmenu-box-shadow) !important;
     margin-left: 70px;
@@ -376,6 +385,15 @@ a {
     width        : 125px;
 }
 
+.all_auction a {
+    color    : var(--blue-zodiac);
+    font-size: 14px;
+}
+
+.all_auction a:hover {
+    text-decoration: underline;
+}
+
 .auction_card img {
     border-radius: 11px;
     filter       : var(--card-box-shadow);
@@ -385,6 +403,7 @@ a {
     width         : 100%;
     letter-spacing: -0.1px;
     line-height   : 20px;
+    font-size     : small;
 }
 
 .card_bidbtn {
@@ -396,7 +415,92 @@ a {
     border-radius   : 7px;
 }
 
+.notification_icon .notification_toggle {
+    width           : 81px;
+    height          : 81px;
+    filter          : var(--icon-box-shadow);
+    background-color: var(--white);
+    text-align      : center;
+}
+
+.notification_icon .dropup .notification_toggle::after {
+    display: none;
+}
+
+.notifications {
+    min-width    : 380px !important;
+    height       : 360px !important;
+    border-radius: 12px;
+    overflow-y   : scroll;
+    inset        : auto auto 7px 0px !important;
+    color        : var(--blue-zodiac);
+}
+
+.notification-item {
+    line-height: 60px;
+}
+
+.view_btn a {
+    color: var(--leather);
+}
+
+.viewed_btn a {
+    color: var(--blue-zodiac);
+}
+
+.notifications .viewed {
+    opacity: 0.50;
+}
+
+.notifications::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    background   : var(--white);
+    border-radius: 0 19px 0 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--blue-zodiac);
+    transition: all 0.3s ease;
+}
+
+/* ::-webkit-scrollbar-thumb:hover {
+    background: #f3b020;
+} */
+
 /* ============================== Auction Card End ============================== */
+/* ============================== Luxury Brand Start ============================== */
+.Brand_wrapper {
+    background-image: var(--bg-gradient);
+    margin-top      : -8px;
+}
+
+.custom_control {
+    background-color: var(--ecebea);
+}
+
+.custom_control .form-check-input:checked[type=checkbox] {
+    background-image: url(../images/icons/check.png);
+    background-color: var(--white);
+}
+
+.custom_checks {
+    background-color: var(--white);
+    filter          : drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.1));
+    ;
+}
+
+.slick-prev:before {
+    content: '';
+}
+
+[dir='rtl'] .slick-prev:before {
+    content: '→';
+}
+
+/* ============================== Luxury Brand End ============================== */
 /* Responsive  */
 @media (max-width: 1239px) {
     .search-bar {

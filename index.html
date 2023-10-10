@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Slick slider css  -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!-- Slick slider theme css  -->
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <!-- Slick slider css  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <!-- fontawesome kit  -->
     <script src="assets/js/kit-fontawesome.js"></script>
 </head>
@@ -285,8 +291,13 @@
     <!-- ==============================Auction Card Start==============================-->
     <section class="py-5">
         <div class="container">
-            <div class="heading pb-5">
-                <h4><span>Ongoing</span> Auctions</h4>
+            <div class="justify-content-between align-items-center d-flex">
+                <div class="heading pb-5 flex-column d-flex">
+                    <h4><span>Ongoing</span> Auctions</h4>
+                </div>
+                <div class="me-5 all_auction">
+                    <a href="#">VIEW ALL</a>
+                </div>
             </div>
             <div class="row gx-3 gy-5">
                 <div class="col-md-6 col-lg-3 col-12">
@@ -358,10 +369,15 @@
     </section>
     <!-- ==============================Upcoming Auction Card End ==============================-->
     <!-- ==============================Upcoming Auction Card Start ==============================-->
-    <section class="pb-5">
+    <section>
         <div class="container">
-            <div class="heading pb-5">
-                <h4><span>Upcoming</span> Auctions</h4>
+            <div class="justify-content-between align-items-center d-flex">
+                <div class="heading pb-5 flex-column d-flex">
+                    <h4><span>Upcoming</span> Auctions</h4>
+                </div>
+                <div class="me-5 all_auction">
+                    <a href="#">VIEW ALL</a>
+                </div>
             </div>
             <div class="row gx-3 gy-5">
                 <div class="col-md-6 col-lg-3 col-12">
@@ -430,13 +446,315 @@
                 </div>
             </div>
         </div>
+        <div class="container-fluid pt-5 px-sm-5">
+            <div class="justify-content-between align-items-center d-flex">
+                <div class="notification_icon justify-content-center flex-column d-flex">
+                    <!-- Default dropup button -->
+                    <div class="dropup">
+                        <a href="#"
+                            class="dropdown-toggle notification_toggle d-flex align-items-center justify-content-center  rounded-circle"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="assets/images/icons/notification.png" alt="notification" width="36" height="49">
+                        </a>
+                        <ul class="dropdown-menu notifications border-0 px-2">
+                            <li class="dropdown-header text-center">
+                                <img src="assets/images/icons/notification.png" alt="notification" width="26"
+                                    height="35">
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li class="notification-item">
+                                <div class="justify-content-between align-items-center d-flex">
+                                    <div class="d-flex align-items-start">
+                                        <div class="flex-column d-flex">
+                                            <p class="mb-0"><small>Ahmad Kabbani liked your post</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="view_btn me-2">
+                                        <a href="#"><small>View</small></a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li class="notification-item">
+                                <div class="justify-content-between align-items-center d-flex">
+                                    <div class="d-flex align-items-start">
+                                        <div class="flex-column d-flex">
+                                            <p class="mb-0"><small>Ahmad Kabbani liked your post</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="view_btn me-2">
+                                        <a href="#"><small>View</small></a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li class="notification-item">
+                                <div class="justify-content-between viewed align-items-center d-flex">
+                                    <div class="d-flex align-items-start">
+                                        <div class="flex-column d-flex">
+                                            <p class="mb-0"><small>Tammam Hamdan commented on your post</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="viewed_btn">
+                                        <a href="#"><small>Viewed</small></a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li class="notification-item">
+                                <div class="justify-content-between viewed align-items-center d-flex">
+                                    <div class="d-flex align-items-start">
+                                        <div class="flex-column d-flex">
+                                            <p class="mb-0"><small>Tammam Hamdan commented on your post</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="viewed_btn">
+                                        <a href="#"><small>Viewed</small></a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li class="notification-item">
+                                <div class="justify-content-between viewed align-items-center d-flex">
+                                    <div class="d-flex align-items-start">
+                                        <div class="flex-column d-flex">
+                                            <p class="mb-0"><small>Tammam Hamdan commented on your post</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="viewed_btn">
+                                        <a href="#"><small>Viewed</small></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="notification_icon">
+                    <div class="dropup">
+                        <a href="#"
+                            class="dropdown-toggle notification_toggle d-flex align-items-center justify-content-center  rounded-circle"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="assets/images/icons/inbox.png" alt="inbox" width="50" height="47">
+                        </a>
+                        <ul class="dropdown-menu notifications border-0 px-2">
+                            <li class="dropdown-header text-center">
+                                <img src="assets/images/icons/notification.png" alt="notification" width="26"
+                                    height="35">
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li class="notification-item">
+                                <div class="justify-content-between align-items-center d-flex">
+                                    <div class="d-flex align-items-start">
+                                        <div class="flex-column d-flex">
+                                            <p class="mb-0"><small>Ahmad Kabbani sent you a message</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="view_btn me-2">
+                                        <a href="#"><small>View</small></a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li class="notification-item">
+                                <div class="justify-content-between align-items-center d-flex">
+                                    <div class="d-flex align-items-start">
+                                        <div class="flex-column d-flex">
+                                            <p class="mb-0"><small>Tammam Hamdan sent you a message</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="view_btn me-2">
+                                        <a href="#"><small>View</small></a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li class="notification-item">
+                                <div class="justify-content-between viewed align-items-center d-flex">
+                                    <div class="d-flex align-items-start">
+                                        <div class="flex-column d-flex">
+                                            <p class="mb-0"><small>Tammam Hamdan sent you a message</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="viewed_btn">
+                                        <a href="#"><small>Viewed</small></a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li class="notification-item">
+                                <div class="justify-content-between viewed align-items-center d-flex">
+                                    <div class="d-flex align-items-start">
+                                        <div class="flex-column d-flex">
+                                            <p class="mb-0"><small>Ahmad Kabbani sent you a message</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="viewed_btn">
+                                        <a href="#"><small>Viewed</small></a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li class="notification-item">
+                                <div class="justify-content-between viewed align-items-center d-flex">
+                                    <div class="d-flex align-items-start">
+                                        <div class="flex-column d-flex">
+                                            <p class="mb-0"><small>Ahmad Kabbani sent you a message</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="viewed_btn">
+                                        <a href="#"><small>Viewed</small></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
     </section>
     <!-- ==============================Upcoming Auction End==============================-->
+    <style>
+
+    </style>
+    <!-- ==============================Luxury Brand Start==============================-->
+    <section class="Brand_wrapper">
+        <div class="container">
+            <div class="heading py-5">
+                <h4><span>Upcoming</span> Auctions</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-12">
+                    <div class="custom_control">
+                        <div class="custom_checks p-1 rounded mb-3 d-inline-flex w-100">
+                            <input type="checkbox" class="form-check-input shadow-none" id="flexCheckDefault">
+                            <label class="form-check-label ps-2 w-100" for="flexCheckDefault">Men</label>
+                        </div>
+                        <div class="custom_checks p-1 rounded mb-3 d-inline-flex w-100">
+                            <input type="checkbox" class="form-check-input shadow-none" id="customCheckBox1">
+                            <label class="form-check-label ps-2 w-100" for="customCheckBox1">Women</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-12">
+                    <div class="custom_control">
+                        <div class="custom_checks p-1 rounded  mb-3 d-inline-flex w-100">
+                            <input type="checkbox" class="form-check-input shadow-none" id="customCheckBox2">
+                            <label class="form-check-label ps-2 w-100" for="customCheckBox2">Bags</label>
+                        </div>
+                        <div class="custom_checks p-1 rounded  mb-3 d-inline-flex w-100">
+                            <input type="checkbox" class="form-check-input shadow-none" id="customCheckBox3">
+                            <label class="form-check-label ps-2 w-100" for="customCheckBox3">Pens</label>
+                        </div>
+                        <div class="custom_checks p-1 rounded  mb-3 d-inline-flex w-100">
+                            <input type="checkbox" class="form-check-input shadow-none" id="customCheckBox4">
+                            <label class="form-check-label ps-2 w-100" for="customCheckBox4">Watches</label>
+                        </div>
+                        <div class="custom_checks p-1 rounded  mb-3 d-inline-flex w-100">
+                            <input type="checkbox" class="form-check-input shadow-none" id="customCheckBox5">
+                            <label class="form-check-label ps-2 w-100" for="customCheckBox5">Accessories</label>
+                        </div>
+                    </div>
+                </div>
+                <style>
+                    .slick-prev:before,
+                    .slick-next:before {
+                        font-family: 'slick';
+                        font-size: 50px;
+                        line-height: 1;
+                        opacity: 1;
+                        color: #16204A;
+                        font-weight: 600;
+                    }
+
+                    .slick-prev:before {
+                        content: '❮';
+                    }
+
+                    [dir='rtl'] .slick-prev:before {
+                        content: '❯';
+                    }
+
+                    .slick-next:before {
+                        content: '❯';
+                    }
+
+                    [dir='rtl'] .slick-next:before {
+                        content: '❮';
+                    }
+                </style>
+                <div class="col-md-8 col-12">
+                    <div class="row">
+                        <div class="col-10 mx-auto">
+                            <div class="slide d-flex align-items-center justify-content-center">
+                                <div class="slide_item">
+                                    <img src="assets/images/main/mb_logo.png" class="img-fluid m-auto" alt="montblance">
+                                </div>
+                                <div class="slide_item">
+                                    <img src="assets/images/main/mb_logo.png" class="img-fluid m-auto" alt="montblance">
+                                </div>
+                                <div class="slide_item">
+                                    <img src="assets/images/main/mb_logo.png" class="img-fluid m-auto" alt="montblance">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- =============================Luxury Brand End==============================-->
+    <!-- <script type="text/javascript" src="assets/jquery/jquery-3.7.1.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Slick slider js  -->
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
 </body>
-<!-- Bootstrap JS -->
-<script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
-<!-- Custom JS -->
-<script src="assets/js/main.js"></script>
 
 
 </html>
