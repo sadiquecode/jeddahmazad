@@ -16,7 +16,7 @@
     <!-- Slick slider theme css  -->
     <link rel="stylesheet" href="assets/css/slick-theme.css">
     <!-- Slick slider css  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"> -->
     <!-- fontawesome kit  -->
     <script src="assets/js/kit-fontawesome.js"></script>
 </head>
@@ -84,7 +84,7 @@
     <!-- ==============================Navbar Start==============================-->
     <div class="container-fluid px-md-5">
         <nav class="navbar navbar-expand-lg">
-            <a href="index.html" class="navbar-brand branding m-0 p-0 rounded-3">
+            <a href="#" class="navbar-brand branding">
                 <img src="assets/images/logo/logo.png" alt="logo">
             </a>
             <div class=" ml-auto d-flex gap-3">
@@ -289,20 +289,41 @@
     </section>
     <!-- ==============================Banner End==============================-->
     <!-- ==============================Auction Card Start==============================-->
-    <section class="py-5">
+    <section class="auction_cardtrack py-5">
         <div class="container">
-            <div class="justify-content-between align-items-center d-flex">
-                <div class="heading pb-5 flex-column d-flex">
+            <div class="justify-content-between align-items-center d-flex mx-5">
+                <div class="heading flex-column d-flex">
                     <h4><span>Ongoing</span> Auctions</h4>
                 </div>
-                <div class="me-5 all_auction">
+                <div class="me-md-5 all_auction">
                     <a href="#">VIEW ALL</a>
                 </div>
             </div>
-            <div class="row gx-3 gy-5">
-                <div class="col-md-6 col-lg-3 col-12">
-                    <div class="card auction_card border-0">
-                        <img src="assets/images/cards/clip222.png" class="card-img-top" alt="...">
+        </div>
+        <style>
+            .auction_cardtrack .container {
+                max-width: 1100px;
+            }
+
+            .active_btn a {
+                /* transform: translate(-50%, -50%); */
+                background-color: #16204A;
+                border-radius: 7px;
+                padding: 8px 20px;
+                color: white;
+                z-index: 999;
+                top: 10px;
+                right: 10px;
+            }
+        </style>
+        <div class="container px-md-0">
+            <div class="auctionslide__cards d-flex overflow-hidden ">
+                <div class="row row-cols-12 me-4 m-5">
+                    <div class="card auction_card border-0 px-0">
+                        <div class="text-center active_btn position-relative">
+                            <a href="#" class="d-block position-absolute">Active</a>
+                            <img src="assets/images/cards/clip222.png" class="card-img-top img-fluid" alt="...">
+                        </div>
                         <div class="card-body px-0 heading">
                             <h4 class="card_title mb-4">GG Marmont</h4>
                             <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
@@ -316,9 +337,50 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 col-12">
-                    <div class="card auction_card border-0">
-                        <img src="assets/images/cards/clip333.png" class="card-img-top" alt="...">
+                <div class="row row-cols-12 me-4 mt-5">
+                    <div class="card auction_card border-0 px-0">
+                        <div class="text-center active_btn position-relative">
+                            <a href="#" class="d-block position-absolute">Active</a>
+                            <img src="assets/images/cards/clip222.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        <div class="card-body px-0 heading">
+                            <h4 class="card_title mb-4">GG Marmont</h4>
+                            <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
+                                    10:00</small>
+                            </p>
+                            <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
+                            <div class="d-flex align-items-center">
+                                <a href="#" class="card_bidbtn">BID</a>
+                                <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row row-cols-12 me-3 mt-5">
+                    <div class="card auction_card border-0 px-0">
+                        <div class="text-center active_btn position-relative">
+                            <a href="#" class="d-block position-absolute">Active</a>
+                            <img src="assets/images/cards/clip111.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        <div class="card-body px-0 heading">
+                            <h4 class="card-title mb-4">Ongoing Auctions</h4>
+                            <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
+                                    10:00</small>
+                            </p>
+                            <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
+                            <div class="d-flex align-items-center">
+                                <a href="#" class="card_bidbtn">BID</a>
+                                <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="row row-cols-12 me-4 mt-5">
+                    <div class="card auction_card border-0 px-0">
+                        <div class="text-center active_btn position-relative">
+                            <a href="#" class="d-block position-absolute">Active</a>
+                            <img src="assets/images/cards/clip444.png" class="card-img-top img-fluid" alt="...">
+                        </div>
                         <div class="card-body px-0 heading">
                             <h4 class="card-title mb-4">Ongoing Auctions</h4>
                             <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
@@ -332,25 +394,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 col-12">
-                    <div class="card auction_card border-0">
-                        <img src="assets/images/cards/clip444.png" class="card-img-top" alt="...">
-                        <div class="card-body px-0 heading">
-                            <h4 class="card-title mb-4">Ongoing Auctions</h4>
-                            <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
-                                    10:00</small>
-                            </p>
-                            <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
-                            <div class="d-flex align-items-center">
-                                <a href="#" class="card_bidbtn">BID</a>
-                                <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
-                            </div>
+                <div class="row row-cols-12 me-4 mt-5">
+                    <div class="card auction_card border-0 px-0">
+                        <div class="text-center active_btn position-relative">
+                            <a href="#" class="d-block position-absolute">Active</a>
+                            <img src="assets/images/cards/clip111.png" class="card-img-top img-fluid" alt="...">
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 col-12">
-                    <div class="card auction_card border-0">
-                        <img src="assets/images/cards/clip111.png" class="card-img-top" alt="...">
                         <div class="card-body px-0 heading">
                             <h4 class="card-title mb-4">Ongoing Auctions</h4>
                             <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
@@ -372,14 +421,14 @@
     <section>
         <div class="container">
             <div class="justify-content-between align-items-center d-flex">
-                <div class="heading pb-5 flex-column d-flex">
+                <div class="heading flex-column d-flex">
                     <h4><span>Upcoming</span> Auctions</h4>
                 </div>
                 <div class="me-5 all_auction">
                     <a href="#">VIEW ALL</a>
                 </div>
             </div>
-            <div class="row gx-3 gy-5">
+            <div class="row gx-3 gy-5 mt-5">
                 <div class="col-md-6 col-lg-3 col-12">
                     <div class="card auction_card border-0">
                         <img src="assets/images/cards/clip222.png" class="card-img-top" alt="...">
@@ -660,17 +709,17 @@
     <!-- ==============================Luxury Brand Start==============================-->
     <section class="Brand_wrapper">
         <div class="container">
-            <div class="heading py-5">
-                <h4><span>Upcoming</span> Auctions</h4>
+            <div class="heading pt-5">
+                <h4><span>Our Luxury</span> Brands</h4>
             </div>
-            <div class="row">
+            <div class="row mt-5 gy-3">
                 <div class="col-md-2 col-12">
                     <div class="custom_control">
                         <div class="custom_checks p-1 rounded mb-3 d-inline-flex w-100">
                             <input type="checkbox" class="form-check-input shadow-none" id="flexCheckDefault">
                             <label class="form-check-label ps-2 w-100" for="flexCheckDefault">Men</label>
                         </div>
-                        <div class="custom_checks p-1 rounded mb-3 d-inline-flex w-100">
+                        <div class="custom_checks p-1 rounded d-inline-flex w-100">
                             <input type="checkbox" class="form-check-input shadow-none" id="customCheckBox1">
                             <label class="form-check-label ps-2 w-100" for="customCheckBox1">Women</label>
                         </div>
@@ -690,43 +739,19 @@
                             <input type="checkbox" class="form-check-input shadow-none" id="customCheckBox4">
                             <label class="form-check-label ps-2 w-100" for="customCheckBox4">Watches</label>
                         </div>
-                        <div class="custom_checks p-1 rounded  mb-3 d-inline-flex w-100">
+                        <div class="custom_checks p-1 rounded d-inline-flex w-100">
                             <input type="checkbox" class="form-check-input shadow-none" id="customCheckBox5">
                             <label class="form-check-label ps-2 w-100" for="customCheckBox5">Accessories</label>
                         </div>
                     </div>
                 </div>
                 <style>
-                    .slick-prev:before,
-                    .slick-next:before {
-                        font-family: 'slick';
-                        font-size: 50px;
-                        line-height: 1;
-                        opacity: 1;
-                        color: #16204A;
-                        font-weight: 600;
-                    }
 
-                    .slick-prev:before {
-                        content: '❮';
-                    }
-
-                    [dir='rtl'] .slick-prev:before {
-                        content: '❯';
-                    }
-
-                    .slick-next:before {
-                        content: '❯';
-                    }
-
-                    [dir='rtl'] .slick-next:before {
-                        content: '❮';
-                    }
                 </style>
                 <div class="col-md-8 col-12">
                     <div class="row">
                         <div class="col-10 mx-auto">
-                            <div class="slide d-flex align-items-center justify-content-center">
+                            <div class="slideimgs">
                                 <div class="slide_item">
                                     <img src="assets/images/main/mb_logo.png" class="img-fluid m-auto" alt="montblance">
                                 </div>
@@ -742,12 +767,91 @@
                 </div>
             </div>
         </div>
-        </div>
     </section>
     <!-- =============================Luxury Brand End==============================-->
+    <!-- =============================Contact Us Start==============================-->
+    <section class="contact_wrapper py-4 my-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 col-6">
+                    <div class="contect_detail d-flex align-items-center justify-content-between">
+                        <h1 class="mb-0">Contact Us</h1>
+                        <i class="fa-brands fa-whatsapp fa-3x"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-6 align-self-center ">
+                    <div class="contect_detail">
+                        <h1 class="mb-0">54553421</h1>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-6">
+                    <div class="contect_detail d-flex align-items-center justify-content-between">
+                        <h1 class="mb-0">Follow Us</h1>
+                        <i class="fa-brands fa-instagram fa-3x"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-6 align-self-center">
+                    <div class="contect_detail">
+                        <h1 class="mb-0">jeddahmazad</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============================Contact Us End==============================-->
+    <!-- =============================Footer Start==============================-->
+    <section class="py-5">
+        <div class="container">
+            <div class="row gy-3">
+                <div class="col-md-3">
+                    <div>
+                        <a href="#" class="branding">
+                            <img src="assets/images/logo/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="social_btn d-flex align-items-center justify-content-between mt-3 mt-md-0">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="newsletter">
+                        <div class="contect_detail d-flex align-items-center justify-content-md-end">
+                            <h5 class="mb-0 me-3">Newsletter</h5>
+                            <div class="newsletter_email">
+                                <form class="newsletter_form d-flex align-items-center w-100" method="POST" action="#">
+                                    <input type="email" placeholder="Enter your email address here"
+                                        title="Enter email" />
+                                    <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-md-6">
+                    <div class="footer_end">
+                        <div class="text-center text-md-start">
+                            <p>© 2023 <b>Jeddah Mazad</b>. All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer_end justify-content-between d-flex">
+                        <a href="#">Shipping</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms & Conditions</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- =============================Footer End==============================-->
     <!-- <script type="text/javascript" src="assets/jquery/jquery-3.7.1.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
     <!-- Slick slider js  -->
     <script type="text/javascript" src="assets/js/slick.min.js"></script>
     <!-- Bootstrap JS -->

@@ -25,7 +25,7 @@
     --luxor-gold         : #AE7E30;
     --black              : #000000;
     --oslo-grey          : #8F8F8F;
-    --ecebea             : #e5e2df;
+    --grey               : #DDDDDD;
     --bg-gradient        : linear-gradient(15deg, #dcdbd8 0.00%, #f8f8f6 50.00%, #ecedea 100.00%);
     --card-box-shadow    : drop-shadow(0px 0px 19px rgba(0, 0, 0, 0.19));
     --btn-box-shadow     : drop-shadow(0px 0px 10.5px rgba(0, 0, 0, 0.26));
@@ -54,7 +54,7 @@ a {
 .container-md,
 .container-sm,
 .container-xl {
-    max-width: 1050px;
+    max-width: 1100px;
 }
 
 /* =============================== General End ===============================*/
@@ -381,7 +381,7 @@ a {
     left         : 0;
     position     : absolute;
     top          : 0;
-    bottom       : 32px;
+    bottom       : -15px;
     width        : 125px;
 }
 
@@ -392,6 +392,10 @@ a {
 
 .all_auction a:hover {
     text-decoration: underline;
+}
+
+.auctionslide__cards .row {
+    padding: 0 !important;
 }
 
 .auction_card img {
@@ -478,7 +482,7 @@ a {
 }
 
 .custom_control {
-    background-color: var(--ecebea);
+    background-color: var(--white-smoke);
 }
 
 .custom_control .form-check-input:checked[type=checkbox] {
@@ -492,15 +496,104 @@ a {
     ;
 }
 
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick' !important;
+    font-size  : 50px !important;
+    line-height: -2 !important;
+    opacity    : 1 !important;
+    color      : var(--blue-zodiac) !important;
+    font-weight: 600 !important;
+}
+
 .slick-prev:before {
-    content: '';
+    content: '❮' !important;
 }
 
 [dir='rtl'] .slick-prev:before {
-    content: '→';
+    content: '❯';
+}
+
+.slick-next:before {
+    content: '❯' !important;
+}
+
+[dir='rtl'] .slick-next:before {
+    content: '❮';
 }
 
 /* ============================== Luxury Brand End ============================== */
+/* ============================== Contact Us Start ============================== */
+.contact_wrapper {
+    background-color: var(--white-smoke);
+    color           : var(--blue-zodiac) !important;
+}
+
+.contact_wrapper .container {
+    max-width: 885px;
+}
+
+.contect_detail h1 {
+    font-size: 25px;
+}
+
+.contect_detail i {
+    color: var(--leather);
+}
+
+/* ============================== Contact Us End ============================== */
+/* ============================== Contact Us End ============================== */
+.social_btn a {
+    color: var(--oslo-grey) !important;
+}
+
+.newsletter_email {
+    min-width: 360px;
+}
+
+.newsletter_form {
+    filter: none !important;
+}
+
+.newsletter_form {
+    width: 100%;
+}
+
+.newsletter_form input {
+    border       : 0;
+    border-bottom: 2px solid var(--grey);
+    font-size    : 14px;
+    color        : var(--blue-zodiac);
+    padding      : 7px 38px 7px 8px;
+    width        : 100%;
+}
+
+.newsletter_form input:focus,
+.newsletter_form input:hover {
+    outline: none !important;
+}
+
+.newsletter_form button {
+    border     : 0;
+    padding    : 0;
+    margin-left: -25px;
+    background : none;
+    z-index    : 1;
+}
+
+.newsletter_form button i {
+    color: var(--blue-zodiac);
+}
+
+.footer_end p {
+    color: var(--blue-zodiac);
+}
+
+.footer_end a {
+    color: var(--oslo-grey);
+}
+
+/* ============================== Contact Us End ============================== */
 /* Responsive  */
 @media (max-width: 1239px) {
     .search-bar {
@@ -539,6 +632,10 @@ a {
 
     .caption_carousel h5 {
         font-size: 43px;
+    }
+
+    .newsletter_email {
+        min-width: 70%;
     }
 
 }
