@@ -18,20 +18,21 @@
 
 :root {
     /* Color */
-    --white              : #fff;
-    --white-smoke        : #F5F5F5;
-    --blue-zodiac        : #16204A;
-    --leather            : #AD7B2B;
-    --luxor-gold         : #AE7E30;
-    --black              : #000000;
-    --oslo-grey          : #8F8F8F;
-    --grey               : #DDDDDD;
-    --bg-gradient        : linear-gradient(15deg, #dcdbd8 0.00%, #f8f8f6 50.00%, #ecedea 100.00%);
-    --card-box-shadow    : drop-shadow(0px 0px 19px rgba(0, 0, 0, 0.19));
-    --btn-box-shadow     : drop-shadow(0px 0px 10.5px rgba(0, 0, 0, 0.26));
-    --icon-box-shadow    : drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.33));
-    --dropmenu-box-shadow: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.09));
-    --switch-box-shadow  : drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.14));
+    --white                : #fff;
+    --white-smoke          : #F5F5F5;
+    --blue-zodiac          : #16204A;
+    --leather              : #AD7B2B;
+    --luxor-gold           : #AE7E30;
+    --black                : #000000;
+    --oslo-grey            : #8F8F8F;
+    --grey                 : #DDDDDD;
+    --bg-gradient          : linear-gradient(15deg, #dcdbd8 0.00%, #f8f8f6 50.00%, #ecedea 100.00%);
+    --card-box-shadow      : drop-shadow(0px 0px 19px rgba(0, 0, 0, 0.19));
+    --btn-box-shadow       : drop-shadow(0px 0px 10.5px rgba(0, 0, 0, 0.26));
+    --icon-box-shadow      : drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.33));
+    --dropmenu-box-shadow  : drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.09));
+    --switch-box-shadow    : drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.14));
+    --search-btn-box-shadow: drop-shadow(0px 0px 14.5px rgba(0, 0, 0, 0.15));
 
 
     /* Text Style  */
@@ -331,7 +332,8 @@ a {
 
 /* ==============================Navbar End ============================== */
 /* ============================== Banner Start ============================== */
-.banner_carousel {
+.banner_carousel,
+.search_heading {
     padding-top: 146px;
 }
 
@@ -635,6 +637,7 @@ a {
 /* ============================== Footer End ============================== */
 /* -------------------------------search Filter page -------------------------------  */
 /* ============================== Custom Search Start ============================== */
+
 .search_content {
     background-color: var(--white-smoke);
 }
@@ -663,6 +666,8 @@ a {
     color           : var(--white);
     border-radius   : 0 20px 20px 0;
     font-size       : 20px;
+    height          : 83.8px;
+    filter          : var(--search-btn-box-shadow);
 }
 
 .filter_search button:hover {
@@ -752,7 +757,8 @@ a {
         color           : var(--blue-zodiac);
     }
 
-    .banner_carousel {
+    .banner_carousel,
+    .search_heading {
         padding-top: 63px;
     }
 
@@ -769,11 +775,6 @@ a {
         text-align: center !important;
     }
 
-    .item_carousel img {
-        height    : 60vh;
-        object-fit: cover;
-    }
-
     .newsletter_email {
         min-width: 70%;
     }
@@ -781,6 +782,11 @@ a {
 }
 
 @media (max-width: 767px) {
+    .item_carousel img {
+        height    : 70vh;
+        object-fit: cover;
+    }
+
     .caption_carousel h5 {
         font-size    : 20px;
         margin-bottom: 0;
@@ -796,11 +802,53 @@ a {
         padding-bottom: 0;
         bottom        : 10px;
     }
+
+    .dropdownbrand {
+        border-right : none;
+        border-radius: 0 20px 20px 0;
+    }
+
+    .dropdownregion {
+        border-radius: 20px 0 0 20px;
+    }
+
 }
 
-@media (max-width: 499px) {
+@media (max-width: 575px) {
     .caption_carousel h5 {
         font-size    : 16px;
         margin-bottom: 0;
+    }
+
+    .dropdown_wrapper {
+        background-color: var(--white-smoke) !important;
+    }
+
+    .dropdowncategori,
+    .dropdownbrand,
+    .dropdownregion {
+        border-radius: 20px;
+        border       : 1px solid #ccc;
+    }
+
+    .dropdownbrand,
+    .dropdownregion {
+        border-right: 1px solid #ccc;
+    }
+
+    .filter_search {
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
+    }
+
+    .filter_search span {
+        display: none;
+    }
+
+    .filter_search button {
+        width        : 95px;
+        height       : 59px;
+        border-radius: 15px;
     }
 }

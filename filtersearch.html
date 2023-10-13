@@ -257,15 +257,60 @@
 
     <!-- ==============================Upcoming Auction Card Start ==============================-->
     <!-- ==============================Auction Card Start==============================-->
-    <section class="search_heading" style="padding-top: 146px;">
+    <div class="dropdown">
+        <a class="dropdown-toggle btn" data-toggle="dropdown" href="#">
+            Toggle dropdown
+            <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-form" role="menu">
+            <li>
+                <label class="checkbox">
+                    <input type="checkbox">
+                    Checkbox 1
+                </label>
+            </li>
+            <li>
+                <label class="checkbox">
+                    <input type="checkbox">
+                    Checkbox 2
+                </label>
+            </li>
+            <li>
+                <label class="checkbox">
+                    <input type="checkbox">
+                    Checkbox 2
+                </label>
+            </li>
+            <li>
+                <label class="checkbox">
+                    <input type="checkbox">
+                    Checkbox 2
+                </label>
+            </li>
+            <li>
+                <label class="checkbox">
+                    <input type="checkbox">
+                    Checkbox 2
+                </label>
+            </li>
+            <li>
+                <label class="checkbox">
+                    <input type="checkbox">
+                    Checkbox 3
+                </label>
+            </li>
+        </ul>
+    </div>
+    <!-- ///////// -->
+    <section class="search_heading">
         <div class="container-fluid">
-            <div class="heading flex-column d-flex px-5 py-4">
+            <div class="px-md-5">
                 <h4>Custom Search</h4>
             </div>
         </div>
         <div class="search_content">
             <div class="container">
-                <div class="dropcheckbtn d-flex gap-3 pt-5 pb-3">
+                <div class="custom_control d-flex gap-3 pt-5 pb-3">
                     <div class="custom_checks p-1 rounded d-inline-flex">
                         <input type="checkbox" class="form-check-input shadow-none" id="flexCheckDefault">
                         <label class="form-check-label ps-2 w-100" for="flexCheckDefault">Men</label>
@@ -283,12 +328,16 @@
                                 <a class="btn dropdown-toggle text-start shadow-none" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     All Categories
+                                    <b class="caret"></b>
                                 </a>
 
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <ul class="dropdown-menu dropdown-menu-form col-12" role="menu">
+                                    <li>
+                                        <label class="checkbox dropdown-item">
+                                            Checkbox 1
+                                            <input type="checkbox">
+                                        </label>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -302,7 +351,7 @@
                                     All Brands
                                 </a>
 
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu col-12">
                                     <li><a class="dropdown-item" href="#">Action</a></li>
                                     <li><a class="dropdown-item" href="#">Another action</a></li>
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -319,7 +368,7 @@
                                     All Regions
                                 </a>
 
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu col-12">
                                     <li><a class="dropdown-item" href="#">Action</a></li>
                                     <li><a class="dropdown-item" href="#">Another action</a></li>
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -329,7 +378,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-12">
                         <div class="d-grid filter_search">
-                            <button style="height:83.8px" type="submit" class="border-0" id="#">
+                            <button type="submit" class="border-0" id="#">
                                 <i class="fa-solid fa-magnifying-glass me-2"></i><span>Search</span>
                             </button>
                         </div>
