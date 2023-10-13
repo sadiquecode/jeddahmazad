@@ -59,10 +59,14 @@ a {
 
 /* =============================== General End ===============================*/
 /* ==============================Topbar Start============================== */
-.topbar {
+.header_features {
+    background-color: var(--white);
+}
+
+.topbar .navbar,
+.bottombar .navbar {
     background-color: var(--white);
     color           : var(--blue-zodiac);
-    display         : block;
 }
 
 .bottom_line hr {
@@ -151,16 +155,15 @@ a {
 }
 
 
-.navbar .dropdown-toggle::after {
-    margin-left   : 0px;
-    font-size     : 23px;
-    vertical-align: middle;
-    border        : none;
-    content       : "\f107";
-    font-family   : "Font Awesome 5 Free";
-    font-weight   : bold;
-    transition    : .5s;
-    color         : var(--blue-zodiac);
+.navbar .dropdown-toggle::after,
+.dropdown_wrapper .dropdown-toggle::after {
+    color          : var(--blue-zodiac);
+    right          : 0px;
+    border         : none;
+    vertical-align : middle;
+    content        : url('../images/icons/image_15x11.png');
+    background-size: contain;
+    transition     : .5s;
 }
 
 .navbar .dropdown-toggle[aria-expanded=true]::after {
@@ -188,14 +191,19 @@ a {
 }
 
 .search-form input {
-    border       : 0;
+    border       : transparent;
     font-size    : 14px;
     color        : var(--blue-zodiac);
     filter       : drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.14));
     padding      : 7px 38px 7px 8px;
-    border-radius: 3px;
+    border-radius: 5px;
     transition   : 0.3s;
     width        : 100%;
+}
+
+.search-form input:focus {
+    border    : 2px solid var(--leather);
+    transition: 0s;
 }
 
 .search-form input:focus,
@@ -323,6 +331,10 @@ a {
 
 /* ==============================Navbar End ============================== */
 /* ============================== Banner Start ============================== */
+.banner_carousel {
+    padding-top: 146px;
+}
+
 .item_carousel {
     position: relative;
 }
@@ -385,6 +397,20 @@ a {
     width        : 125px;
 }
 
+.auction_cardtrack .container {
+    max-width: 1050px !important;
+}
+
+.active_btn a {
+    background-color: #16204A;
+    border-radius   : 7px;
+    padding         : 8px 20px;
+    color           : white;
+    z-index         : 999;
+    top             : 10px;
+    right           : 10px;
+}
+
 .all_auction a {
     color    : var(--blue-zodiac);
     font-size: 14px;
@@ -429,6 +455,15 @@ a {
 
 .notification_icon .dropup .notification_toggle::after {
     display: none;
+}
+
+.dropup .badge-number {
+    position   : absolute;
+    inset      : 12px -11px auto auto;
+    font-weight: bold;
+    font-size  : 15px;
+    padding    : 7px 10px;
+    font-family: serif;
 }
 
 .notifications {
@@ -507,7 +542,7 @@ a {
 }
 
 .slick-prev:before {
-    content: '❮' !important;
+    content: url('../images/icons/leftarrow.png') !important;
 }
 
 [dir='rtl'] .slick-prev:before {
@@ -515,7 +550,7 @@ a {
 }
 
 .slick-next:before {
-    content: '❯' !important;
+    content: url('../images/icons/rightarrow.png') !important;
 }
 
 [dir='rtl'] .slick-next:before {
@@ -542,9 +577,13 @@ a {
 }
 
 /* ============================== Contact Us End ============================== */
-/* ============================== Contact Us End ============================== */
+/* ============================== Footer Start ============================== */
 .social_btn a {
     color: var(--oslo-grey) !important;
+}
+
+.newsletter h5 {
+    color: var(--blue-zodiac);
 }
 
 .newsletter_email {
@@ -593,7 +632,52 @@ a {
     color: var(--oslo-grey);
 }
 
-/* ============================== Contact Us End ============================== */
+/* ============================== Footer End ============================== */
+/* -------------------------------search Filter page -------------------------------  */
+/* ============================== Custom Search Start ============================== */
+.search_content {
+    background-color: var(--white-smoke);
+}
+
+.dropdown_wrapper {
+    background-color: var(--white);
+}
+
+.dropdown_wrapper h6 {
+    font-size: 19px;
+    padding  : 15px 10px 0px 12px;
+}
+
+.dropdowncategori {
+    border-radius: 20px 0 0 20px;
+    border-right : 1px solid #ccc;
+}
+
+.dropdownbrand,
+.dropdownregion {
+    border-right: 1px solid #ccc;
+}
+
+.filter_search button {
+    background-color: var(--leather);
+    color           : var(--white);
+    border-radius   : 0 20px 20px 0;
+    font-size       : 20px;
+}
+
+.filter_search button:hover {
+    background-color: var(--luxor-gold);
+}
+
+
+
+.dropdown_wrapper .dropdown-toggle::after {
+    position: absolute;
+    right   : 10px;
+}
+
+/* ============================== Custom Search End ============================== */
+
 /* Responsive  */
 @media (max-width: 1239px) {
     .search-bar {
@@ -620,18 +704,74 @@ a {
         display: none !important;
     }
 
-    .navbar .dropdown-toggle::after,
-    .navbar-nav .custom_select::after {
+    .ms_screennav_item {
+        position: relative;
+    }
+
+    .ms_screennav_item .nav-link::after {
+        position      : absolute;
+        right         : 0px;
+        vertical-align: middle;
+        content       : url('../images/icons/rightarrow_11x16.png');
+    }
+
+    .navbar .dropdown-toggle::after {
         position: absolute;
-        right   : 10px;
+        right   : 0px;
     }
 
     .searchaddicon {
         display: block !important;
     }
 
+    .bottom_bar .collapse {
+        background-color: var(--white-smoke);
+        padding         : 0 16px 0 16px;
+        height          : 80vh;
+        overflow-y      : scroll;
+    }
+
+    .custom_dropdown {
+        color: var(--blue-zodiac);
+    }
+
+    .bottom_bar .collapse .custom_dropdown,
+    .bottom_bar .collapse .drop_menu,
+    .bottom_bar .collapse .drop_menu2 {
+        background-color: var(--white-smoke) !important;
+        filter          : no;
+    }
+
+    .custom_dropdown .dropdown-toggle:focus {
+        background-color: var(--white-smoke) !important;
+    }
+
+    .custom_dropdown .drop_menu li a,
+    .custom_dropdown .drop_menu:active {
+        background-color: var(--white-smoke) !important;
+        color           : var(--blue-zodiac);
+    }
+
+    .banner_carousel {
+        padding-top: 63px;
+    }
+
     .caption_carousel h5 {
         font-size: 43px;
+    }
+
+    .item_carousel .caption_carousel {
+        color     : var(--white);
+        position  : absolute;
+        right     : 0 !important;
+        left      : 0 !important;
+        bottom    : 10px;
+        text-align: center !important;
+    }
+
+    .item_carousel img {
+        height    : 60vh;
+        object-fit: cover;
     }
 
     .newsletter_email {
