@@ -32,7 +32,7 @@
     --icon-box-shadow      : drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.33));
     --dropmenu-box-shadow  : drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.09));
     --switch-box-shadow    : drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.14));
-    --search-btn-box-shadow: drop-shadow(0px 0px 14.5px rgba(0, 0, 0, 0.15));
+    --search-btn-box-shadow: 0px 0px 14.5px rgba(0, 0, 0, 0.15);
 
 
     /* Text Style  */
@@ -70,7 +70,8 @@ a {
     color           : var(--blue-zodiac);
 }
 
-.bottom_line hr {
+.bottom_line hr,
+.footer_top_line hr {
     opacity: 0.12;
     height : 1px;
     color  : var(--blue-zodiac);
@@ -516,13 +517,15 @@ a {
 .Brand_wrapper {
     background-image: var(--bg-gradient);
     margin-top      : -8px;
+    display         : block;
 }
 
 .custom_control {
     background-color: var(--white-smoke);
 }
 
-.custom_control .form-check-input:checked[type=checkbox] {
+.custom_control .form-check-input:checked[type=checkbox],
+.search_check .form-check-input:checked[type=checkbox] {
     background-image: url(../images/icons/check.png);
     background-color: var(--white);
 }
@@ -580,6 +583,14 @@ a {
 
 /* ============================== Contact Us End ============================== */
 /* ============================== Footer Start ============================== */
+.footer_top_line hr {
+    display: none;
+}
+
+.footer_none {
+    display: block;
+}
+
 .social_btn a {
     color: var(--oslo-grey) !important;
 }
@@ -667,7 +678,7 @@ a {
     border-radius   : 0 20px 20px 0;
     font-size       : 20px;
     height          : 83.8px;
-    filter          : var(--search-btn-box-shadow);
+    box-shadow      : var(--search-btn-box-shadow);
 }
 
 .filter_search button:hover {
@@ -679,6 +690,62 @@ a {
 .dropdown_wrapper .dropdown-toggle::after {
     position: absolute;
     right   : 10px;
+}
+
+.searchdrop_menu {
+    background   : var(--white-smoke);
+    border-radius: 0 0 20px 20px;
+    padding      : 25px 0;
+}
+
+.searchdrop_menu .dropdown-item .form-check-input {
+    position: absolute;
+    right   : 70px;
+}
+
+.searchdrop_menu .dropdown-item,
+.searchdrop_menu .dropdown-item input {
+    cursor: pointer;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: var(--white-smoke)
+}
+
+.searchdrop_menu .dropdown-item.active,
+.searchdrop_menu .dropdown-item:active {
+    color           : var(--blue-zodiac);
+    text-decoration : none;
+    background-color: var(--white-smoke)
+}
+
+.customsearch__card {
+    background-color: var(--white-smoke);
+}
+
+/* ============================== Custom Search End ============================== */
+/* ============================== Custom Search End ============================== */
+.footer_block {
+    display: none;
+}
+
+.footer_block_btn ul {
+    padding: 0 10px;
+}
+
+.footer_block_btn ul li a {
+    color          : var(--blue-zodiac);
+    text-decoration: underline;
+}
+
+.footer_block_btn p {
+    padding: 0 10px;
+    color  : var(--white-smoke);
+}
+
+.footer_block_btn p a {
+    color: var(--blue-zodiac);
 }
 
 /* ============================== Custom Search End ============================== */
@@ -820,8 +887,21 @@ a {
         margin-bottom: 0;
     }
 
+    .custom_control {
+        background-color: var(--white-smoke);
+    }
+
+    .search_content {
+        background-color: var(--white);
+    }
+
+    .customsearch__card {
+        background-color: var(--white);
+    }
+
     .dropdown_wrapper {
-        background-color: var(--white-smoke) !important;
+        background-color: var(--white);
+        box-shadow      : var(--search-btn-box-shadow);
     }
 
     .dropdowncategori,
@@ -834,6 +914,11 @@ a {
     .dropdownbrand,
     .dropdownregion {
         border-right: 1px solid #ccc;
+    }
+
+    .categorizz .dropdown-menu {
+        background   : black;
+        border-radius: 20px 20px 0 0;
     }
 
     .filter_search {
@@ -850,5 +935,31 @@ a {
         width        : 95px;
         height       : 59px;
         border-radius: 15px;
+    }
+}
+
+@media (max-width: 414px) {
+    .Brand_wrapper {
+        display: none;
+    }
+
+    .contect_detail h1 {
+        font-size: 20px;
+    }
+
+    .footer_top_line {
+        padding: 30px 0;
+    }
+
+    .footer_top_line hr {
+        display: block;
+    }
+
+    .footer_none {
+        display: none;
+    }
+
+    .footer_block {
+        display: block;
     }
 }
