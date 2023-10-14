@@ -335,7 +335,8 @@ a {
 /* ==============================Navbar End ============================== */
 /* ============================== Banner Start ============================== */
 .banner_carousel,
-.search_heading {
+.search_heading,
+.addpost_heading {
     padding-top: 146px;
 }
 
@@ -654,7 +655,8 @@ a {
 /* -------------------------------search Filter page -------------------------------  */
 /* ============================== Custom Search Start ============================== */
 
-.search_content {
+.search_content,
+.addpost_content {
     background-color: var(--white-smoke);
 }
 
@@ -877,7 +879,8 @@ a {
     }
 
     .banner_carousel,
-    .search_heading {
+    .search_heading,
+    .addpost_heading {
         padding-top: 63px;
     }
 
