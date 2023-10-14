@@ -37,14 +37,11 @@ jq('.auctionslide__cards').slick({
                 		autoplay: true
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
 });
 
-// var jq = jQuery.noConflict();
+var jq = jQuery.noConflict();
 
 jq(document).ready(function () {
     jq('.slideimgs').slick({
@@ -54,11 +51,26 @@ jq(document).ready(function () {
     });
 });
 
-$("document").ready(function() {
+jq("document").ready(function() {
 
-  $('.dropdown-menu').on('click', function(e) {
-      if($(this).hasClass('dropdown-menu-form')) {
+  jq('.dropdown-menu').on('click', function(e) {
+      if(jq(this).hasClass('dropdown-menu-form')) {
           e.stopPropagation();
       }
   });
 });
+
+const togglePassword = document.querySelector('#togglePassword');
+const password = document.querySelector('#password');
+togglePassword.addEventListener('click', () => {
+  if (password.getAttribute('type') === 'password') {
+      password.setAttribute('type', 'text');
+      togglePassword.classList.remove('fa-eye');
+      togglePassword.classList.add('fa-eye-slash');
+  } else {
+      password.setAttribute('type', 'password');
+      togglePassword.classList.remove('fa-eye-slash');
+      togglePassword.classList.add('fa-eye');
+  }});
+
+
