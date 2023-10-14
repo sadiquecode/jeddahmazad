@@ -756,8 +756,8 @@ a {
 }
 
 /* ============================== Small screens footer End============================== */
-/* -------------------------------SignUp page -------------------------------  */
-/* SignUp page Start  */
+/* -------------------------------SignUp SignIn page -------------------------------  */
+/* SignUp SignIn Start  */
 .smallscrnav_none {
     display: block;
 }
@@ -802,8 +802,19 @@ a {
 
 }
 
-/* SignUp page End  */
+/* SignUp SignIn End  */
+/* -------------------------------Add Post page -------------------------------  */
+/* Add Post Start  */
+.addpost_features {
+    background-color: var(--white);
+    border-radius   : 20px;
+}
 
+.product_wrapper h6 {
+    line-height: 3.2;
+}
+
+/* Add Post End  */
 /* Responsive  */
 @media (max-width: 1239px) {
     .search-bar {

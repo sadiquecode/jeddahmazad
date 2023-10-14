@@ -263,8 +263,81 @@
                 <h4 class="py-4">Add Post</h4>
             </div>
         </div>
-        <div class="addpost_content">
+        <div class="addpost_content py-5">
             <div class="container">
+                <div class="addpost_features py-4 px-3">
+                    <div class="row align-items-center">
+                        <div class="col-md-3">
+                            <div class="product_wrapper">
+                                <h6>Product Name</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="product_feature">
+                                <input class="form-control shadow-none border-0" type="text" placeholder="Type here"
+                                    aria-label="default input example">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="col-md-3">
+                            <div class="product_wrapper">
+                                <h6>Product Description</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="product_feature">
+                                <textarea class="form-control shadow-none border-0" id="exampleFormControlTextarea1"
+                                    rows="1" placeholder="Type here"></textarea>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="col-md-3">
+                            <div class="product_wrapper">
+                                <h6>Product Additional Information</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="product_feature">
+                                <textarea class="form-control shadow-none border-0" id="exampleFormControlTextarea2"
+                                    rows="1" placeholder="Type here"></textarea>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="col-md-3">
+                            <div class="product_wrapper">
+                                <h6>Product Brand</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="product_feature">
+                                <select class="form-control shadow-none border-0 choices-multiple">
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <option></option>
+                                                <option value="AZ">Arizona</option>
+                                                <option value="CO">Colorado</option>
+                                                <option value="ID">Idaho</option>
+                                                <option value="MT">Montana</option>
+                                                <option value="NE">Nebraska</option>
+                                                <option value="NM">New Mexico</option>
+                                                <option value="ND">North Dakota</option>
+                                                <option value="UT">Utah</option>
+                                                <option value="WY">Wyoming</option>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </select>
+
+                                <script>
+                                    new Choices(document.querySelector(".choices-single"));
+                                </script>
+
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
