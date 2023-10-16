@@ -810,8 +810,34 @@ a {
     border-radius   : 20px;
 }
 
+
+.divide_line {
+    border-bottom: 1px solid var(--blue-zodiac);
+    opacity      : 0.12;
+}
+
 .product_wrapper h6 {
     line-height: 3.2;
+}
+
+.file {
+    position        : relative;
+    overflow        : hidden;
+    text-decoration : underline !important;
+    background-color: var(--leather);
+    color           : var(--white) !important;
+}
+
+.file input {
+    position: absolute;
+    opacity : 0;
+    right   : 0;
+    top     : 0;
+}
+
+.done_btn button {
+    background-color: var(--blue-zodiac);
+    color           : var(--white) !important;
 }
 
 /* Add Post End  */
