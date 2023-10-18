@@ -925,7 +925,8 @@ a {
     filter: var(--policy-check-shadow);
 }
 
-.product_navs .nav-item button {
+.product_navs .nav-item button,
+.auction_navs button {
     background-color: transparent !important;
     color           : var(--blue-zodiac);
     opacity         : 0.70;
@@ -938,6 +939,16 @@ a {
     border-top: 2px solid var(--leather);
     color     : var(--blue-zodiac);
     opacity   : 1;
+}
+
+.auction_navs .nav-link.active,
+.auction_navs .show>.nav-link {
+    color  : var(--blue-zodiac);
+    opacity: 1;
+}
+
+.auction_navs .nav-link:hover {
+    color: var(--blue-zodiac);
 }
 
 .bid_sendbtn a {
@@ -954,6 +965,13 @@ a {
 }
 
 /* Mazad Listing End  */
+/* ---------------------------- other Auction Card Start -------------------------- */
+/* other Auction Card Start */
+.profil_wrapper {
+    background-color: var(--white-smoke);
+}
+
+/* other Auction Card End */
 /* Responsive  */
 @media (max-width: 1239px) {
     .search-bar {
