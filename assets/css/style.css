@@ -947,7 +947,10 @@ a {
 .user_details .card {
     filter       : var(--user-card-shadow);
     border-radius: 7px;
+}
 
+.similar_auction {
+    display: block;
 }
 
 /* Mazad Listing End  */
@@ -1176,5 +1179,9 @@ a {
 
     .content {
         padding-top: 70px;
+    }
+
+    .similar_auction {
+        display: none;
     }
 }
