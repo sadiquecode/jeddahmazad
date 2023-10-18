@@ -279,13 +279,18 @@
                         </ul>
 
                         <ul class="slider-preview">
-                            <li class="preview_image img-fluid"><img src="assets/images/main/shot-1.png" alt=""></li>
-                            <li class="preview_image img-fluid"><img src="assets/images/main/shot-2.png" alt="">
+                            <li class="preview_image img-fluid"><img src="assets/images/main/shot-1.png" alt=""
+                                    width="553" height="553"></li>
+                            <li class="preview_image img-fluid"><img src="assets/images/main/shot-2.png" alt=""
+                                    width="553" height="553">
                             </li>
-                            <li class="preview_image img-fluid"><img src="assets/images/main/shot-3.png" alt="">
+                            <li class="preview_image img-fluid"><img src="assets/images/main/shot-3.png" alt=""
+                                    width="553" height="553">
                             </li>
-                            <li class="preview_image img-fluid"><img src="assets/images/main/shot-4.png" alt=""></li>
-                            <li class="preview_image img-fluid"><img src="assets/images/main/shot-5.png" alt="">
+                            <li class="preview_image img-fluid"><img src="assets/images/main/shot-4.png" alt=""
+                                    width="553" height="553"></li>
+                            <li class="preview_image img-fluid"><img src="assets/images/main/shot-5.png" alt=""
+                                    width="553" height="553">
                             </li>
                         </ul>
                     </div>
@@ -309,6 +314,13 @@
                     }
 
                     .slider-thumb .thumb_image img {
+                        max-width: 100%;
+                        height: auto;
+                        background-size: cover;
+                        background-position: center;
+                    }
+
+                    .slider-preview .preview_image img {
                         max-width: 100%;
                         height: auto;
                         background-size: cover;
@@ -389,6 +401,27 @@
                                     case give the Intrepid Sport Watch
                                     its contemporary air.</h5>
                             </div>
+                            <div class="product_time pt-2">
+                                <p class="mb-0">Live auction begins on:</p>
+                                <p class="mb-0">September 18, 06:00 (GMT+3) KSA</p>
+                            </div>
+                            <div class="divide_line pt-2"></div>
+                            <div class="product_time pt-2">
+                                <p class="mb-0">Estimate:</p>
+                                <p class="mb-0">7,000 - 10,000 SAR</p>
+                            </div>
+                            <div class="divide_line"></div>
+                            <div class="dropdown pt-4 bid">
+                                <button class="btn dropdown-toggle w-100 shadow-none" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    PLACE BID
+                                </button>
+                                <ul class="dropdown-menu w-100 text-center border-0">
+                                    <li><a class="dropdown-item" href="#"><span>20,000 SAR</span> <br><small>Starting
+                                                Bid: 250.0
+                                                SAR</small></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -396,7 +429,164 @@
         </div>
     </section>
     <!-- ============================== product detail End==============================-->
+    <section class="gradient-custom">
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6 col-lg-6 col-xl-6 col-12">
+                    <div class="divide_line"></div>
 
+                    <!-- /////////////////////////////////////// -->
+                    <ul class="nav nav-pills mb-3 product_navs gap-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active px-0" id="pills-about-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-about" type="button" role="tab" aria-controls="pills-about"
+                                aria-selected="true">ASK A QUESTION ABOUT THIS ITEM</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link px-0" id="pills-dec-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-dec" type="button" role="tab" aria-controls="pills-dec"
+                                aria-selected="false">DESCRIPTION</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link px-0" id="pills-info-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-info" type="button" role="tab" aria-controls="pills-info"
+                                aria-selected="false">ADDITIONAL INFORMATION</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-about" role="tabpanel"
+                            aria-labelledby="pills-about-tab" tabindex="0">
+                            <div class="card border-0">
+                                <div class="card-body p-4">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="d-flex flex-start">
+                                                <img class="rounded-circle shadow-1-strong me-3"
+                                                    src="assets/images/user/user1.png" alt="avatar" width="66"
+                                                    height="66" />
+                                                <div class="flex-grow-1 flex-shrink-1">
+                                                    <div>
+                                                        <div class="d-flex justify-content-start">
+                                                            <h6 class="mb-1">
+                                                                Bid: 20,000 SAR
+                                                            </h6>
+                                                        </div>
+                                                        <div>
+                                                            <textarea class="form-control shadow-none"
+                                                                id="formControlTextarea" placeholder="Ask a question"
+                                                                rows="3"></textarea>
+                                                        </div>
+                                                        <div class="caption_carousel bid_sendbtn">
+                                                            <a href="#">SEND</a>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="d-flex flex-start mt-4">
+                                                        <a class="me-3" href="#">
+                                                            <img class="rounded-circle shadow-1-strong"
+                                                                src="assets/images/user/user2.png" alt="avatar"
+                                                                width="66" height="66" />
+                                                        </a>
+                                                        <div class="flex-grow-1 flex-shrink-1">
+                                                            <div>
+                                                                <div
+                                                                    class="d-flex justify-content-between align-items-center">
+                                                                    <h6 class="mb-1">
+                                                                        Bid: 17,000 SAR
+                                                                    </h6>
+                                                                    <p class="mb-0"> January 16</p>
+                                                                </div>
+                                                                <div>
+                                                                    <textarea class="form-control shadow-none"
+                                                                        id="formControlTextarea"
+                                                                        placeholder="Ask a question"
+                                                                        rows="3">Hello I would like to know how many of this watch do you have in stock?</textarea>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-dec" role="tabpanel" aria-labelledby="pills-dec-tab"
+                            tabindex="0">
+                            <div class="product_info p-4">
+                                <p>The Intrepid Sport Watch effortlessly marries cutting-edge design with meticulous
+                                    engineering, offering a sophisticated, contemporary look and the durability of a
+                                    rose gold-plated stainless steel case.<br> Its
+                                    striking appearance is a testament to the fusion of fashion and function, suitable
+                                    for various occasions, from formal
+                                    events to outdoor activities.<br> This timepiece is a symbol of modern elegance and
+                                    precision craftsmanship.</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-info" role="tabpanel" aria-labelledby="pills-info-tab"
+                            tabindex="0">
+                            <div class="product_info p-4">
+                                <p>The Intrepid Sport Watch offers reliability with precise timekeeping, durability with
+                                    scratch-resistant glass and water
+                                    resistance, and enhanced readability<br> with luminous hands and markers. Its
+                                    customizable straps add a personal touch to
+                                    complete a versatile and stylish timepiece.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /////////////////////////////////////// -->
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-6 col-12">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="user_details">
+                                <div class="card border-0" style="height:380px">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item d-flex align-items-center justify-content-between">
+                                            <img class="rounded-circle shadow-1-strong me-3"
+                                                src="assets/images/user/user1.png" alt="avatar" width="66"
+                                                height="66" />
+                                            <p class="mb-0">Kassem Ali</p>
+                                            <p class="mb-0">20,000 SAR</p>
+                                            <div class="btn-group dropend custom_dropdown user_dropbtn">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </button>
+                                                <ul class="dropdown-menu drop_menu rounded-3 ms-3">
+                                                    <li><a class="dropdown-item" href="#">Block User</a></li>
+                                                    <li><a class="dropdown-item" href="#">Visit profile</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex align-items-center justify-content-between">
+                                            <img class="rounded-circle shadow-1-strong me-3"
+                                                src="assets/images/user/user2.png" alt="avatar" width="66"
+                                                height="66" />
+                                            <p class="mb-0">Kassem Ali</p>
+                                            <p class="mb-0">20,000 SAR</p>
+                                            <div class="btn-group dropend custom_dropdown user_dropbtn">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </button>
+                                                <ul class="dropdown-menu drop_menu rounded-3 ms-3">
+                                                    <li><a class="dropdown-item" href="#">Block User</a></li>
+                                                    <li><a class="dropdown-item" href="#">Visit profile</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 

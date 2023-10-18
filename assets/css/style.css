@@ -18,22 +18,24 @@
 
 :root {
     /* Color */
-    --white                : #fff;
-    --white-smoke          : #F5F5F5;
-    --blue-zodiac          : #16204A;
-    --blue-zodiac-heading  : #2A3259;
-    --leather              : #AD7B2B;
-    --luxor-gold           : #AE7E30;
-    --black                : #000000;
-    --oslo-grey            : #8F8F8F;
-    --grey                 : #DDDDDD;
-    --bg-gradient          : linear-gradient(15deg, #dcdbd8 0.00%, #f8f8f6 50.00%, #ecedea 100.00%);
-    --card-box-shadow      : drop-shadow(0px 0px 19px rgba(0, 0, 0, 0.19));
-    --btn-box-shadow       : drop-shadow(0px 0px 10.5px rgba(0, 0, 0, 0.26));
-    --icon-box-shadow      : drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.33));
-    --dropmenu-box-shadow  : drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.09));
-    --switch-box-shadow    : drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.14));
-    --policy-check-shadow  : drop-shadow(0px 0px 6.5px rgba(0, 0, 0, 0.17));
+    --white              : #fff;
+    --white-smoke        : #F5F5F5;
+    --blue-zodiac        : #16204A;
+    --blue-zodiac-heading: #2A3259;
+    --leather            : #AD7B2B;
+    --luxor-gold         : #AE7E30;
+    --black              : #000000;
+    --oslo-grey          : #8F8F8F;
+    --grey               : #DDDDDD;
+    --bg-gradient        : linear-gradient(15deg, #dcdbd8 0.00%, #f8f8f6 50.00%, #ecedea 100.00%);
+    --card-box-shadow    : drop-shadow(0px 0px 19px rgba(0, 0, 0, 0.19));
+    --btn-box-shadow     : drop-shadow(0px 0px 10.5px rgba(0, 0, 0, 0.26));
+    --icon-box-shadow    : drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.33));
+    --dropmenu-box-shadow: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.09));
+    --switch-box-shadow  : drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.14));
+    --policy-check-shadow: drop-shadow(0px 0px 6.5px rgba(0, 0, 0, 0.17));
+    --user-card-shadow   : drop-shadow(0px 0px 9px rgba(0, 0, 0, 0.16));
+    ;
     --search-btn-box-shadow: 0px 0px 14.5px rgba(0, 0, 0, 0.15);
 
 
@@ -359,7 +361,8 @@ a {
     font-weight: 400;
 }
 
-.caption_carousel a {
+.caption_carousel a,
+.bid_sendbtn a {
     background-color: var(--leather);
     color           : var(--white);
     font-size       : 30px;
@@ -883,13 +886,68 @@ a {
 }
 
 .product_heading h5 {
-
     font-size  : 23.90443992614746px;
     font-weight: bold;
     line-height: 28.685331344604492px;
-    font-style : normal;
-    text-align : left;
-    color      : #2a3259;
+    color      : var(--blue-zodiac);
+}
+
+.product_time p {
+    color      : var(--blue-zodiac);
+    font-size  : 19px;
+    line-height: 22.959014892578125px;
+}
+
+.bid button {
+    background-color: var(--blue-zodiac);
+    color           : var(--white) !important;
+    font-weight     : 500;
+}
+
+.bid button::after,
+.user_dropbtn button::after {
+    content: none !important;
+}
+
+.bid .dropdown-menu .dropdown-item:hover {
+    background-color: transparent;
+}
+
+.bid .dropdown-menu .dropdown-item:focus {
+    color: var(--blue-zodiac) !important;
+}
+
+.bid .dropdown-menu .dropdown-item span:hover {
+    text-decoration: underline;
+}
+
+.bid .dropdown-menu {
+    filter: var(--policy-check-shadow);
+}
+
+.product_navs .nav-item button {
+    background-color: transparent !important;
+    color           : var(--blue-zodiac);
+    opacity         : 0.70;
+    border-top      : 2px solid transparent;
+    border-radius   : 0;
+}
+
+.product_navs .nav-link.active,
+.product_navs .show>.nav-link {
+    border-top: 2px solid var(--leather);
+    color     : var(--blue-zodiac);
+    opacity   : 1;
+}
+
+.bid_sendbtn a {
+    font-size: 22px;
+}
+
+.user_details .card {
+    filter       : var(--user-card-shadow);
+    border-radius: 7px;
+
 }
 
 /* Mazad Listing End  */
