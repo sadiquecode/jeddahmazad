@@ -21,6 +21,7 @@
     --white                : #fff;
     --white-smoke          : #F5F5F5;
     --blue-zodiac          : #16204A;
+    --blue-zodiac-heading  : #2A3259;
     --leather              : #AD7B2B;
     --luxor-gold           : #AE7E30;
     --black                : #000000;
@@ -336,7 +337,8 @@ a {
 /* ============================== Banner Start ============================== */
 .banner_carousel,
 .search_heading,
-.addpost_heading {
+.addpost_heading,
+.product_detail {
     padding-top: 146px;
 }
 
@@ -826,6 +828,7 @@ a {
     text-decoration : underline !important;
     background-color: var(--leather);
     color           : var(--white) !important;
+    line-height     : 35px;
 }
 
 .file input {
@@ -838,9 +841,58 @@ a {
 .done_btn button {
     background-color: var(--blue-zodiac);
     color           : var(--white) !important;
+    line-height     : 35px;
 }
 
 /* Add Post End  */
+/* -------------------------------Mazad Listing page -------------------------------  */
+/* Mazad Listing Start  */
+.country a {
+    color      : var(--blue-zodiac);
+    font-weight: 500;
+}
+
+.favourite a {
+    color: var(--blue-zodiac);
+}
+
+.rating_star {
+    filter       : var(--switch-box-shadow);
+    border-radius: 9px;
+
+}
+
+.msg_btn a {
+    padding         : 6px;
+    border-radius   : 9px;
+    filter          : drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.14));
+    background-color: var(--white);
+    color           : var(--blue-zodiac);
+}
+
+.rating_star {
+    padding         : 3px 5px;
+    border-radius   : 9px;
+    filter          : drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.14));
+    background-color: var(--white);
+}
+
+
+.userprofile {
+    color: var(--blue-zodiac);
+}
+
+.product_heading h5 {
+
+    font-size  : 23.90443992614746px;
+    font-weight: bold;
+    line-height: 28.685331344604492px;
+    font-style : normal;
+    text-align : left;
+    color      : #2a3259;
+}
+
+/* Mazad Listing End  */
 /* Responsive  */
 @media (max-width: 1239px) {
     .search-bar {
@@ -917,7 +969,8 @@ a {
 
     .banner_carousel,
     .search_heading,
-    .addpost_heading {
+    .addpost_heading,
+    .product_detail {
         padding-top: 63px;
     }
 
