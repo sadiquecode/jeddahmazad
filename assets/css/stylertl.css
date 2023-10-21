@@ -48,6 +48,7 @@ body {
     font-family     : var(--primary-font);
     background-color: var(--white);
     overflow-x      : hidden;
+    direction       : rtl;
 }
 
 a {
@@ -74,6 +75,10 @@ a {
     color           : var(--blue-zodiac);
 }
 
+.topbar .navsbtns {
+    margin-right: auto;
+}
+
 .bottom_line hr,
 .footer_top_line hr {
     opacity: 0.12;
@@ -88,9 +93,9 @@ a {
 
 .custom_dropdown .drop_menu,
 .custom_dropdown .drop_menu2 {
-    border     : none;
-    filter     : var(--dropmenu-box-shadow) !important;
-    margin-left: 70px;
+    border         : none;
+    filter         : var(--dropmenu-box-shadow) !important;
+    /* margin-right: 100px; */
 }
 
 .custom_dropdown .dropdown-toggle:focus,

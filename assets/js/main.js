@@ -1,3 +1,5 @@
+
+
 var jq = jQuery.noConflict();
 
 jq(document).ready(function () {
@@ -59,7 +61,8 @@ jq("document").ready(function () {
     }
   });
 });
-//////////////////////
+
+// All slick slider 
 var jq = jQuery.noConflict();
 
 jq(document).ready(function () {
@@ -107,12 +110,31 @@ jq(document).ready(function () {
       },
     ]
   });
-
-
-
 });
-//////////////////
+// Chats 
+jQuery(document).ready(function () {
 
+  $(".chat-list a").click(function () {
+    $(".chatbox").addClass('showbox');
+    return false;
+  });
+
+  $(".chat-icon").click(function () {
+    $(".chatbox").removeClass('showbox');
+  });
+});
+jQuery(document).ready(function () {
+
+  $(".moreoption a").click(function () {
+    $(".userprofile").addClass('showdivbox');
+    return false;
+  });
+
+  $(".profile-icon").click(function () {
+    $(".userprofile").removeClass('showdivbox');
+  });
+});
+// signup and sign in 
 const togglePassword = document.querySelector('#togglePassword');
 const password = document.querySelector('#password');
 togglePassword.addEventListener('click', () => {
@@ -126,4 +148,6 @@ togglePassword.addEventListener('click', () => {
     togglePassword.classList.add('fa-eye');
   }
 });
+
+
 
