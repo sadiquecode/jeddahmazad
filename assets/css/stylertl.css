@@ -188,14 +188,18 @@ a {
     transform: rotate(-180deg);
 }
 
+.logout {
+    align-items: center;
+}
+
 .logout::before {
-    content    : "\007C";
-    font-weight: bold;
-    width      : 23px;
-    font-size  : 25px;
-    margin-top : 6px;
-    color      : var(--blue-zodiac);
-    text-align : center;
+    content       : "\007C";
+    font-weight   : bold;
+    width         : 23px;
+    font-size     : 25px;
+    /* margin-top : 6px; */
+    color         : var(--blue-zodiac);
+    text-align    : center;
 }
 
 /* ==============================Topbar End============================== */
