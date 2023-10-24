@@ -260,133 +260,156 @@
     </header>
     <!-- ============================== product detail start==============================-->
     <style type="text/css">
-.picZoomer {
-  position: relative;
-  /*margin-left: 40px;
-    padding: 15px;*/
-}
-.picZoomer-pic-wp {
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-}
-.picZoomer-pic-wp:hover .picZoomer-cursor {
-  display: block;
-}
-.picZoomer-zoom-pic {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.picZoomer-pic {
-  /*width: 100%;
-    height: 100%;*/
-}
-.picZoomer-zoom-wp {
-  display: none;
-  position: absolute;
-  z-index: 999;
-  overflow: hidden;
-  border: 1px solid #eee;
-  height: 460px;
-  margin-top: -19px;
-}
-.picZoomer-cursor {
-  display: none;
-  cursor: crosshair;
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 50%;
-  border: 1px solid #eee;
-  background-color: rgba(0, 0, 0, 0.1);
-}
-.picZoomCursor-ico {
-  width: 23px;
-  height: 23px;
-  position: absolute;
-  top: 40px;
-  left: 40px;
-  background: url(images/zoom-ico.png) left top no-repeat;
-}
+        .picZoomer {
+            position: relative;
+            margin-left: 20px;
+            padding: 15px;
+        }
 
-.my_img {
-  vertical-align: middle;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  height: 100%;
-}
-.piclist li {
-  display: inline-block;
-  width: 90px;
-  height: 114px;
-  border: 1px solid #eee;
-}
-.piclist li img {
-  width: 97%;
-  height: auto;
-}
+        .picZoomer-pic-wp {
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
 
-/* custom style */
-.picZoomer-pic-wp,
-.picZoomer-zoom-wp {
-  border: 1px solid #eee;
-}
+        .picZoomer-pic-wp:hover .picZoomer-cursor {
+            display: block;
+        }
 
-.section-bg {
-  background-color: #fff1e0;
-}
-section {
-  padding: 60px 0;
-}
-.row-sm .col-md-6 {
-  padding-left: 5px;
-  padding-right: 5px;
-}
+        .picZoomer-zoom-pic {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
 
-/*===pic-Zoom===*/
-._boxzoom .zoom-thumb {
-  width: 90px;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 0px;
-}
-._boxzoom .zoom-thumb ul.piclist {
-  padding-left: 0px;
-  top: 0px;
-}
-._boxzoom ._product-images {
-  width: 80%;
-  display: inline-block;
-}
-._boxzoom ._product-images .picZoomer {
-  width: 100%;
-}
-._boxzoom ._product-images .picZoomer .picZoomer-pic-wp img {
-  left: 0px;
-}
-._boxzoom ._product-images .picZoomer img.my_img {
-  width: 100%;
-}
-.piclist li img {
-  height: 100px;
-  object-fit: cover;
-}
+        .picZoomer-pic {
+            /* width: 100%;
+            height: 100%; */
+        }
 
+        .picZoomer-zoom-wp {
+            display: none;
+            position: absolute;
+            z-index: 999;
+            overflow: hidden;
+            border: 1px solid #eee;
+            height: 460px;
+            margin-top: -19px;
+        }
 
+        .picZoomer-cursor {
+            display: none;
+            cursor: crosshair;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 50%;
+            border: 1px solid #eee;
+            background-color: rgba(0, 0, 0, 0.1);
+        }
 
-</style>
+        .picZoomCursor-ico {
+            width: 23px;
+            height: 23px;
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            background: url(images/zoom-ico.png) left top no-repeat;
+        }
+
+        .my_img {
+            vertical-align: middle;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            height: 100%;
+        }
+
+        .piclist li {
+            display: inline-block;
+            width: 90px;
+            height: 114px;
+            border: 1px solid #eee;
+        }
+
+        .piclist li img {
+            width: 97%;
+            height: auto;
+        }
+
+        /* custom style */
+        .picZoomer-pic-wp,
+        .picZoomer-zoom-wp {
+            border: 1px solid #eee;
+        }
+
+        .section-bg {
+            background-color: #fff1e0;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        .row-sm .col-md-6 {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        /*===pic-Zoom===*/
+        ._boxzoom .zoom-thumb {
+            width: 90px;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 0px;
+        }
+
+        ._boxzoom .zoom-thumb ul.piclist {
+            padding-left: 0px;
+            top: 0px;
+        }
+
+        ._boxzoom ._product-images {
+            width: 80%;
+            display: inline-block;
+        }
+
+        ._boxzoom ._product-images .picZoomer {
+            width: 100%;
+        }
+
+        ._boxzoom ._product-images .picZoomer .picZoomer-pic-wp img {
+            left: 0px;
+        }
+
+        ._boxzoom ._product-images .picZoomer img.my_img {
+            width: 100%;
+        }
+
+        .piclist li img {
+            height: 100px;
+            object-fit: cover;
+        }
+
+        @media (max-width: 949px) {
+            ._boxzoom .zoom-thumb {
+                width: 100%;
+                /* display: inline-block; */
+                vertical-align: top;
+                margin-top: 0px;
+            }
+        }
+    </style>
     <section class="product_detail">
         <div class="container-fluid">
             <div class="row row-sm">
                 <div class="col-md-6 _boxzoom">
-                    <div class="zoom-thumb">
-                       <ul class="piclist">
-                          <li class="thumb_image img-fluid"><img src="assets/images/main/shot-1.png" alt="" width="96"
+                    <div class="zoom-thumb order-1 order-md-2">
+                        <ul class="piclist">
+                            <li class="thumb_image img-fluid"><img src="assets/images/main/shot-1.png" alt="" width="96"
                                     height="96"></li>
                             <li class="thumb_image img-fluid"><img src="assets/images/main/shot-2.png" alt="" width="96"
                                     height="96">
@@ -397,14 +420,14 @@ section {
                             <li class="thumb_image img-fluid"><img src="assets/images/main/shot-5.png" alt="" width="96"
                                     height="96">
                             </li>
-                       </ul>
+                        </ul>
                     </div>
-                    <div class="_product-images">
-                       <div class="picZoomer">
-                          <img class="my_img" src="assets/images/main/shot-1.png" alt="">
-                       </div>
+                    <div class="_product-images order-2 order-md-1">
+                        <div class="picZoomer">
+                            <img class="my_img" src="assets/images/main/shot-1.png" alt="">
+                        </div>
                     </div>
-                 </div>
+                </div>
 
                 <style>
                     /* START MODULE STYLING */
@@ -471,7 +494,7 @@ section {
                                 <div class="favourite">
                                     <a href="#"><i class="fa-regular fa-heart fa-2x fw-lighter"></i></a>
                                 </div>
-                                <div class="rating_star">
+                                <div class="rating_star d-none d-md-block">
                                     <a href="#">
                                         <ul class="list-unstyled d-flex text-warning mb-0 rounded-3 gap-1">
                                             <li><i class="fas fa-star fa-sm"></i></li>
@@ -485,16 +508,13 @@ section {
                                 <div class="msg_btn">
                                     <a href="#">Message</a>
                                 </div>
-                                <div class="userprofile">
-                                    <div class="justify-content-between align-items-center d-flex">
-                                        <div class="d-flex align-items-center">
-                                            <div class="flex-column d-flex text-center">
-                                                <strong>Ahmad Kabbani</strong>
-                                                <small>ahmad.kabbani@gmail.com</small>
-                                            </div>
-                                            <img src="assets/images/user/Clipuser.png" alt="user"
-                                                class="me-2 img-fluid">
+                                <div class="user_profile justify-content-between align-items-center d-flex">
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-column d-flex text-center">
+                                            <strong>Ahmad Kabbani</strong>
+                                            <small>ahmad.kabbani@gmail.com</small>
                                         </div>
+                                        <img src="assets/images/user/Clipuser.png" alt="user" class="me-2 img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -881,89 +901,91 @@ section {
     <script src="assets/js/main.js"></script>
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
 
 
-<script type="text/javascript">
-(function ($) {
-  $.fn.picZoomer = function (options) {
-    var opts = $.extend({}, $.fn.picZoomer.defaults, options),
-      $this = this,
-      $picBD = $('<div class="picZoomer-pic-wp"></div>')
-        .css({ width: opts.picWidth + "px", height: opts.picHeight + "px" })
-        .appendTo($this),
-      $pic = $this.children("img").addClass("picZoomer-pic").appendTo($picBD),
-      $cursor = $(
-        '<div class="picZoomer-cursor"><i class="f-is picZoomCursor-ico"></i></div>'
-      ).appendTo($picBD),
-      cursorSizeHalf = { w: $cursor.width() / 2, h: $cursor.height() / 2 },
-      $zoomWP = $(
-        '<div class="picZoomer-zoom-wp"><img src="" alt="" class="picZoomer-zoom-pic"></div>'
-      ).appendTo($this),
-      $zoomPic = $zoomWP.find(".picZoomer-zoom-pic"),
-      picBDOffset = { x: $picBD.offset().left, y: $picBD.offset().top };
+    <script type="text/javascript">
+        (function ($) {
+            $.fn.picZoomer = function (options) {
+                var opts = $.extend({}, $.fn.picZoomer.defaults, options),
+                    $this = this,
+                    $picBD = $('<div class="picZoomer-pic-wp"></div>')
+                        .css({ width: opts.picWidth + "px", height: opts.picHeight + "px" })
+                        .appendTo($this),
+                    $pic = $this.children("img").addClass("picZoomer-pic").appendTo($picBD),
+                    $cursor = $(
+                        '<div class="picZoomer-cursor"><i class="f-is picZoomCursor-ico"></i></div>'
+                    ).appendTo($picBD),
+                    cursorSizeHalf = { w: $cursor.width() / 2, h: $cursor.height() / 2 },
+                    $zoomWP = $(
+                        '<div class="picZoomer-zoom-wp"><img src="" alt="" class="picZoomer-zoom-pic"></div>'
+                    ).appendTo($this),
+                    $zoomPic = $zoomWP.find(".picZoomer-zoom-pic"),
+                    picBDOffset = { x: $picBD.offset().left, y: $picBD.offset().top };
 
-    opts.zoomWidth = opts.zoomWidth || opts.picWidth;
-    opts.zoomHeight = opts.zoomHeight || opts.picHeight;
-    var zoomWPSizeHalf = { w: opts.zoomWidth / 2, h: opts.zoomHeight / 2 };
+                opts.zoomWidth = opts.zoomWidth || opts.picWidth;
+                opts.zoomHeight = opts.zoomHeight || opts.picHeight;
+                var zoomWPSizeHalf = { w: opts.zoomWidth / 2, h: opts.zoomHeight / 2 };
 
-    //初始化zoom容器大小
-    $zoomWP.css({
-      width: opts.zoomWidth + "px",
-      height: opts.zoomHeight + "px"
-    });
-    $zoomWP.css(
-      opts.zoomerPosition || { top: 0, left: opts.picWidth + 30 + "px" }
-    );
-    //初始化zoom图片大小
-    $zoomPic.css({
-      width: opts.picWidth * opts.scale + "px",
-      height: opts.picHeight * opts.scale + "px"
-    });
+                //初始化zoom容器大小
+                $zoomWP.css({
+                    width: opts.zoomWidth + "px",
+                    height: opts.zoomHeight + "px"
+                });
+                $zoomWP.css(
+                    opts.zoomerPosition || { top: 0, left: opts.picWidth + 30 + "px" }
+                );
+                //初始化zoom图片大小
+                $zoomPic.css({
+                    width: opts.picWidth * opts.scale + "px",
+                    height: opts.picHeight * opts.scale + "px"
+                });
 
-    //初始化事件
-    $picBD
-      .on("mouseenter", function (event) {
-        $cursor.show();
-        $zoomWP.show();
-        $zoomPic.attr("src", $pic.attr("src"));
-      })
-      .on("mouseleave", function (event) {
-        $cursor.hide();
-        $zoomWP.hide();
-      })
-      .on("mousemove", function (event) {
-        var x = event.pageX - picBDOffset.x,
-          y = event.pageY - picBDOffset.y;
+                //初始化事件
+                $picBD
+                    .on("mouseenter", function (event) {
+                        $cursor.show();
+                        $zoomWP.show();
+                        $zoomPic.attr("src", $pic.attr("src"));
+                    })
+                    .on("mouseleave", function (event) {
+                        $cursor.hide();
+                        $zoomWP.hide();
+                    })
+                    .on("mousemove", function (event) {
+                        var x = event.pageX - picBDOffset.x,
+                            y = event.pageY - picBDOffset.y;
 
-        $cursor.css({
-          left: x - cursorSizeHalf.w + "px",
-          top: y - cursorSizeHalf.h + "px"
+                        $cursor.css({
+                            left: x - cursorSizeHalf.w + "px",
+                            top: y - cursorSizeHalf.h + "px"
+                        });
+                        $zoomPic.css({
+                            left: -(x * opts.scale - zoomWPSizeHalf.w) + "px",
+                            top: -(y * opts.scale - zoomWPSizeHalf.h) + "px"
+                        });
+                    });
+                return $this;
+            };
+            $.fn.picZoomer.defaults = {
+                picHeight: 460,
+                scale: 2.5,
+                zoomerPosition: { top: "0", left: "380px" },
+
+                zoomWidth: 400,
+                zoomHeight: 460
+            };
+        })(jQuery);
+
+        $(document).ready(function () {
+            $(".picZoomer").picZoomer();
+            $(".piclist li").on("click", function (event) {
+                var $pic = $(this).find("img");
+                $(".picZoomer-pic").attr("src", $pic.attr("src"));
+            });
         });
-        $zoomPic.css({
-          left: -(x * opts.scale - zoomWPSizeHalf.w) + "px",
-          top: -(y * opts.scale - zoomWPSizeHalf.h) + "px"
-        });
-      });
-    return $this;
-  };
-  $.fn.picZoomer.defaults = {
-    picHeight: 460,
-    scale: 2.5,
-    zoomerPosition: { top: "0", left: "380px" },
-
-    zoomWidth: 400,
-    zoomHeight: 460
-  };
-})(jQuery);
-
-$(document).ready(function () {
-  $(".picZoomer").picZoomer();
-  $(".piclist li").on("click", function (event) {
-    var $pic = $(this).find("img");
-    $(".picZoomer-pic").attr("src", $pic.attr("src"));
-  });
-});
 
     </script>
 </body>
