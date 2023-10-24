@@ -49,7 +49,7 @@ jq(document).ready(function () {
   jq('.slideimgs').slick({
     infinite: true,
     autoplay: true,
-    speed: 300
+    speed: 300,
   });
 });
 
