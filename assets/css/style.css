@@ -1534,6 +1534,11 @@ button:focus {
 }
 
 /* Services End  */
+/* -------------------------------Services page ------------------------------- */
+
+.agreemint_point {
+    color: var(--blue-zodiac);
+}
 
 /* Responsive  */
 @media (max-width: 1239px) {
