@@ -356,7 +356,8 @@ a {
 .banner_carousel,
 .search_heading,
 .addpost_heading,
-.product_detail {
+.product_detail,
+.about_heading {
     padding-top: 146px;
 }
 
@@ -1475,6 +1476,57 @@ button:focus {
 }
 
 /* Chat page End  */
+/* -------------------------------About page -------------------------------  */
+/* About Start  */
+.about h1 {
+    font-size    : 40px;
+    color        : var(--blue-zodiac);
+    border-bottom: 7px solid var(--blue-zodiac);
+    text-align   : center;
+}
+
+.about_content h4,
+.terms_point h4 {
+    color    : var(--blue-zodiac);
+    font-size: 25px;
+}
+
+.about_content p,
+.terms_point p {
+    color    : var(--blue-zodiac);
+    font-size: 20px;
+}
+
+.welcome_heading h1 {
+    color    : var(--blue-zodiac);
+    font-size: 70px;
+}
+
+/* About End  */
+/* -------------------------------Terms&Cond page -------------------------------  */
+/* Terms&Cond Start  */
+.termscond_content {
+    position: relative;
+}
+
+.termscond_content h2 {
+    font-size  : 34px;
+    color      : var(--blue-zodiac);
+    font-weight: 800;
+}
+
+.termscond_content h2:before {
+    content      : " ";
+    border-bottom: 2px solid var(--leather);
+    left         : 30px;
+    position     : absolute;
+    top          : 0;
+    bottom       : 50px;
+    width        : 80%;
+}
+
+
+/* Terms&Cond End  */
 
 /* Responsive  */
 @media (max-width: 1239px) {
@@ -1522,6 +1574,7 @@ button:focus {
         display: block !important;
     }
 
+
     .bottom_bar .collapse {
         background-color: var(--white-smoke);
         padding         : 0 16px 0 16px;
@@ -1553,7 +1606,8 @@ button:focus {
     .banner_carousel,
     .search_heading,
     .addpost_heading,
-    .product_detail {
+    .product_detail,
+    .about_heading {
         padding-top: 63px;
     }
 
@@ -1605,6 +1659,44 @@ button:focus {
 
     .dropdownregion {
         border-radius: 20px 0 0 20px;
+    }
+
+    .about h1 {
+        font-size    : 35px;
+        color        : var(--blue-zodiac);
+        border-bottom: none;
+    }
+
+    .about {
+        position: relative;
+    }
+
+    .about h1 {
+        text-align: start;
+    }
+
+    .about h1:before {
+        content      : " ";
+        border-bottom: 2px solid var(--leather);
+        left         : 7px;
+        position     : absolute;
+        top          : 0;
+        bottom       : 12px;
+        width        : 95px;
+    }
+
+    .welcome_heading h1 {
+        color    : var(--blue-zodiac);
+        font-size: 45px;
+    }
+
+    .termscond_content h2 {
+        font-size: 22px;
+    }
+
+    .termscond_content h2:before {
+        bottom: 50px;
+        left  : 0;
     }
 
 }
@@ -1705,5 +1797,10 @@ button:focus {
 
     .similar_auction {
         display: none;
+    }
+
+    .welcome_heading h1 {
+        color    : var(--blue-zodiac);
+        font-size: 22px;
     }
 }
