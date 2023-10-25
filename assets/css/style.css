@@ -1525,8 +1525,15 @@ button:focus {
     width        : 80%;
 }
 
-
 /* Terms&Cond End  */
+/* -------------------------------Services page ------------------------------- */
+/* Services Start  */
+.service_content a {
+    color          : var(--blue-zodiac);
+    text-decoration: underline;
+}
+
+/* Services End  */
 
 /* Responsive  */
 @media (max-width: 1239px) {
@@ -1695,8 +1702,9 @@ button:focus {
     }
 
     .termscond_content h2:before {
-        bottom: 50px;
+        bottom: 54px;
         left  : 0;
+        width : 70%;
     }
 
 }
