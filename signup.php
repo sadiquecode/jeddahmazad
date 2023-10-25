@@ -19,8 +19,8 @@
     <!-- ==============================Navbar Start==============================-->
     <div class="container-fluid px-0 px-lg-5 bg-white fixed-top smallscrnav_block">
         <nav class="navbar navbar-expand-lg bottom_bar">
-            <a href="index.html" class="navbar-brand branding ps-lg-0 ps-2">
-                <img src="assets/images/logo/logo.png" alt="logo">
+            <a href="index.php" class="navbar-brand branding ps-lg-0 ps-2">
+                <img src="assets/images/logo/Logojeddah_11zon.png" alt="logo">
             </a>
             <div class=" ml-auto d-flex gap-3">
                 <div class="searchaddicon">
@@ -39,7 +39,6 @@
                             </li>
                         </ul>
                     </div>
-                    <!-- /////////// -->
                     <div class="container-fluid">
                         <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="offcanvas"
                             data-bs-keyboard="false" data-bs-backdrop="false">
@@ -83,7 +82,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- /////////// -->
                 </div>
                 <button
                     class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around align-self-center me-lg-0 me-2"
@@ -186,7 +184,7 @@
     <!-- ==============================Navbar End==============================-->
     <section>
         <div class="text-center py-3 smallscrnav_none">
-            <a href="index.html"><img src="assets/images/logo/logo.png" style="width: 185px;" alt="logo"></a>
+            <a href="index.php"><img src="assets/images/logo/Logojeddah_11zon.png" style="width: 185px;" alt="logo"></a>
         </div>
         <div>
 
@@ -194,10 +192,16 @@
                 <div class="container">
                     <div class="mt-5 col-md-5 mx-auto">
                         <div class="content">
+                            <div class="text-center">
+                                <h2>Create an account</h2>
+                                <p>Creating an account allows you to view auction results, discover more, stay up to
+                                    date and manage
+                                    your activity</p>
+                            </div>
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control shadow-none" id="username"
-                                    placeholder="User Name" name="username" required>
-                                <label for="username">User Name</label>
+                                <input type="email" class="form-control shadow-none" id="email"
+                                    placeholder="example@gmail.com " name="email" required="">
+                                <label for="email">Email Address</label>
                             </div>
                             <div class="form-floating mb-3 position-relative password_eye">
                                 <input type="password" class="form-control shadow-none" id="password"
@@ -205,13 +209,71 @@
                                 <i class="fas fa-eye position-absolute" id="togglePassword"></i>
                                 <label for="password">Password</label>
                             </div>
+                            <div class="">
+                                <p>Please enter your legal name as it appears on your ID.</p>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-4">
+                                    <div class="form-floating mb-3">
+                                        <input type="title" class="form-control shadow-none" id="title"
+                                            placeholder="title" name="title" required="">
+                                        <label for="title">Title</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-8">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control shadow-none" id="firstname"
+                                            placeholder=" " name="firstname" required="First name">
+                                        <label for="firstname">First name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control shadow-none" id="lastname"
+                                            placeholder="Last name" name="lastname" required="">
+                                        <label for="lastname">Last name</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="justify-content-between align-items-center d-flex">
+                                <div class="d-flex align-items-start">
+                                    <div class="policieschecks">
+                                        <input type="checkbox" class="form-check-input shadow-none mt-0 me-2"
+                                            id="emailupdates">
+                                    </div>
+                                    <div class="flex-column d-flex">
+                                        <p>I would like to receive email updates from Jeddah Mazad about upcoming
+                                            auctions,
+                                            events, and more
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="justify-content-between align-items-center d-flex">
+                                <div class="d-flex align-items-start">
+                                    <div class="policieschecks">
+                                        <input type="checkbox" class="form-check-input shadow-none mt-0 me-2"
+                                            id="policiescheck">
+                                    </div>
+                                    <div class="flex-column d-flex">
+                                        <p>I have read and agree to the <a href="#" target="_blank"
+                                                rel="noopener noreferrer">Privacy Policy</a> &
+                                            jeddahmazad.com <a href="#" target="_blank" rel="noopener noreferrer">Terms
+                                                &
+                                                Conditions</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="btn-box pt-0 pb-2">
                                 <div class="login_button">
-                                    <button id="submitBTN" type="submit" class="btn w-100 shadow-none">Sign In</button>
+                                    <button id="submitBTN" type="submit" class="btn w-100 shadow-none">Sign Up</button>
                                 </div>
                                 <div class="mt-3 row text-center">
                                     <div class="col-12 text-center">
-                                        <p><a href="#" target="_blank" rel="noopener noreferrer">Forget password</a></p>
+                                        <p>Already have an account?<a href="#" target="_blank"
+                                                rel="noopener noreferrer"> Log in</a></p>
                                     </div>
                                 </div>
                             </div>

@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="assets/images/logo/OG Logo.png" type="image/svgicon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/default-font/Acumin-BdItPro.otf">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Custom RTL CSS -->
@@ -33,18 +34,16 @@
                             MY ACCOUNT
                         </a>
                         <ul class="dropdown-menu drop_menu rounded-0" aria-labelledby="navbarDropdownMenu">
-                            <li><a class="dropdown-item" href="#">Profile</a></li>
-                            <li><a class="dropdown-item" href="#">Settings</a></li>
-                            <li><a class="dropdown-item" href="filtersearch.html">Filter Search</a></li>
-                            <li><a class="dropdown-item" href="mazad_listing.html">Mazad Listing</a></li>
-                            <li><a class="dropdown-item" href="page_other_auctions.html">Other Auctions</a></li>
-                            <li><a class="dropdown-item" href="chat.html">Chat</a></li>
-                            <li><a class="dropdown-item" href="mazad_about.html">Mazad About</a></li>
-                            <li><a class="dropdown-item" href="agreement.html">Agreement</a></li>
-                            <li><a class="dropdown-item" href="terms&cond.html">Terms&Cond</a></li>
-                            <li><a class="dropdown-item" href="services.html">Services</a></li>
-                            <li><a class="dropdown-item" href="login.html">Login</a></li>
-                            <li><a class="dropdown-item" href="signup.html">Signup</a></li>
+                            <li><a class="dropdown-item" href="filtersearch.php">Filter Search</a></li>
+                            <li><a class="dropdown-item" href="mazad_listing.php">Mazad Listing</a></li>
+                            <li><a class="dropdown-item" href="page_other_auctions.php">Other Auctions</a></li>
+                            <li><a class="dropdown-item" href="chat.php">Chat</a></li>
+                            <li><a class="dropdown-item" href="mazad_about.php">Mazad About</a></li>
+                            <li><a class="dropdown-item" href="agreement.php">Agreement</a></li>
+                            <li><a class="dropdown-item" href="terms.php">Terms&Cond</a></li>
+                            <li><a class="dropdown-item" href="services.php">Services</a></li>
+                            <li><a class="dropdown-item" href="login.php">Login</a></li>
+                            <li><a class="dropdown-item" href="signup.php">Signup</a></li>
                             <li class="d-inline-flex gap-3 ps-3 w-100"><label class="form-check-label"
                                     for="flexSwitchCheckDefault">Dark
                                     Mode</label>
@@ -96,8 +95,8 @@
         <div class="container-fluid px-0 px-lg-5"
             style="box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;">
             <nav class="navbar navbar-expand-lg bottom_bar">
-                <a href="index.html" class="navbar-brand branding ps-lg-0 ps-2">
-                    <img src="assets/images/logo/logo.png" alt="logo">
+                <a href="index.php" class="navbar-brand branding ps-lg-0 ps-2">
+                    <img src="assets/images/logo/Logojeddah_11zon.png" alt="logo">
                 </a>
                 <div class=" ml-auto d-flex gap-3">
                     <div class="searchaddicon">
@@ -246,7 +245,7 @@
                     <div class="ml-auto d-flex gap-3">
                         <div class="navbar-nav add_post justify-content-between align-items-center d-flex">
                             <div class="nav-item">
-                                <a class="nav-link p-0  d-flex align-items-center" href="addpost.html"><i
+                                <a class="nav-link p-0  d-flex align-items-center" href="addpost.php"><i
                                         class="fa-solid fa-circle-plus"></i>
                                     <span style="line-height: 17px;">ADD <br>
                                         POST</span></a>
@@ -265,147 +264,3 @@
         </div>
         <!-- ==============================Navbar End==============================-->
     </header>
-    <!-- ==============================Services Start==============================-->
-    <section class="about_heading">
-        <div class="container">
-            <div class="px-2 about d-none d-md-block">
-                <h1 class="pt-5 pb-3">اتفاقية الرسوم</h1>
-            </div>
-            <div class="agreemint_point py-5" dir="rtl">
-                <ul class="pe-5">
-                    <h4>اتعهد واقسم بالله انا المعلن ان ادفع رسوم الموقع وهي:</h4>
-                    <li class="list-unstyled">
-                        <p class="ps-2 mb-0">
-                            من: 1,000 الى 10,000 الاف ريال مبلغ: 200 ريال
-                        </p>
-                    </li>
-                    <li class="list-unstyled">
-                        <p class="ps-2 mb-0">
-                            من: 10,000 الى 50,000 ألف ريال مبلغ: 500 ريال
-                        </p>
-                    </li>
-                    <li class="list-unstyled">
-                        <p class="ps-2 mb-0">
-                            من: 50,000 الى 100,000 ألف ريال مبلغ: 1000 ريال
-                        </p>
-                    </li>
-                    <li class="list-unstyled">
-                        <p class="ps-2 mb-0">
-                            من 100,000 ريال وما فوق الرجاء التواصل معنا عبر الواتس اب او انستغرام
-                        </p>
-                    </li>
-                </ul>
-                <p>ملاحظة: رسوم الدفع هي على المعلن ولا تبرأ ذمة المعلن من الرسوم الى في حال دفعها.</p>
-                <p>ملاحظة: سوف يتم الغاء واقفال حساب المعلن ان لم يدفع الرسوم!!</p>
-            </div>
-        </div>
-    </section>
-    <!-- =============================Contact Us Start==============================-->
-    <section class="contact_wrapper py-4 my-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-lg-3 col-7">
-                    <div class="contect_detail d-flex align-items-center justify-content-between">
-                        <h1 class="mb-0">Contact Us</h1>
-                        <i class="fa-brands fa-whatsapp fa-3x"></i>
-                    </div>
-                </div>
-                <div class="col-md-3 col-lg-3 col-5 align-self-center text-sm-start text-center">
-                    <div class="contect_detail">
-                        <h1 class="mb-0">54553421</h1>
-                    </div>
-                </div>
-                <div class="col-md-3 col-lg-3 col-6 d-none d-md-block">
-                    <div class="contect_detail d-flex align-items-center justify-content-between">
-                        <h1 class="mb-0">Follow Us</h1>
-                        <i class="fa-brands fa-instagram fa-3x"></i>
-                    </div>
-                </div>
-                <div class="col-md-3 col-lg-3 col-6 align-self-center  d-none d-md-block">
-                    <div class="contect_detail">
-                        <h1 class="mb-0">jeddahmazad</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- =============================Contact Us End==============================-->
-    <!-- =============================Footer Start==============================-->
-    <div class="footer_top_line">
-        <hr>
-    </div>
-    <section class="py-5 footer_none">
-        <div class="container">
-            <div class="row gy-3">
-                <div class="col-md-3">
-                    <div>
-                        <a href="#" class="branding">
-                            <img src="assets/images/logo/logo.png" alt="logo">
-                        </a>
-                    </div>
-                    <div class="social_btn d-flex align-items-center justify-content-between mt-3 mt-md-0">
-                        <a href="#">Facebook</a>
-                        <a href="#">Twitter</a>
-                        <a href="#">Instagram</a>
-                    </div>
-                </div>
-                <div class="col-md-9">
-                    <div class="newsletter d-flex align-items-center justify-content-md-end">
-                        <h5 class="mb-0 me-3">Newsletter</h5>
-                        <div class="newsletter_email">
-                            <form class="newsletter_form d-flex align-items-center w-100" method="POST" action="#">
-                                <input type="email" placeholder="Enter your email address here" title="Enter email" />
-                                <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row pt-5">
-                <div class="col-md-6">
-                    <div class="footer_end">
-                        <div class="text-center text-md-start">
-                            <p>© 2023 <b>Jeddah Mazad</b>. All Rights Reserved</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="footer_end justify-content-between d-flex">
-                        <a href="#">Shipping</a>
-                        <a href="#">Privacy Policy</a>
-                        <a href="#">Terms & Conditions</a>
-                        <a href="#">Contact</a>
-                    </div>
-                </div>
-            </div>
-    </section>
-    <section class="footer_block">
-        <div class="footer_block_btn">
-            <ul>
-                <li class="list-unstyled mb-3"><a href="#" target="_blank" rel="noopener noreferrer">CONTACT US</a>
-                </li>
-                <li class="list-unstyled mb-3"><a href="#" target="_blank" rel="noopener noreferrer">TERMS &
-                        CONDITIONS
-                        / PRIVACY POLICY</a>
-                </li>
-                <li class="list-unstyled mb-3"><a href="#" target="_blank" rel="noopener noreferrer">LANGUAGE</a>
-                </li>
-            </ul>
-            <p>© 2023 <a href="#"><b>Jeddah Mazad.</b></a> All Rights Reserved</p>
-        </div>
-    </section>
-
-
-    <!-- =============================Footer End==============================-->
-    <!-- jQuery link  -->
-    <script type="text/javascript" src="assets/jquery/jquery-3.6.0.min.js"></script>
-    <!-- Slick slider js  -->
-    <script type="text/javascript" src="assets/js/slick.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS -->
-    <script src="assets/js/main.js"></script>
-</body>
-
-
-</html>
