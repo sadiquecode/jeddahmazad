@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="container px-0 m-auto">
-            <div class="auctionslide__cards d-flex overflow-hidden ">
+            <div class="auctionslide__cards d-flex overflow-hidden">
                 <div class=" px-2 py-5">
                     <div class="card auction_card border-0 px-0">
                         <div class="text-center active_btn position-relative">

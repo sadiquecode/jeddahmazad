@@ -92,8 +92,7 @@
         </div>
         <!-- ==============================Topbar End==============================-->
         <!-- ==============================Navbar Start==============================-->
-        <div class="container-fluid px-0 px-lg-5"
-             style="box-shadow: 0px 15px 10px -15px #111;">
+        <div class="container-fluid px-0 px-lg-5"style="box-shadow: 0px 15px 10px -15px #111;">
             <nav class="navbar navbar-expand-lg bottom_bar">
                 <a href="index.php" class="navbar-brand branding ps-lg-0 ps-2">
                     <img src="assets/images/logo/Logojeddah_11zon.png" alt="logo">
