@@ -186,7 +186,21 @@
             <div class="justify-content-between align-items-center d-flex">
                 <div class="notification_icon justify-content-center flex-column d-flex">
                     <!-- Default dropup button -->
-                    <div class="dropup">
+<style>
+    .dropupnotif a {
+  position: fixed;
+    bottom: 10px;
+    left: 5px;
+  z-index: 999;
+}
+    .dropupinbox a {
+  position: fixed;
+    bottom: 10px;
+    right:  20px;
+  z-index: 999;
+}
+</style>
+                    <div class="dropup dropupnotif">
                         <a href="#"
                             class="dropdown-toggle notification_toggle d-flex align-items-center justify-content-center  rounded-circle"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -288,7 +302,7 @@
                     </div>
                 </div>
                 <div class="notification_icon">
-                    <div class="dropup">
+                    <div class="dropup dropupinbox">
                         <a href="#"
                             class="dropdown-toggle notification_toggle d-flex align-items-center justify-content-center  rounded-circle"
                             data-bs-toggle="dropdown" aria-expanded="false">
