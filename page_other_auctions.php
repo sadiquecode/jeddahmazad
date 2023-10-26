@@ -40,7 +40,7 @@
                                     </div>
                                     <div class=" px-2 pt-5">
                                         <div class="card auction_card border-0 px-0">
-                                            <div class="text-center active_btn position-relative">
+                                            <div class="text-center terminat_btn position-relative">
                                                 <a href="#" class="d-block position-absolute">Terminated</a>
                                                 <img src="assets/images/cards/clip333.png"
                                                     class="card-img-top img-fluid" alt="...">
@@ -72,7 +72,7 @@
                                     </div>
                                     <div class=" px-2 pt-5">
                                         <div class="card auction_card border-0 px-0">
-                                            <div class="text-center active_btn position-relative">
+                                            <div class="text-center terminat_btn position-relative">
                                                 <a href="#" class="d-block position-absolute">Terminated</a>
                                                 <img src="assets/images/cards/clip111.png"
                                                     class="card-img-top img-fluid" alt="...">

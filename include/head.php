@@ -26,7 +26,7 @@
     <header class="header_features fixed-top">
         <!-- ==============================Topbar Start==============================-->
         <div class="container-fluid topbar px-md-5">
-            <nav class="navbar navbar-expand py-0">
+            <nav class="navbar navbar-expand-lg py-0">
                 <ul class="navbar-nav d-flex align-items-center">
                     <li class="list-unstyled nav-item dropdown custom_dropdown">
                         <a href="#" class="nav-link dropdown-toggle p-0" data-bs-toggle="dropdown"
@@ -116,7 +116,7 @@
                         </div>
                         <!-- /////////// -->
                         <div class="container-fluid">
-                            <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="offcanvas"
+                            <div class="offcanvas offcanvas-start w-100 h-75" tabindex="-1" id="offcanvas"
                                 data-bs-keyboard="false" data-bs-backdrop="false">
                                 <div class="offcanvas-header">
                                     <div class="search-box w-100">
@@ -132,29 +132,35 @@
                                     <button type="button" class="btn-close text-reset shadow-none ms-2"
                                         data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
-                                <div class="offcanvas-body px-0">
+                                <div class="offcanvas-body offcanvasbody px-4">
+                                    <h5 class="px-3">Top Searches</h5>
                                     <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link text-truncate">
-                                                <span class="ms-1 d-sm-inline">Home</span>
+                                            <a href="#" class="nav-link">
+                                                <i
+                                                    class="fa-solid fa-magnifying-glass me-3"></i>hermes
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#submenu1" data-bs-toggle="collapse"
-                                                class="nav-link text-truncate">
-                                                <span class="ms-1 d-sm-inline">Home</span> </a>
+                                                class="nav-link">
+                                                                                              <i
+                                                    class="fa-solid fa-magnifying-glass me-3"></i>rolex </a>
                                         </li>
                                         <li>
-                                            <a href="#" class="nav-link text-truncate">
-                                                <span class="ms-1 d-sm-inline">Home</span></a>
+                                            <a href="#" class="nav-link">
+                                                                                      <i
+                                                    class="fa-solid fa-magnifying-glass me-3"></i>chanel</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="nav-link text-truncate">
-                                                <span class="ms-1 d-sm-inline">Home</span></a>
+                                            <a href="#" class="nav-link">
+                                                                                             <i
+                                                    class="fa-solid fa-magnifying-glass me-3"></i>louis vitton</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="nav-link text-truncate">
-                                                <span class="ms-1 d-sm-inline">Home</span> </a>
+                                            <a href="#" class="nav-link">
+                                                                                               <i
+                                                    class="fa-solid fa-magnifying-glass me-3"></i>bracelet</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -173,8 +179,11 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav justify-content-center m-auto gap-lg-4 ms_screennav_item">
-                        <li class="nav-item">
+                        <li class="nav-item womenlarge">
                             <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">WOMEN</a>
+                       </li>
+                        <li class="nav-item womensmall">
+                            <a class="nav-link" href="#">WOMEN</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">MEN</a>

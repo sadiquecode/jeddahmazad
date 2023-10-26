@@ -48,34 +48,34 @@
                <div class="row">
                      <div class="col-sm-12 col-md-4 col-lg-4 col-12 px-0 g-0">
                 <div class="brand_content">
-    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid" width="90" height="90"></a>
-    <a href="#"><img src="assets/images/main/brand-2.png" alt="brand" class="img-fluid" width="90" height="90"></a>
-    <a href="#"><img src="assets/images/main/brand-3.png" alt="brand" class="img-fluid" width="90" height="90"></a>
-    <a href="#"><img src="assets/images/main/brand-4.png" alt="brand" class="img-fluid" width="90" height="90"></a>
+    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid" width="80" height="80"></a>
+    <a href="#"><img src="assets/images/main/brand-2.png" alt="brand" class="img-fluid" width="80" height="80"></a>
+    <a href="#"><img src="assets/images/main/brand-3.png" alt="brand" class="img-fluid" width="80" height="80"></a>
+    <a href="#"><img src="assets/images/main/brand-4.png" alt="brand" class="img-fluid" width="80" height="80"></a>
     </div>
 </div>
             <div class="col-sm-12 col-md-4 col-lg-4 col-12 px-0 g-0">
                 <div class="brand_content">
-    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid" width="90" height="90"></a>
-    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid"  width="90" height="90"></a>
-    <a href="#"><img src="assets/images/main/brand-4.png" alt="brand" class="img-fluid"  width="90" height="90"></a>
-    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid"  width="90" height="90"></a>
+    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid" width="80" height="80"></a>
+    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid" width="80" height="80"></a>
+    <a href="#"><img src="assets/images/main/brand-4.png" alt="brand" class="img-fluid" width="80" height="80"></a>
+    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid" width="80" height="80"></a>
                 </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 col-12 px-0 g-0">
                 <div class="brand_content">
-    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid"  width="90" height="90"></a>
-    <a href="#"><img src="assets/images/main/brand-4.png" alt="brand" class="img-fluid"  width="90" height="90"></a>
-    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid"  width="90" height="90"></a>
-    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid"  width="90" height="90"></a>
+    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid" width="80" height="80"></a>
+    <a href="#"><img src="assets/images/main/brand-4.png" alt="brand" class="img-fluid" width="80" height="80"></a>
+    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid" width="80" height="80"></a>
+    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid" width="80" height="80"></a>
                 </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 col-12 px-0 g-0">
                 <div class="brand_content">
-    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid" width="90" height="90"></a>
-    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid" width="90" height="90"></a>
-    <a href="#"><img src="assets/images/main/brand-4.png" alt="brand" class="img-fluid" width="90" height="90"></a>
-    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid" width="90" height="90"></a>
+    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid"width="80" height="80"></a>
+    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid"width="80" height="80"></a>
+    <a href="#"><img src="assets/images/main/brand-4.png" alt="brand" class="img-fluid"width="80" height="80"></a>
+    <a href="#"><img src="assets/images/main/brand-1.png" alt="brand" class="img-fluid"width="80" height="80"></a>
                 </div>
             </div>
         </div>
