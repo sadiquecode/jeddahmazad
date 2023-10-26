@@ -187,17 +187,17 @@
                 <div class="notification_icon justify-content-center flex-column d-flex">
                     <!-- Default dropup button -->
 <style>
-    .dropupnotif a {
+    .dropupnotif  {
   position: fixed;
     bottom: 10px;
     left: 5px;
-  z-index: 999;
+  z-index: 1;
 }
-    .dropupinbox a {
+    .dropupinbox  {
   position: fixed;
     bottom: 10px;
-    right:  20px;
-  z-index: 999;
+    right:  20px;   
+  z-index: 1;
 }
 </style>
                     <div class="dropup dropupnotif">
