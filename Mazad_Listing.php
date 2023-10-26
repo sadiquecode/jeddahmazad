@@ -165,18 +165,18 @@
                                             alt="saudiarabia" width="32" height="32">SAR</a>
                                 </div>
                                 <div class="favourite">
-                                    <a href="#"><i class="fa-regular fa-heart fa-2x fw-lighter"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart fa-2x fw-lighter me-2"></i></a>
                                 </div>
                                 <div class="msg_btn">
                                     <a href="#">Message</a>
                                 </div>
-                                <div class="user_profile justify-content-between align-items-center d-flex">
+                                <div class="justify-content-between align-items-center d-flex">
                                     <div class="d-flex align-items-center">
-                                        <div class="flex-column d-flex text-center">
+                                        <div class="user_profile flex-column d-flex text-center">
                                             <strong>Ahmad Kabbani</strong>
                                             <small>ahmad.kabbani@gmail.com</small>
                                         </div>
-                                        <img src="assets/images/user/Clipuser.png" alt="user" class="me-2 img-fluid">
+                                        <img src="assets/images/user/Clipuser.png" alt="user" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -324,6 +324,48 @@
                                 </ul>
                             </div>
                         </div>
+<!-- ////////////// -->
+                        <div class="col-12 user_detailssmall">
+                                <div class="card border-0 pt-3">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item d-flex align-items-center justify-content-between">
+                                            <img class="rounded-circle shadow-1-strong me-3"
+                                                src="assets/images/user/user1.png" alt="avatar" width="66"
+                                                height="66" />
+                                            <p class="mb-0">Kassem Ali</p>
+                                            <p class="mb-0">20,000 SAR</p>
+                                            <div class="btn-group dropend custom_dropdown user_dropbtn">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </button>
+                                                <ul class="dropdown-menu drop_menu profiledrop rounded-3 ms-3">
+                                                    <li><a class="dropdown-item" href="#">Block User</a></li>
+                                                    <li><a class="dropdown-item" href="#">Visit profile</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex align-items-center justify-content-between">
+                                            <img class="rounded-circle shadow-1-strong me-3"
+                                                src="assets/images/user/user2.png" alt="avatar" width="66"
+                                                height="66" />
+                                            <p class="mb-0">Kassem Ali</p>
+                                            <p class="mb-0">20,000 SAR</p>
+                                            <div class="btn-group dropend custom_dropdown user_dropbtn">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </button>
+                                                <ul class="dropdown-menu drop_menu profiledrop rounded-3 ms-3">
+                                                    <li><a class="dropdown-item" href="#">Block User</a></li>
+                                                    <li><a class="dropdown-item" href="#">Visit profile</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                        </div>
+<!-- ////////////// -->
                     </div>
                 </div>
             </div>
@@ -357,8 +399,8 @@
                     <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-about" role="tabpanel"
                             aria-labelledby="pills-about-tab" tabindex="0">
-                            <div class="card border-0">
-                                <div class="card-body p-4">
+                            <div class="card conversation border-0">
+                                <div class="card-body p-md-4">
                                     <div class="row">
                                         <div class="col">
                                             <div class="d-flex flex-start">
@@ -454,7 +496,7 @@
                                                     data-bs-toggle="dropdown" aria-expanded="false">
                                                     <i class="fa-solid fa-ellipsis-vertical"></i>
                                                 </button>
-                                                <ul class="dropdown-menu drop_menu rounded-3 ms-3">
+                                                <ul class="dropdown-menu drop_menu profiledrop rounded-3 ms-3">
                                                     <li><a class="dropdown-item" href="#">Block User</a></li>
                                                     <li><a class="dropdown-item" href="#">Visit profile</a></li>
                                                 </ul>
@@ -471,13 +513,12 @@
                                                     data-bs-toggle="dropdown" aria-expanded="false">
                                                     <i class="fa-solid fa-ellipsis-vertical"></i>
                                                 </button>
-                                                <ul class="dropdown-menu drop_menu rounded-3 ms-3">
+                                                <ul class="dropdown-menu drop_menu profiledrop rounded-3 ms-3">
                                                     <li><a class="dropdown-item" href="#">Block User</a></li>
                                                     <li><a class="dropdown-item" href="#">Visit profile</a></li>
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="list-group-item"></li>
                                     </ul>
                                 </div>
                             </div>

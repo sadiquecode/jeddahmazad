@@ -101,7 +101,7 @@
                 opts.zoomHeight = opts.zoomHeight || opts.picHeight;
                 var zoomWPSizeHalf = { w: opts.zoomWidth / 2, h: opts.zoomHeight / 2 };
 
-                //初始化zoom容器大小
+    
                 $zoomWP.css({
                     width: opts.zoomWidth + "px",
                     height: opts.zoomHeight + "px"
@@ -109,13 +109,11 @@
                 $zoomWP.css(
                     opts.zoomerPosition || { top: 0, left: opts.picWidth + 30 + "px" }
                 );
-                //初始化zoom图片大小
                 $zoomPic.css({
                     width: opts.picWidth * opts.scale + "px",
                     height: opts.picHeight * opts.scale + "px"
                 });
 
-                //初始化事件
                 $picBD
                     .on("mouseenter", function (event) {
                         $cursor.show();

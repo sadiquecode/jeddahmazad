@@ -1008,9 +1008,21 @@ h5 h6 {
     font-size: 22px;
 }
 
+.conversation .card-body {
+    padding: 0;
+}
+
 .user_details .card {
     filter       : var(--user-card-shadow);
     border-radius: 7px;
+}
+
+.user_detailssmall {
+    display: none;
+}
+
+.user_details {
+    display: block;
 }
 
 .similar_auction {
@@ -1650,7 +1662,13 @@ button:focus {
     .bottom_bar .collapse .drop_menu,
     .bottom_bar .collapse .drop_menu2 {
         background-color: var(--white-smoke) !important;
-        filter          : no;
+        filter          : none;
+    }
+
+    .custom_dropdown .profiledrop li a,
+    .custom_dropdown .profiledrop:active {
+        background-color: var(--white) !important;
+        color           : var(--blue-zodiac);
     }
 
     .custom_dropdown .dropdown-toggle:focus {
@@ -1659,7 +1677,7 @@ button:focus {
 
     .custom_dropdown .drop_menu li a,
     .custom_dropdown .drop_menu:active {
-        background-color: var(--white-smoke) !important;
+        background-color: var(--white-smoke);
         color           : var(--blue-zodiac);
     }
 
@@ -1721,6 +1739,7 @@ button:focus {
         border-radius: 20px 0 0 20px;
     }
 
+
     .about h1 {
         font-size    : 35px;
         color        : var(--blue-zodiac);
@@ -1766,6 +1785,14 @@ button:focus {
 
     .head_smalscreen {
         display: block !important;
+    }
+
+    .user_detailssmall {
+        display: block;
+    }
+
+    .user_details {
+        display: none;
     }
 
 }
@@ -1824,6 +1851,26 @@ button:focus {
         width        : 95px;
         height       : 59px;
         border-radius: 15px;
+    }
+
+    .country a {
+        font-size: 14px;
+    }
+
+    .favourite i {
+        font-size: 30px;
+    }
+
+    .msg_btn a {
+        font-size: 10.50px;
+    }
+
+    .user_profile strong {
+        font-size: 11.339639663696289px;
+    }
+
+    .user_profile small {
+        font-size: 9.01867961883545px;
     }
 }
 
