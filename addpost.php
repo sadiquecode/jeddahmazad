@@ -47,58 +47,49 @@
                                 <h6>Product Brand</h6>
                             </div>
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-md-8" style="overflow: hidden;">
                             <div class="product_feature">
-                                <div class="dropdown">
-                                    <a class="dropdown-toggle" data-bs-toggle="dropdown"
-                                        data-bs-auto-close="outside">Type here</a>
-                                    <div class="dropdown-menu border-0">
-                                        <div class="container">
-                                            <div class="select_search">
-                                                <input type="search" class="form-control shadow-none" id="selctsearch"
-                                                    placeholder="Type here">
-                                            </div>
-                                            <div class="row g-3">
-                                                <div class="col-lg-3 col-sm-6 py-4">
-                                                    <!-- <div class=""> -->
-                                                    <a class="dropdown-item" href="#">Accomodations</a>
-                                                    <a class="dropdown-item" href="#">Terms & Conditions</a>
-                                                    <a class="dropdown-item" href="#">Privacy</a>
-                                                    <a class="dropdown-item" href="#">Lorum</a>
-                                                    <a class="dropdown-item" href="#">Lorum</a>
-                                                    <!-- </div> -->
-                                                </div>
-                                                <div class="col-lg-3 col-sm-6 py-4">
-                                                    <div>
-                                                        <a class="dropdown-item" href="#">Accomodations</a>
-                                                        <a class="dropdown-item" href="#">Terms & Conditions</a>
-                                                        <a class="dropdown-item" href="#">Privacy</a>
-                                                        <a class="dropdown-item" href="#">Lorum</a>
-                                                        <a class="dropdown-item" href="#">Lorum</a>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-sm-6 py-4">
-                                                    <div>
-                                                        <a class="dropdown-item" href="#">Accomodations</a>
-                                                        <a class="dropdown-item" href="#">Terms & Conditions</a>
-                                                        <a class="dropdown-item" href="#">Privacy</a>
-                                                        <a class="dropdown-item" href="#">Lorum</a>
-                                                        <a class="dropdown-item" href="#">Lorum</a>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-sm-6 py-4">
-                                                    <div>
-                                                        <a class="dropdown-item" href="#">Accomodations</a>
-                                                        <a class="dropdown-item" href="#">Terms & Conditions</a>
-                                                        <a class="dropdown-item" href="#">Privacy</a>
-                                                        <a class="dropdown-item" href="#">Lorum</a>
-                                                        <a class="dropdown-item" href="#">Lorum</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+        <form>
+            <select id="myFirstSelect2Basic" class="form-control px-0 border-0" name="topics">
+                <!-- <label>Trend Research Topics</label> -->
+                <option value="1">Type here</option>
+                <option value="2">Deep Learning</option>
+                <option value="2">Reinforcement Learning</option>
+                <option value="3">Web 3.0</option>
+                <option value="4">Metaverse</option>
+                <option value="5">Augmented Reality</option>
+                <option value="6">Mixed Reality</option>
+                <option value="7">Industry 5.0</option>
+            </select>
+        </form>
+        <style>
+            .select2-container .select2-selection--single .select2-selection__rendered {
+                padding: 0 !important;
+            }
+            .select2-container--default .select2-selection--single {
+    border: none;
+}
+            .select2-container .select2-selection--single {
+                    height: 37px;
+            }
+            .select2-container--default .select2-selection--single .select2-selection__arrow {
+    z-index: -1;
+}
+
+
+.select2-dropdown {
+    background-color: white;
+    border: none;
+   filter: drop-shadow(0px 0px 14.5px rgba(0,0,0,0.1 ));
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid #8F8F8F;
+       border-radius: 5px;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field:focus {
+    border-color:#AE7E30;
+}
+        </style>
                             </div>
                         </div>
                     </div>
