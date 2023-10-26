@@ -54,6 +54,15 @@ a {
     text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 h6 {
+    font-family: "NouvelleVague-Black";
+    font-weight: 600;
+}
+
 .container,
 .container-lg,
 .container-md,
@@ -411,9 +420,8 @@ a {
 }
 
 .heading h4 {
-    color      : var(--blue-zodiac);
-    font-size  : 25px;
-    font-weight: normal;
+    color    : var(--blue-zodiac);
+    font-size: 25px;
 }
 
 .heading span:before {

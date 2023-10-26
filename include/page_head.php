@@ -16,7 +16,7 @@
             <div class="row align-items-center">
                 <div class="<?=$c1?>">
                     <div class="ps-md-5">
-                        <h4 class="py-4"><?=$c3?></h4>
+                        <h4 class="py-4" style="font-family: 'NouvelleVague-Black';"><?=$c3?></h4>
                     </div>
                 </div>
                 <div class="<?=$c2?>">
