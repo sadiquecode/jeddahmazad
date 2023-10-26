@@ -886,6 +886,14 @@ h5 h6 {
 /* Add Post End  */
 /* -------------------------------Mazad Listing page -------------------------------  */
 /* Mazad Listing Start  */
+.largescreenlistinghead {
+    display: block;
+}
+
+.smallscreenlistinghead {
+    display: none;
+}
+
 .country a {
     color      : var(--blue-zodiac);
     font-weight: 500;
@@ -922,6 +930,7 @@ h5 h6 {
 }
 
 .product_heading h5 {
+    font-family: "NouvelleVague-Black";
     font-size  : 23.90443992614746px;
     font-weight: bold;
     line-height: 28.685331344604492px;
@@ -947,6 +956,14 @@ h5 h6 {
 
 .bid .dropdown-menu .dropdown-item:hover {
     background-color: transparent;
+}
+
+.bid:hover>.dropdown-menu {
+    display: block;
+}
+
+.bid>.dropdown-toggle:active {
+    pointer-events: none;
 }
 
 .bid .dropdown-menu .dropdown-item:focus {
@@ -1495,6 +1512,14 @@ button:focus {
         border-top-left-radius   : 6px;
         border-top-right-radius  : 6px;
         border-bottom-left-radius: 6px;
+    }
+
+    .largescreenlistinghead {
+        display: none;
+    }
+
+    .smallscreenlistinghead {
+        display: block;
     }
 }
 

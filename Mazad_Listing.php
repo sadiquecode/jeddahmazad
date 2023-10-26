@@ -28,8 +28,8 @@
             position: absolute;
             z-index: 999;
             overflow: hidden;
-            border: 1px solid #eee;
             height: 460px;
+            width: 100%;
             margin-top: -19px;
         }
 
@@ -66,9 +66,8 @@
 
         .piclist li {
             display: inline-block;
-            width: 90px;
-            height: 114px;
-            border: 1px solid #eee;
+            width: 99px;
+            height: 96px;
         }
 
         .piclist li img {
@@ -77,10 +76,10 @@
         }
 
         /* custom style */
-        .picZoomer-pic-wp,
+        /* .picZoomer-pic-wp,
         .picZoomer-zoom-wp {
             border: 1px solid #eee;
-        }
+        } */
 
         .section-bg {
             background-color: #fff1e0;
@@ -115,10 +114,11 @@
 
         ._boxzoom ._product-images .picZoomer {
             width: 100%;
+            height: auto;
         }
 
         ._boxzoom ._product-images .picZoomer .picZoomer-pic-wp img {
-            left: 0px;
+               left: 35px;
         }
 
         ._boxzoom ._product-images .picZoomer img.my_img {
@@ -155,27 +155,52 @@
         }
     </style>
     <section class="product_detail">
-        <div class="container-fluid">
-            <div class="row row-sm">
+        <div class="container-fluid py-3">
+            <div class="row px-md-3">
+                <!-- /////////////// -->
+                                        <div class="col-12 pt-2 smallscreenlistinghead">
+                            <div class=" d-flex justify-content-between align-items-center py-4">
+                                <div class="country">
+                                    <a href="#"><img src="assets/images/flag/saudiarabia.png" class="me-2"
+                                            alt="saudiarabia" width="32" height="32">SAR</a>
+                                </div>
+                                <div class="favourite">
+                                    <a href="#"><i class="fa-regular fa-heart fa-2x fw-lighter"></i></a>
+                                </div>
+                                <div class="msg_btn">
+                                    <a href="#">Message</a>
+                                </div>
+                                <div class="user_profile justify-content-between align-items-center d-flex">
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-column d-flex text-center">
+                                            <strong>Ahmad Kabbani</strong>
+                                            <small>ahmad.kabbani@gmail.com</small>
+                                        </div>
+                                        <img src="assets/images/user/Clipuser.png" alt="user" class="me-2 img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                <!-- /////////////// -->
                 <div class="col-md-6 _boxzoom">
                     <div class="zoom-thumb">
                         <ul class="piclist">
-                            <li class="thumb_image img-fluid"><img src="assets/images/main/shot-1.png" alt="" width="96"
+                            <li class="thumb_image my-2"><img src="assets/images/main/shot-1.png" alt="" width="99"
                                     height="96"></li>
-                            <li class="thumb_image img-fluid"><img src="assets/images/main/shot-2.png" alt="" width="96"
+                            <li class="thumb_image my-2"><img src="assets/images/main/shot-2.png" alt="" width="96"
                                     height="96">
                             </li>
-                            <li class="thumb_image img-fluid"><img src="assets/images/main/shot-3.png" alt="" width="96"
+                            <li class="thumb_image my-2"><img src="assets/images/main/shot-3.png" alt="" width="96"
                                     height="96">
                             </li>
-                            <li class="thumb_image img-fluid"><img src="assets/images/main/shot-5.png" alt="" width="96"
+                            <li class="thumb_image my-2"><img src="assets/images/main/shot-5.png" alt="" width="96"
                                     height="96">
                             </li>
                         </ul>
                     </div>
                     <div class="_product-images">
                         <div class="picZoomer">
-                            <img class="my_img" src="assets/images/main/shot-1.png" alt="">
+                            <img class="my_img img-fluid" src="assets/images/main/shot-1.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -235,8 +260,8 @@
                 </style>
                 <div class="col-md-6 col-lg-6 col-12">
                     <div class="row">
-                        <div class="col-12 pt-2">
-                            <div class="d-flex justify-content-between align-items-center">
+                        <div class="col-12 pt-2 largescreenlistinghead">
+                            <div class=" d-flex justify-content-between align-items-center">
                                 <div class="country">
                                     <a href="#"><img src="assets/images/flag/saudiarabia.png" class="me-2"
                                             alt="saudiarabia" width="32" height="32">SAR</a>
