@@ -174,7 +174,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav justify-content-center m-auto gap-lg-4 ms_screennav_item">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">WOMEN</a>
+                            <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">WOMEN</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">MEN</a>
