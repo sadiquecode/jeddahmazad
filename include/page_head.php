@@ -37,7 +37,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="userprofile">
+                        <div class="ownuserprofile">
                             <div class="justify-content-between align-items-center d-flex flex-column">
                                 <div class="d-flex">
                                     <img src="assets/images/user/Clipuser.png" alt="user" class="img-fluid me-2">
