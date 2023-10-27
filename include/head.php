@@ -48,10 +48,11 @@
                             <li><a class="dropdown-item" href="services.php">Services</a></li>
                             <li><a class="dropdown-item" href="login.php">Login</a></li>
                             <li><a class="dropdown-item" href="signup.php">Signup</a></li>
-                            <li class="d-inline-flex gap-3 ps-3 w-100"><label class="form-check-label"
+                            <li class="d-inline-flex gap-3 ps-3 w-100">
+                                <div class="form-check form-switch">
+                                <label class="form-check-label"
                                     for="flexSwitchCheckDefault">Dark
                                     Mode</label>
-                                <div class="form-check form-switch">
                                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
                                 </div>
                                 </a>

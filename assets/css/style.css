@@ -602,12 +602,21 @@ h5 h6 {
     filter          : drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.1));
 }
 
+.custom_checks input,
+.custom_checks label {
+    cursor: pointer;
+}
+
 .custom_checks label {
     padding-left: 7px;
 }
 
 .policieschecks {
     filter: var(--policy-check-shadow)
+}
+
+.policieschecks input {
+    cursor: pointer;
 }
 
 .slick-prev:before,
@@ -886,6 +895,11 @@ h5 h6 {
 
 .product_wrapper h6 {
     line-height: 3.2;
+    color      : var(--blue-zodiac);
+}
+
+.product_wrapper p {
+    color: var(--blue-zodiac);
 }
 
 .file {
@@ -902,6 +916,7 @@ h5 h6 {
     opacity : 0;
     right   : 0;
     top     : 0;
+    cursor  : pointer;
 }
 
 .done_btn button {
@@ -1482,6 +1497,12 @@ button:focus {
     .profile-icon {
         display     : block;
         margin-right: 5px;
+        cursor      : pointer;
+    }
+
+    .chat-icon img,
+    .profile-icon img {
+        cursor: pointer;
     }
 
     .chatlist {
@@ -1697,6 +1718,7 @@ button:focus {
         background-color: var(--white) !important;
         color           : var(--blue-zodiac);
     }
+    
 
     .custom_dropdown .dropdown-toggle:focus {
         background-color: var(--white-smoke) !important;

@@ -89,6 +89,14 @@
 .select2-container--default .select2-search--dropdown .select2-search__field:focus {
     border-color:#AE7E30;
 }
+.select2-results__option--selectable {
+    cursor: pointer;
+        color: #16204A;
+}
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    background-color: #F5F5F5;
+    color: #16204A;
+}
         </style>
                             </div>
                         </div>
