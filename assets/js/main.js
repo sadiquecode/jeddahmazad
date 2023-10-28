@@ -5,7 +5,7 @@ var jq = jQuery.noConflict();
 jq(document).ready(function () {
   jq('.auctionslide__cards').slick({
     dots: false,
-    infinite: true,
+    infinite: false,
     speed: 300,
     prevArrow: false,
     nextArrow: false,
