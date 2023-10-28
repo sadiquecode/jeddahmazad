@@ -242,7 +242,7 @@
                                 <img src="assets/images/cards/clip222.png" class="card-img-top img-fluid" alt="...">
                             </div>
                             <div class="card-body px-0 heading">
-                                <h4 class="card_title mb-4">GG Marmont</h4>
+                             <a href="#">   <h4 class="card_title mb-4">GG Marmont</h4></a>
                                 <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
                                         10:00</small>
                                 </p>
@@ -261,7 +261,7 @@
                                 <img src="assets/images/cards/clip333.png" class="card-img-top img-fluid" alt="...">
                             </div>
                             <div class="card-body px-0 heading">
-                                <h4 class="card_title mb-4">GG Marmont</h4>
+                              <a href="#">  <h4 class="card_title mb-4">GG Marmont</h4></a>
                                 <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
                                         10:00</small>
                                 </p>
@@ -280,7 +280,7 @@
                                 <img src="assets/images/cards/clip444.png" class="card-img-top img-fluid" alt="...">
                             </div>
                             <div class="card-body px-0 heading">
-                                <h4 class="card-title mb-4">Ongoing Auctions</h4>
+                               <a href="#"> <h4 class="card-title mb-4">Ongoing Auctions</h4></a>
                                 <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
                                         10:00</small>
                                 </p>
@@ -299,7 +299,7 @@
                                 <img src="assets/images/cards/clip111.png" class="card-img-top img-fluid" alt="...">
                             </div>
                             <div class="card-body px-0 heading">
-                                <h4 class="card-title mb-4">Ongoing Auctions</h4>
+                           <a href="#">     <h4 class="card-title mb-4">Ongoing Auctions</h4></a>
                                 <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
                                         10:00</small>
                                 </p>
@@ -320,7 +320,7 @@
                                 <img src="assets/images/cards/clip222.png" class="card-img-top img-fluid" alt="...">
                             </div>
                             <div class="card-body px-0 heading">
-                                <h4 class="card_title mb-4">GG Marmont</h4>
+                               <a href="#"> <h4 class="card_title mb-4">GG Marmont</h4></a>
                                 <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
                                         10:00</small>
                                 </p>
@@ -339,7 +339,7 @@
                                 <img src="assets/images/cards/clip333.png" class="card-img-top img-fluid" alt="...">
                             </div>
                             <div class="card-body px-0 heading">
-                                <h4 class="card_title mb-4">GG Marmont</h4>
+                               <a href="#"> <h4 class="card_title mb-4">GG Marmont</h4></a>
                                 <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
                                         10:00</small>
                                 </p>
@@ -358,7 +358,7 @@
                                 <img src="assets/images/cards/clip444.png" class="card-img-top img-fluid" alt="...">
                             </div>
                             <div class="card-body px-0 heading">
-                                <h4 class="card-title mb-4">Ongoing Auctions</h4>
+                              <a href="#">  <h4 class="card-title mb-4">Ongoing Auctions</h4></a>
                                 <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
                                         10:00</small>
                                 </p>
@@ -377,7 +377,7 @@
                                 <img src="assets/images/cards/clip111.png" class="card-img-top img-fluid" alt="...">
                             </div>
                             <div class="card-body px-0 heading">
-                                <h4 class="card-title mb-4">Ongoing Auctions</h4>
+                        <a href="#">        <h4 class="card-title mb-4">Ongoing Auctions</h4></a>
                                 <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
                                         10:00</small>
                                 </p>

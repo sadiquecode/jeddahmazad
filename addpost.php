@@ -104,17 +104,20 @@
                 </div>
                 <div class="divide_line pt-4"></div>
             </div>
+<style>
+
+</style>
             <div class="container pt-4">
                 <div class="row">
                     <div class="col-md-4"></div>
                     <div class="col-md-8">
                         <div class="custom_control d-flex justify-content-start gap-5">
-                            <div class="custom_checks p-1 px-2 rounded d-inline-flex">
-                                <input type="checkbox" class="form-check-input shadow-none" id="flexCheckAuction">
+                            <div class=" custom_radio p-1 px-2 rounded d-inline-flex">
+                                <input type="radio" name="exampleRadios" class="form-check-input shadow-none" id="flexCheckAuction" value="option1"checked>
                                 <label class="form-check-label ps-2" for="flexCheckAuction">Auction</label>
                             </div>
-                            <div class="custom_checks p-1 px-2 rounded d-inline-flex" style="margin-left: 35px;">
-                                <input type="checkbox" class="form-check-input shadow-none" id="customCheckNonAuction">
+                            <div class="custom_radio p-1 px-2 rounded d-inline-flex" style="margin-left: 35px;">
+                                <input type="radio" name="exampleRadios" class="form-check-input shadow-none" id="customCheckNonAuction"value="option2">
                                 <label class="form-check-label ps-2" for="customCheckNonAuction">Non-Auction</label>
                             </div>
                         </div>
@@ -219,7 +222,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="d-grid done_btn">
-                            <button class="btn fw-bolder" type="button">Done</button>
+                            <button class="btn fw-bolder shadow-none" type="button">Done</button>
                         </div>
                     </div>
                 </div>

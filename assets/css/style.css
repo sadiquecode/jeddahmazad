@@ -149,7 +149,7 @@ h5 h6 {
 
 .form-check-input {
     border: none;
-    filter: drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.14));
+    filter: drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.14)) !important;
 }
 
 .form-check-input:checked {
@@ -597,7 +597,30 @@ h5 h6 {
     background-color: var(--white);
 }
 
-.custom_checks {
+.custom_radio input[type="radio"] {
+    float             : right;
+    -webkit-appearance: none;
+    border            : none;
+    width             : 18px;
+    height            : 18px;
+    background-color  : var(--white);
+    background-size   : 20px;
+    border-radius     : 20%;
+}
+
+.custom_radio input[type="radio"]:checked {
+    background: url(../images/icons/check.png) left center no-repeat;
+
+}
+
+
+.custom_radio {
+    border-radius   : 20%;
+    background-color: var(--white);
+}
+
+.custom_checks,
+.custom_radio {
     background-color: var(--white);
     filter          : drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.1));
 }
@@ -1718,7 +1741,7 @@ button:focus {
         background-color: var(--white) !important;
         color           : var(--blue-zodiac);
     }
-    
+
 
     .custom_dropdown .dropdown-toggle:focus {
         background-color: var(--white-smoke) !important;

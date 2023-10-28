@@ -22,7 +22,7 @@
                             <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel"
                                 aria-labelledby="v-pills-profile-tab" tabindex="0">
                                 <div class="auctionslide__cards d-flex overflow-hidden px-5">
-                                    <div class=" px-2 pt-5 ">
+                                    <div class=" px-2 pt-5">
                                         <div class="card auction_card border-0 px-0">
                                             <div class="text-center active_btn position-relative">
                                                 <a href="#" class="d-block position-absolute">Active</a>
@@ -30,7 +30,7 @@
                                                     class="card-img-top img-fluid" alt="...">
                                             </div>
                                             <div class="card-body px-0 heading">
-                                                <h4 class="card_title mb-4">GG Marmont</h4>
+                                               <a href="#"> <h4 class="card_title mb-4">GG Marmont</h4></a>
                                                 <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
                                                         10:00</small>
                                                 </p>
@@ -46,7 +46,7 @@
                                                     class="card-img-top img-fluid" alt="...">
                                             </div>
                                             <div class="card-body px-0 heading">
-                                                <h4 class="card_title mb-4">GG Marmont</h4>
+                                              <a href="#">  <h4 class="card_title mb-4">GG Marmont</h4></a>
                                                 <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
                                                         10:00</small>
                                                 </p>
@@ -62,7 +62,7 @@
                                                     class="card-img-top img-fluid" alt="...">
                                             </div>
                                             <div class="card-body px-0 heading">
-                                                <h4 class="card-title mb-4">Ongoing Auctions</h4>
+                                                <a href="#"><h4 class="card-title mb-4">Ongoing Auctions</h4></a>
                                                 <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
                                                         10:00</small>
                                                 </p>
@@ -78,7 +78,7 @@
                                                     class="card-img-top img-fluid" alt="...">
                                             </div>
                                             <div class="card-body px-0 heading">
-                                                <h4 class="card-title mb-4">Ongoing Auctions</h4>
+                                              <a href="#">  <h4 class="card-title mb-4">Ongoing Auctions</h4></a>
                                                 <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
                                                         10:00</small>
                                                 </p>

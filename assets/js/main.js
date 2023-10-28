@@ -4,10 +4,17 @@ var jq = jQuery.noConflict();
 
 jq(document).ready(function () {
   jq('.auctionslide__cards').slick({
+    // dots: false,
+    // infinite: true,
+    // speed: 300,
+    // prevArrow: false,
+    // nextArrow: false,
+    // autoSlidesToShow: true,
+    // variableWidth: true,
     dots: false,
     infinite: true,
     speed: 300,
-    slidesToShow: 4,
+    slidesToShow: slidesToShow,
     slidesToScroll: 1,
     autoplay: true,
     responsive: [
