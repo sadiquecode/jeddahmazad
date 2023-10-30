@@ -239,9 +239,9 @@
     <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3 col-12">
                                 <div class="card auction_card customsearch__card border-0 px-0">
-                            <div class="text-center active_btn position-relative">
+                            <div class="active_btn position-relative">
                                 <a href="#" class="d-block position-absolute">Active</a>
-                                <img src="assets/images/cards/clip222.png" class="card-img-top img-fluid" alt="...">
+                                <img src="assets/images/cards/clip222.png" class="card-img-top w-100 img-fluid" alt="...">
                             </div>
                             <div class="card-body px-0 heading">
                              <a href="#">   <h4 class="card_title mb-4">GG Marmont</h4></a>

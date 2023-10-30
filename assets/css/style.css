@@ -499,6 +499,8 @@ h5 h6 {
 .auction_card img {
     border-radius: 11px;
     filter       : var(--card-box-shadow);
+    max-width    : 331px;
+    max-height   : 363px;
 }
 
 .card_text small {
@@ -1903,6 +1905,13 @@ button:focus {
     .categorizz .dropdown-menu {
         background   : black;
         border-radius: 20px 20px 0 0;
+    }
+
+    .auction_card img {
+        border-radius: 11px;
+        filter       : var(--card-box-shadow);
+        max-width    : 100%;
+        max-height   : 100%;
     }
 
     .filter_search {
