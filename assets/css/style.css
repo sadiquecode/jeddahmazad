@@ -237,8 +237,10 @@ h5 h6 {
     width        : 100%;
 }
 
-.search-form input:focus {
-    border    : 2px solid var(--leather);
+.search-form input:focus,
+.bid input:focus,
+.msg-search input:focus {
+    border    : 1.5px solid var(--leather);
     transition: 0s;
 }
 
@@ -1019,33 +1021,14 @@ h5 h6 {
     font-weight     : 500;
 }
 
-.bid button::after,
 .user_dropbtn button::after {
     content: none !important;
 }
 
-.bid .dropdown-menu .dropdown-item:hover {
-    background-color: transparent;
-}
-
-.bid:hover>.dropdown-menu {
-    display: block;
-}
-
-.bid>.dropdown-toggle:active {
-    pointer-events: none;
-}
-
-.bid .dropdown-menu .dropdown-item:focus {
-    color: var(--blue-zodiac) !important;
-}
-
-.bid .dropdown-menu .dropdown-item span:hover {
-    text-decoration: underline;
-}
-
-.bid .dropdown-menu {
-    filter: var(--policy-check-shadow);
+.bid {
+    background-color: var(--white) !important;
+    border-radius   : 8px;
+    filter          : var(--policy-check-shadow);
 }
 
 .product_navs .nav-item button,

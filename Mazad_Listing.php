@@ -310,19 +310,22 @@
                                 <p class="mb-0">Estimate:</p>
                                 <p class="mb-0">7,000 - 10,000 SAR</p>
                             </div>
-                            <div class="divide_line"></div>
-                            <div class="dropdown pt-4 bid">
-                                <button class="btn dropdown-toggle w-100 shadow-none" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    PLACE BID
-                                </button>
-                                <ul class="dropdown-menu w-100 text-center border-0">
-                                    <li><a class="dropdown-item" href="#"><span>20,000
-                                                SAR</span> <br><small>Starting
-                                                Bid: 250.0
-                                                SAR</small></a></li>
-                                </ul>
+                            <div class="divide_line pt-2"></div>
+
+<form action="">
+                                <div class="bid mt-4">
+                                <div class="d-grid">
+  <button class="btn shadow-none" type="button">  PLACE BID</button>
                             </div>
+                            <div class="p-1">
+                                  <input type="email" class="form-control shadow-none" id="exampleFormControlInput1" placeholder="add bid...">
+                            </div>
+                            <div class="text-center pb-1">
+                                <p class="mb-0">20,000 SAR</p>
+                                   <small>Starting Bid: 250.0 SAR</small>
+                            </div>
+                            </div>
+</form>
                         </div>
 <!-- ////////////// -->
                         <div class="col-12 user_detailssmall">
