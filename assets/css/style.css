@@ -1124,8 +1124,8 @@ h5 h6 {
 }
 
 .profile_edit button {
-    color    : #767676;
-    font-size: 12px;
+    color    : #767676 !important;
+    font-size: 16px;
 }
 
 .editprofile button {
@@ -1133,7 +1133,7 @@ h5 h6 {
     color           : var(--white) !important;
 }
 
-.accountpreference h5 {
+.accountpreference {
     font-size  : 14.476759910583496px;
     font-weight: 600;
     color      : var(--blue-zodiac);
@@ -1141,6 +1141,15 @@ h5 h6 {
 
 .preferenceaddress p {
     color: var(--blue-zodiac);
+}
+
+.preferenceprimary p {
+    background-color: #F2F2F2;
+}
+
+.newaddress {
+    border: 2px solid var(--blue-zodiac);
+    color : var(--blue-zodiac);
 }
 
 /* other Auction Card End */
