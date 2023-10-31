@@ -235,23 +235,6 @@
                     </div>
                 </div>
 <!-- /////////////// -->
-<style>
-    .customsearch__card.active_btn{
-height: 287px;
-    }
-    .customsearch__card .active_btn img{
-        width:260px;
-        height: 285px;
-            object-fit: cover;
-    }
-    @media (max-width: 575px) {
-            .customsearch__card .active_btn img{
-        width:100%;
-        height:100%;
-            object-fit: cover;
-    }
-    }
-</style>
 <div class="py-5">
     <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3 col-12">

@@ -137,7 +137,7 @@ Change Password
     </section>
     <!-- Password Modal -->
 <div class="modal fade" id="passwordModal" tabindex="-1" aria-labelledby="passwordModal" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="passwordModal">Edit Profile</h1>
