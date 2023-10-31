@@ -1045,7 +1045,7 @@ h5 h6 {
 }
 
 .product_navs .nav-item button,
-.auction_navs button {
+.auction_navs a {
     background-color: transparent !important;
     color           : var(--blue-zodiac);
     opacity         : 0.70;
