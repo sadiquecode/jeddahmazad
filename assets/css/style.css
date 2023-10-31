@@ -1119,14 +1119,28 @@ h5 h6 {
     border-radius   : 5px;
 }
 
+.auction_user {
+    color: var(--blue-zodiac);
+}
+
 .profile_edit button {
     color    : #767676;
-    font-size: 9px;
+    font-size: 12px;
 }
 
 .editprofile button {
     background-color: var(--blue-zodiac);
     color           : var(--white) !important;
+}
+
+.accountpreference h5 {
+    font-size  : 14.476759910583496px;
+    font-weight: 600;
+    color      : var(--blue-zodiac);
+}
+
+.preferenceaddress p {
+    color: var(--blue-zodiac);
 }
 
 /* other Auction Card End */

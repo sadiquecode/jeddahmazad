@@ -110,7 +110,7 @@
                     <h5 class="mb-0 p-2">Complete your profile</h5>
                 </div>
             </div>
-                                    <div class=" pt-2 pb-5">
+                                    <div class=" pt-2">
                                         <div class="user_name">
                                             <p>Mr Kassem Ali</p>
                                             <p>kassem.ali@gmail.com</p>
@@ -127,9 +127,13 @@ Change Password
             </div>
                                         </div>
                                     </div>
-                                    <h6>Accounts and auction preferences</h6>
-                                    <h6>Your available accounts to bid, buy and sell with us.</h6>
-            <div class="justify-content-between align-items-center d-flex">
+<div class="accountpreference py-2">
+                                        <h5>Accounts and auction preferences</h5>
+                                    <h5>Your available accounts to bid, buy and sell with us.</h5>
+</div>
+<div class="card">
+<div class="card-body">
+                <div class="justify-content-between align-items-center d-flex">
                 <div class="flex-column d-flex">
                                     <h5>INDIVIDUAL</h5>
                 </div>
@@ -139,23 +143,15 @@ Change Password
 Edit</button>
                 </div>
             </div>
-                                    <div class=" pt-2 pb-5">
-                                        <div class="user_name">
-                                            <p>Mr Kassem Ali</p>
-                                            <p>kassem.ali@gmail.com</p>
-              <div class="justify-content-between d-flex">
-                <div class="flex-column d-flex">
-  <p>Password</p>
-<p>*****</p>
-                </div>
-                <div class="Pass_word">
-                   <button type="button" class="btn shadow-none fw-bold" data-bs-toggle="modal" data-bs-target="#passwordModal">
-Change Password
-</button>
-                </div>
+            <div class="preferenceaddress">
+<p>Kassem Ali73429384</p>
+<p>Billing Address </p>
+<p>Al Rayan, Doha, Qatar Doha, Qatar Qatar</p>
+<p>Shipping address</p>
+<p>Al Rayan, Doha, Qatar Doha, Qatar Qatar</p>
             </div>
-                                        </div>
-                                    </div>
+</div>
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -167,7 +163,8 @@ Change Password
     <!-- Password Modal -->
 <div class="modal fade" id="passwordModal" tabindex="-1" aria-labelledby="passwordModal" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
+    <div class="modal-content rounded-0">
+        <form action="">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="passwordModal">Edit Profile</h1>
         <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -181,26 +178,29 @@ Change Password
       <div class="modal-footer editprofile">
         <button type="button" class="btn btn-md shadow-none">Save changes</button>
       </div>
+      </form>
     </div>
   </div>
 </div>
     <!-- Password Modal -->
 <div class="modal fade" id="editIndividualModal" tabindex="-1" aria-labelledby="editIndividualModal" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
+    <div class="modal-content rounded-0">
+        <form action="">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="editIndividualModal">Edit Profile</h1>
         <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <div class="mb-3 editprofile">
-    <label for="InputPassword1" class="form-label">Change Password</label>
-    <input type="password" class="form-control shadow-none" id="InputPassword1">
+  <label for="exampleFormControlTextarea1" class="form-label">INDIVIDUAL Change</label>
+  <textarea class="form-control shadow-none" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
       </div>
       <div class="modal-footer editprofile">
         <button type="button" class="btn btn-md shadow-none">Save changes</button>
       </div>
+      </form>
     </div>
   </div>
 </div>
