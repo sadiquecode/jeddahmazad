@@ -40,7 +40,7 @@
                                     </div>
                                     <div class=" px-2 pt-5">
                                         <div class="card auction_card border-0 px-0">
-                                            <div class="text-center terminat_btn position-relative">
+                                            <div class="text-center terminat_btn active_btn position-relative">
                                                 <a href="#" class="d-block position-absolute">Terminated</a>
                                                 <img src="assets/images/cards/clip333.png"
                                                     class="card-img-top img-fluid" alt="...">
@@ -72,7 +72,7 @@
                                     </div>
                                     <div class=" px-2 pt-5">
                                         <div class="card auction_card border-0 px-0">
-                                            <div class="text-center terminat_btn position-relative">
+                                            <div class="text-center terminat_btn active_btn position-relative">
                                                 <a href="#" class="d-block position-absolute">Terminated</a>
                                                 <img src="assets/images/cards/clip111.png"
                                                     class="card-img-top img-fluid" alt="...">
@@ -119,6 +119,35 @@
   <p>Password</p>
 <p>*****</p>
                 </div>
+                <div class="profile_edit">
+                   <button type="button" class="btn shadow-none fw-bold" data-bs-toggle="modal" data-bs-target="#passwordModal">
+Change Password
+</button>
+                </div>
+            </div>
+                                        </div>
+                                    </div>
+                                    <h6>Accounts and auction preferences</h6>
+                                    <h6>Your available accounts to bid, buy and sell with us.</h6>
+            <div class="justify-content-between align-items-center d-flex">
+                <div class="flex-column d-flex">
+                                    <h5>INDIVIDUAL</h5>
+                </div>
+                <div class="profile_edit">
+                    <h5 class="mb-0 p-2"></h5>
+                   <button type="button" class="btn shadow-none fw-bold" data-bs-toggle="modal" data-bs-target="#editIndividualModal">
+Edit</button>
+                </div>
+            </div>
+                                    <div class=" pt-2 pb-5">
+                                        <div class="user_name">
+                                            <p>Mr Kassem Ali</p>
+                                            <p>kassem.ali@gmail.com</p>
+              <div class="justify-content-between d-flex">
+                <div class="flex-column d-flex">
+  <p>Password</p>
+<p>*****</p>
+                </div>
                 <div class="Pass_word">
                    <button type="button" class="btn shadow-none fw-bold" data-bs-toggle="modal" data-bs-target="#passwordModal">
 Change Password
@@ -141,6 +170,26 @@ Change Password
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="passwordModal">Edit Profile</h1>
+        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3 editprofile">
+    <label for="InputPassword1" class="form-label">Change Password</label>
+    <input type="password" class="form-control shadow-none" id="InputPassword1">
+  </div>
+      </div>
+      <div class="modal-footer editprofile">
+        <button type="button" class="btn btn-md shadow-none">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Password Modal -->
+<div class="modal fade" id="editIndividualModal" tabindex="-1" aria-labelledby="editIndividualModal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="editIndividualModal">Edit Profile</h1>
         <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">

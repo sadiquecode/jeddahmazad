@@ -114,8 +114,9 @@
             <div class="auctionslide__cards d-flex overflow-hidden ">
                 <div class=" px-2 py-5">
                     <div class="card auction_card border-0">
-                        <img src="assets/images/cards/clip222.png" class="card-img-top" alt="...">
-                        <div class="card-body px-0 heading">
+<div class="active_btn">
+                            <img src="assets/images/cards/clip222.png" class="card-img-top" alt="...">
+</div>                        <div class="card-body px-0 heading">
                           <a href="#">  <h4 class="card_title mb-4">Upcoming Auctions</h4></a>
                             <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
                                     10:00</small>
@@ -130,7 +131,9 @@
                 </div>
                 <div class=" px-2 py-5">
                     <div class="card auction_card border-0">
-                        <img src="assets/images/cards/clip333.png" class="card-img-top" alt="...">
+                        <div class="active_btn">
+                            <img src="assets/images/cards/clip333.png" class="card-img-top" alt="...">
+                        </div>
                         <div class="card-body px-0 heading">
                            <a href="#"> <h4 class="card-title mb-4">Upcoming Auctions</h4></a>
                             <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
@@ -146,7 +149,9 @@
                 </div>
                 <div class=" px-2 py-5">
                     <div class="card auction_card border-0">
-                        <img src="assets/images/cards/clip444.png" class="card-img-top" alt="...">
+                        <div class="active_btn">
+                            <img src="assets/images/cards/clip444.png" class="card-img-top" alt="...">
+                        </div>
                         <div class="card-body px-0 heading">
                           <a href="#">  <h4 class="card-title mb-4">Upcoming Auctions</h4></a>
                             <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
@@ -162,7 +167,9 @@
                 </div>
                 <div class=" px-2 py-5">
                     <div class="card auction_card border-0">
-                        <img src="assets/images/cards/clip111.png" class="card-img-top" alt="...">
+                        <div class="active_btn">
+                            <img src="assets/images/cards/clip111.png" class="card-img-top" alt="...">
+                        </div>
                         <div class="card-body px-0 heading">
                          <a href="#">   <h4 class="card-title mb-4">Upcoming Auctions</h4></a>
                             <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |

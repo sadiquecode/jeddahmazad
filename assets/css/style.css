@@ -841,11 +841,11 @@ h5 h6 {
     width           : 260px;
 }
 
-.customsearch__card.active_btn {
+.auction_card.active_btn {
     height: 287px;
 }
 
-.customsearch__card .active_btn img {
+.auction_card .active_btn img {
     width     : 260px;
     height    : 285px;
     object-fit: cover;
@@ -1119,7 +1119,7 @@ h5 h6 {
     border-radius   : 5px;
 }
 
-.Pass_word button {
+.profile_edit button {
     color    : #767676;
     font-size: 9px;
 }
