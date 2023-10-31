@@ -289,7 +289,8 @@
                                             <strong>Ahmad Kabbani</strong>
                                             <small>ahmad.kabbani@gmail.com</small>
                                         </div>
-                                        <img src="assets/images/user/Clipuser.png" alt="user" class="me-2 img-fluid">
+<a href="#"><img src="assets/images/user/Clipuser.png" alt="user" class="me-2 img-fluid">
+</a>
                                     </div>
                                 </div>
                             </div>
@@ -402,6 +403,7 @@
                     <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-about" role="tabpanel"
                             aria-labelledby="pills-about-tab" tabindex="0">
+                            <form action="">
                             <div class="card conversation border-0">
                                 <div class="card-body p-md-4">
                                     <div class="row">
@@ -422,8 +424,8 @@
                                                                 id="formControlTextarea" placeholder="Ask a question"
                                                                 rows="3"></textarea>
                                                         </div>
-                                                        <div class="caption_carousel bid_sendbtn">
-                                                            <a href="#">SEND</a>
+                                                        <div class="bid_sendbtn mt-2">
+                                                              <button type="button" class="btn btn-sm shadow-none">SEND</button>
                                                         </div>
                                                     </div>
 
@@ -442,11 +444,8 @@
                                                                     </h6>
                                                                     <p class="mb-0"> January 16</p>
                                                                 </div>
-                                                                <div>
-                                                                    <textarea class="form-control shadow-none"
-                                                                        id="formControlTextarea"
-                                                                        placeholder="Ask a question"
-                                                                        rows="3">Hello I would like to know how many of this watch do you have in stock?</textarea>
+                                                                <div class="bidder">
+                                                                    <p class="mb-0 px-1">Hello I would like to know how many of this watch do you have in stock?</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -457,6 +456,7 @@
                                     </div>
                                 </div>
                             </div>
+                            </form>
                         </div>
                         <div class="tab-pane fade" id="pills-dec" role="tabpanel" aria-labelledby="pills-dec-tab"
                             tabindex="0">

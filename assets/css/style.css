@@ -239,7 +239,8 @@ h5 h6 {
 
 .search-form input:focus,
 .bid input:focus,
-.msg-search input:focus {
+.msg-search input:focus,
+.editprofile input:focus {
     border    : 1.5px solid var(--leather);
     transition: 0s;
 }
@@ -414,8 +415,7 @@ h5 h6 {
     font-weight: 400;
 }
 
-.caption_carousel a,
-.bid_sendbtn a {
+.caption_carousel a {
     background-color: var(--leather);
     color           : var(--white);
     font-size       : 30px;
@@ -496,11 +496,11 @@ h5 h6 {
     padding: 0 !important;
 }
 
-.auction_card img {
-    border-radius: 11px;
-    filter       : var(--card-box-shadow);
-    max-width    : 331px;
-    max-height   : 363px;
+.active_btn img {
+    border-radius   : 11px;
+    filter          : var(--card-box-shadow);
+    /* width        : 331px;
+    height          : auto; */
 }
 
 .card_text small {
@@ -838,6 +838,7 @@ h5 h6 {
 
 .customsearch__card {
     background-color: var(--white-smoke);
+    width           : 260px;
 }
 
 /* ============================== Custom Search End ============================== */
@@ -1059,8 +1060,15 @@ h5 h6 {
     color: var(--blue-zodiac);
 }
 
-.bid_sendbtn a {
-    font-size: 22px;
+.bid_sendbtn button {
+    background-color: var(--leather);
+    color           : var(--white) !important;
+    font-size       : 18px;
+}
+
+.bidder {
+    border       : 1px solid #ced4da;
+    border-radius: 0.25rem;
 }
 
 .conversation .card-body {
@@ -1093,6 +1101,22 @@ h5 h6 {
 /* other Auction Card Start */
 .profil_wrapper {
     background-color: var(--white-smoke);
+}
+
+.profileyour {
+    background-color: #16204A;
+    color           : var(--white);
+    border-radius   : 5px;
+}
+
+.Pass_word button {
+    color    : #767676;
+    font-size: 9px;
+}
+
+.editprofile button {
+    background-color: var(--blue-zodiac);
+    color           : var(--white) !important;
 }
 
 /* other Auction Card End */
@@ -1883,6 +1907,7 @@ button:focus {
 
     .customsearch__card {
         background-color: var(--white);
+        margin          : auto;
     }
 
     .dropdown_wrapper {
@@ -1907,10 +1932,10 @@ button:focus {
         border-radius: 20px 20px 0 0;
     }
 
-    .auction_card img {
-        max-width : 100%;
-        max-height: 100%;
-    }
+    /* .active_btn img {
+        width : 100%;
+        height: 100%;
+    } */
 
     .filter_search {
         display        : flex;

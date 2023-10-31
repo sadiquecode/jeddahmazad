@@ -91,13 +91,40 @@
                             <div class="tab-pane fade show" id="v-pills-auctions" role="tabpanel"
                                 aria-labelledby="v-pills-auctions-tab" tabindex="0">
                                 <div class="auction_user bg-white p-3">
-                                    <h6>Profile Details</h6>
+                                    <h5>Profile Details</h5>
                                     <div class="d-flex gap-5 pt-2 pb-5">
                                         <div class="user_name">
-                                            <h6>Mr Kassem Ali</h6>
+                                            <p>Mr Kassem Ali</p>
                                         </div>
                                         <div class="user_email">
-                                            <h6>kassem.ali@gmail.com</h6>
+                                            <p>kassem.ali@gmail.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="auction_user bg-white p-3">
+            <div class="justify-content-between align-items-center d-flex">
+                <div class="flex-column d-flex">
+                                    <h5>Profile Details</h5>
+                </div>
+                <div class="profileyour">
+                    <h5 class="mb-0 p-2">Complete your profile</h5>
+                </div>
+            </div>
+                                    <div class=" pt-2 pb-5">
+                                        <div class="user_name">
+                                            <p>Mr Kassem Ali</p>
+                                            <p>kassem.ali@gmail.com</p>
+              <div class="justify-content-between d-flex">
+                <div class="flex-column d-flex">
+  <p>Password</p>
+<p>*****</p>
+                </div>
+                <div class="Pass_word">
+                   <button type="button" class="btn shadow-none fw-bold" data-bs-toggle="modal" data-bs-target="#passwordModal">
+Change Password
+</button>
+                </div>
+            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -108,5 +135,25 @@
             </div>
         </div>
     </section>
+    <!-- Password Modal -->
+<div class="modal fade" id="passwordModal" tabindex="-1" aria-labelledby="passwordModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="passwordModal">Edit Profile</h1>
+        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3 editprofile">
+    <label for="InputPassword1" class="form-label">Change Password</label>
+    <input type="password" class="form-control shadow-none" id="InputPassword1">
+  </div>
+      </div>
+      <div class="modal-footer editprofile">
+        <button type="button" class="btn btn-md shadow-none">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
     <!-- ==============================other Auction Card End==============================-->
 <?php include('include/footer.php') ?>
