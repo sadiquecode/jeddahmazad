@@ -1,5 +1,14 @@
 
 
+$('.onoffbtn').on('click', function () {
+  if ($(this).children().is(':checked')) {
+    $(this).addClass('active');
+  }
+  else {
+    $(this).removeClass('active')
+  }
+});
+
 var jq = jQuery.noConflict();
 
 jq(document).ready(function () {
