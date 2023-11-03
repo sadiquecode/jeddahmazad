@@ -30,24 +30,23 @@
 
 :root {
     /* Color */
-    --white              : #fff;
-    --white-smoke        : #F5F5F5;
-    --blue-zodiac        : #16204A;
-    --blue-zodiac-heading: #2A3259;
-    --leather            : #AD7B2B;
-    --luxor-gold         : #AE7E30;
-    --black              : #000000;
-    --oslo-grey          : #8F8F8F;
-    --grey               : #DDDDDD;
-    --bg-gradient        : linear-gradient(15deg, #dcdbd8 0.00%, #f8f8f6 50.00%, #ecedea 100.00%);
-    --card-box-shadow    : drop-shadow(0px 0px 19px rgba(0, 0, 0, 0.19));
-    --btn-box-shadow     : drop-shadow(0px 0px 10.5px rgba(0, 0, 0, 0.26));
-    --icon-box-shadow    : drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.33));
-    --dropmenu-box-shadow: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.09));
-    --switch-box-shadow  : drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.14));
-    --policy-check-shadow: drop-shadow(0px 0px 6.5px rgba(0, 0, 0, 0.17));
-    --user-card-shadow   : drop-shadow(0px 0px 9px rgba(0, 0, 0, 0.16));
-    ;
+    --white                : #fff;
+    --white-smoke          : #F5F5F5;
+    --blue-zodiac          : #16204A;
+    --blue-zodiac-heading  : #2A3259;
+    --leather              : #AD7B2B;
+    --luxor-gold           : #AE7E30;
+    --black                : #000000;
+    --oslo-grey            : #8F8F8F;
+    --grey                 : #DDDDDD;
+    --bg-gradient          : linear-gradient(15deg, #dcdbd8 0.00%, #f8f8f6 50.00%, #ecedea 100.00%);
+    --card-box-shadow      : drop-shadow(0px 0px 19px rgba(0, 0, 0, 0.19));
+    --btn-box-shadow       : drop-shadow(0px 0px 10.5px rgba(0, 0, 0, 0.26));
+    --icon-box-shadow      : drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.33));
+    --dropmenu-box-shadow  : drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.09));
+    --switch-box-shadow    : drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.14));
+    --policy-check-shadow  : drop-shadow(0px 0px 6.5px rgba(0, 0, 0, 0.17));
+    --user-card-shadow     : drop-shadow(0px 0px 9px rgba(0, 0, 0, 0.16));
     --search-btn-box-shadow: 0px 0px 14.5px rgba(0, 0, 0, 0.15);
 
 
@@ -70,7 +69,8 @@ h1,
 h2,
 h3,
 h4,
-h5 h6 {
+h5,
+h6 {
     font-family: "NouvelleVague-Black";
     font-weight: 600;
     color      : var(--blue-zodiac);
