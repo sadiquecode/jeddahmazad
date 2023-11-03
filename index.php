@@ -16,7 +16,7 @@
         <div class="container px-0 mx-auto">
             <div class="auctionslide__cards d-flex overflow-hidden">
                 <div class=" px-2 py-5">
-                    <div class="card auction_card border-0 px-0">
+                    <div class="card auction_card maincards border-0 px-0">
                         <div class="text-center active_btn position-relative">
                             <a href="#" class="d-block position-absolute">Active</a>
                             <img src="assets/images/cards/clip222.png" class="card-img-top img-fluid" alt="...">
@@ -35,10 +35,10 @@
                     </div>
                 </div>
                 <div class=" px-2 py-5">
-                    <div class="card auction_card border-0 px-0">
+                    <div class="card auction_card maincards border-0 px-0">
                         <div class="text-center active_btn position-relative">
                             <a href="#" class="d-block position-absolute">Active</a>
-                            <img src="assets/images/cards/clip333.png" class="card-img-top img-fluid" alt="...">
+                            <img src="assets/images/cards/webp (1).webp" class="card-img-top img-fluid" alt="...">
                         </div>
                         <div class="card-body px-0 heading">
                            <a href="#"> <h4 class="card_title mb-4">GG Marmont</h4></a>
@@ -54,10 +54,10 @@
                     </div>
                 </div>
                 <div class=" px-2 py-5">
-                    <div class="card auction_card border-0 px-0">
+                    <div class="card auction_card maincards  border-0 px-0">
                         <div class="text-center active_btn position-relative">
                             <a href="#" class="d-block position-absolute">Active</a>
-                            <img src="assets/images/cards/clip444.png" class="card-img-top img-fluid" alt="...">
+                            <img src="assets/images/cards/post_7_6485.jpg" class="card-img-top img-fluid" alt="...">
                         </div>
                         <div class="card-body px-0 heading">
                           <a href="#">  <h4 class="card-title mb-4">Ongoing Auctions</h4></a>
@@ -73,10 +73,10 @@
                     </div>
                 </div>
                 <div class=" px-2 py-5">
-                    <div class="card auction_card border-0 px-0">
+                    <div class="card auction_card maincards border-0 px-0">
                         <div class="text-center active_btn position-relative">
                             <a href="#" class="d-block position-absolute">Active</a>
-                            <img src="assets/images/cards/clip111.png" class="card-img-top img-fluid" alt="...">
+                            <img src="assets/images/cards/webp (2).webp" class="card-img-top img-fluid" alt="...">
                         </div>
                         <div class="card-body px-0 heading">
                          <a href="#">   <h4 class="card-title mb-4">Ongoing Auctions</h4></a>
@@ -113,7 +113,7 @@
         <div class="container px-0 pb-5 m-auto">
             <div class="auctionslide__cards d-flex overflow-hidden ">
                 <div class=" px-2 py-5">
-                    <div class="card auction_card border-0">
+                    <div class="card auction_card maincards border-0">
 <div class="active_btn">
                             <img src="assets/images/cards/clip222.png" class="card-img-top" alt="...">
 </div>                        <div class="card-body px-0 heading">
@@ -130,7 +130,7 @@
                     </div>
                 </div>
                 <div class=" px-2 py-5">
-                    <div class="card auction_card border-0">
+                    <div class="card auction_card maincards border-0">
                         <div class="active_btn">
                             <img src="assets/images/cards/clip333.png" class="card-img-top" alt="...">
                         </div>
@@ -148,7 +148,7 @@
                     </div>
                 </div>
                 <div class=" px-2 py-5">
-                    <div class="card auction_card border-0">
+                    <div class="card auction_card maincards border-0">
                         <div class="active_btn">
                             <img src="assets/images/cards/clip444.png" class="card-img-top" alt="...">
                         </div>
@@ -166,7 +166,7 @@
                     </div>
                 </div>
                 <div class=" px-2 py-5">
-                    <div class="card auction_card border-0">
+                    <div class="card auction_card maincards border-0">
                         <div class="active_btn">
                             <img src="assets/images/cards/clip111.png" class="card-img-top" alt="...">
                         </div>
