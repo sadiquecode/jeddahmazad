@@ -2,7 +2,7 @@
     <!-- ==============================Services Start==============================-->
     <section class="about_heading">
         <div class="container">
-            <div class="px-2 about d-none d-md-block">
+            <div class="px-2 about">
                 <h1 class="pt-5 pb-3">Services</h1>
             </div>
             <div class="service_content py-5">
