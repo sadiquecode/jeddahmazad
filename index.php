@@ -460,7 +460,7 @@
                                     <img src="assets/images/main/mb_logo.png" class="img-fluid m-auto" alt="montblance">
                                 </div>
                                 <div class="slide_item">
-                                    <img src="assets/images/main/rolex-1.png" class="img-fluid m-auto" alt="montblance">
+                                    <img src="assets/images/main/rolex.png" class="img-fluid m-auto" alt="montblance">
                                 </div>
                                 <div class="slide_item">
                                     <img src="assets/images/main/Jaeger.png" class="img-fluid m-auto" alt="montblance">

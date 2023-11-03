@@ -238,80 +238,76 @@
 <div class="py-5">
     <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3 col-12">
-                                <div class="card auction_card customsearch__card  border-0 px-0">
-                            <div class="active_btn position-relative">
-                                <a href="#" class="d-block position-absolute">Active</a>
-                                <img src="assets/images/cards/clip222.png" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body px-0 heading">
-                             <a href="#">   <h4 class="card_title mb-4">GG Marmont</h4></a>
-                                <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
-                                        10:00</small>
-                                </p>
-                                <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
-                                <div class="d-flex align-items-center">
-                                    <a href="#" class="card_bidbtn">BID</a>
-                                    <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
-                                </div>
-                            </div>
-                        </div>
-    </div>
+            <div class="card auction_card customsearch__card  border-0 px-0">
+               <div class="active_btn position-relative">
+                  <a href="#" class="d-block position-absolute">Active</a>
+                  <img src="assets/images/cards/clip222.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body px-0 heading">
+                    <a href="#">   <h4 class="card_title mb-4">GG Marmont</h4></a>
+                       <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 | 10:00</small></p>
+                       <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
+                 <div class="d-flex align-items-center">
+                   <a href="#" class="card_bidbtn">BID</a>
+                   <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
+                 </div>
+                </div>
+            </div>
+        </div>
         <div class="col-sm-6 col-md-4 col-lg-3 col-12">
-                        <div class="card auction_card customsearch__card border-0 px-0">
-                            <div class="active_btn position-relative">
-                                <a href="#" class="d-block position-absolute">Active</a>
-                                <img src="assets/images/cards/post_7_6485.jpg" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body px-0 heading">
-                              <a href="#">  <h4 class="card_title mb-4">GG Marmont</h4></a>
-                                <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
-                                        10:00</small>
-                                </p>
-                                <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
-                                <div class="d-flex align-items-center">
-                                    <a href="#" class="card_bidbtn">BID</a>
-                                    <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
-                                </div>
-                            </div>
-                        </div>
-</div>
+         <div class="card auction_card customsearch__card border-0 px-0">
+           <div class="active_btn position-relative">
+             <a href="#" class="d-block position-absolute">Active</a>
+                  <img src="assets/images/cards/post_7_6485.jpg" class="card-img-top" alt="...">
+           </div>
+           <div class="card-body px-0 heading">
+             <a href="#">  <h4 class="card_title mb-4">GG Marmont</h4></a>
+                <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 | 10:00</small></p>
+                 <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
+           <div class="d-flex align-items-center">
+             <a href="#" class="card_bidbtn">BID</a>
+             <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
+           </div>
+           </div>
+          </div>
+        </div>
         <div class="col-sm-6 col-md-4 col-lg-3 col-12">
-                                  <div class="card auction_card customsearch__card border-0 px-0">
-                            <div class="active_btn position-relative">
-                                <a href="#" class="d-block position-absolute">Active</a>
-                                <img src="assets/images/cards/webp (1).webp" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body px-0 heading">
-                               <a href="#"> <h4 class="card-title mb-4">Ongoing Auctions</h4></a>
-                                <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
+         <div class="card auction_card customsearch__card border-0 px-0">
+        <div class="active_btn position-relative">
+            <a href="#" class="d-block position-absolute">Active</a>
+            <img src="assets/images/cards/webp (1).webp" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body px-0 heading">
+            <a href="#"> <h4 class="card-title mb-4">Ongoing Auctions</h4></a>
+            <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
                                         10:00</small>
-                                </p>
-                                <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
-                                <div class="d-flex align-items-center">
-                                    <a href="#" class="card_bidbtn">BID</a>
-                                    <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
-                                </div>
-                            </div>
-                        </div>  
-</div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-12">
-                                  <div class="card auction_card customsearch__card border-0 px-0">
-                            <div class="active_btn position-relative">
-                                <a href="#" class="d-block position-absolute">Active</a>
-                                <img src="assets/images/cards/webp (2).webp" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body px-0 heading">
-                               <a href="#"> <h4 class="card-title mb-4">Ongoing Auctions</h4></a>
-                                <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
+            </p>
+            <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
+            <div class="d-flex align-items-center">
+                <a href="#" class="card_bidbtn">BID</a>
+                <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
+            </div>
+        </div>
+         </div>  
+      </div>
+    <div class="col-sm-6 col-md-4 col-lg-3 col-12">
+    <div class="card auction_card customsearch__card border-0 px-0">
+        <div class="active_btn position-relative">
+            <a href="#" class="d-block position-absolute">Active</a>
+            <img src="assets/images/cards/webp (2).webp" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body px-0 heading">
+            <a href="#"> <h4 class="card-title mb-4">Ongoing Auctions</h4></a>
+            <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
                                         10:00</small>
-                                </p>
-                                <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
-                                <div class="d-flex align-items-center">
-                                    <a href="#" class="card_bidbtn">BID</a>
-                                    <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
-                                </div>
-                            </div>
-                        </div>  
+            </p>
+            <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
+            <div class="d-flex align-items-center">
+                <a href="#" class="card_bidbtn">BID</a>
+                <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
+            </div>
+        </div>
+    </div>  
 </div>
 </div>
 </div>
@@ -397,163 +393,6 @@
 </div>
 </div>
 <!-- /////////////// -->
-
-                <!-- <div class="auctionslide__cards d-flex overflow-hidden ">
-                    <div class=" px-2 py-5">
-                        <div class="card auction_card customsearch__card border-0 px-0">
-                            <div class="text-center active_btn position-relative">
-                                <a href="#" class="d-block position-absolute">Active</a>
-                                <img src="assets/images/cards/clip222.png" class="card-img-top img-fluid" alt="...">
-                            </div>
-                            <div class="card-body px-0 heading">
-                             <a href="#">   <h4 class="card_title mb-4">GG Marmont</h4></a>
-                                <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
-                                        10:00</small>
-                                </p>
-                                <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
-                                <div class="d-flex align-items-center">
-                                    <a href="#" class="card_bidbtn">BID</a>
-                                    <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" px-2 py-5">
-                        <div class="card auction_card customsearch__card border-0 px-0">
-                            <div class="text-center active_btn position-relative">
-                                <a href="#" class="d-block position-absolute">Active</a>
-                                <img src="assets/images/cards/clip333.png" class="card-img-top img-fluid" alt="...">
-                            </div>
-                            <div class="card-body px-0 heading">
-                              <a href="#">  <h4 class="card_title mb-4">GG Marmont</h4></a>
-                                <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
-                                        10:00</small>
-                                </p>
-                                <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
-                                <div class="d-flex align-items-center">
-                                    <a href="#" class="card_bidbtn">BID</a>
-                                    <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" px-2 py-5">
-                        <div class="card auction_card customsearch__card border-0 px-0">
-                            <div class="text-center active_btn position-relative">
-                                <a href="#" class="d-block position-absolute">Active</a>
-                                <img src="assets/images/cards/clip444.png" class="card-img-top img-fluid" alt="...">
-                            </div>
-                            <div class="card-body px-0 heading">
-                               <a href="#"> <h4 class="card-title mb-4">Ongoing Auctions</h4></a>
-                                <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
-                                        10:00</small>
-                                </p>
-                                <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
-                                <div class="d-flex align-items-center">
-                                    <a href="#" class="card_bidbtn">BID</a>
-                                    <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" px-2 py-5">
-                        <div class="card auction_card customsearch__card border-0 px-0">
-                            <div class="text-center active_btn position-relative">
-                                <a href="#" class="d-block position-absolute">Active</a>
-                                <img src="assets/images/cards/clip111.png" class="card-img-top img-fluid" alt="...">
-                            </div>
-                            <div class="card-body px-0 heading">
-                           <a href="#">     <h4 class="card-title mb-4">Ongoing Auctions</h4></a>
-                                <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
-                                        10:00</small>
-                                </p>
-                                <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
-                                <div class="d-flex align-items-center">
-                                    <a href="#" class="card_bidbtn">BID</a>
-                                    <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="auctionslide__cards d-flex overflow-hidden ">
-                    <div class=" px-2 py-5">
-                        <div class="card auction_card customsearch__card border-0 px-0">
-                            <div class="text-center active_btn position-relative">
-                                <a href="#" class="d-block position-absolute">Active</a>
-                                <img src="assets/images/cards/clip222.png" class="card-img-top img-fluid" alt="...">
-                            </div>
-                            <div class="card-body px-0 heading">
-                               <a href="#"> <h4 class="card_title mb-4">GG Marmont</h4></a>
-                                <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
-                                        10:00</small>
-                                </p>
-                                <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
-                                <div class="d-flex align-items-center">
-                                    <a href="#" class="card_bidbtn">BID</a>
-                                    <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" px-2 py-5">
-                        <div class="card auction_card customsearch__card border-0 px-0">
-                            <div class="text-center active_btn position-relative">
-                                <a href="#" class="d-block position-absolute">Active</a>
-                                <img src="assets/images/cards/clip333.png" class="card-img-top img-fluid" alt="...">
-                            </div>
-                            <div class="card-body px-0 heading">
-                               <a href="#"> <h4 class="card_title mb-4">GG Marmont</h4></a>
-                                <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
-                                        10:00</small>
-                                </p>
-                                <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
-                                <div class="d-flex align-items-center">
-                                    <a href="#" class="card_bidbtn">BID</a>
-                                    <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" px-2 py-5">
-                        <div class="card auction_card customsearch__card border-0 px-0">
-                            <div class="text-center active_btn position-relative">
-                                <a href="#" class="d-block position-absolute">Active</a>
-                                <img src="assets/images/cards/clip444.png" class="card-img-top img-fluid" alt="...">
-                            </div>
-                            <div class="card-body px-0 heading">
-                              <a href="#">  <h4 class="card-title mb-4">Ongoing Auctions</h4></a>
-                                <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
-                                        10:00</small>
-                                </p>
-                                <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
-                                <div class="d-flex align-items-center">
-                                    <a href="#" class="card_bidbtn">BID</a>
-                                    <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" px-2 py-5">
-                        <div class="card auction_card customsearch__card border-0 px-0">
-                            <div class="text-center active_btn position-relative">
-                                <a href="#" class="d-block position-absolute">Active</a>
-                                <img src="assets/images/cards/clip111.png" class="card-img-top img-fluid" alt="...">
-                            </div>
-                            <div class="card-body px-0 heading">
-                        <a href="#">        <h4 class="card-title mb-4">Ongoing Auctions</h4></a>
-                                <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 |
-                                        10:00</small>
-                                </p>
-                                <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
-                                <div class="d-flex align-items-center">
-                                    <a href="#" class="card_bidbtn">BID</a>
-                                    <a href="#"><img src="assets/images/icons/info.png" alt="info" class=" ms-4"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
     </section>

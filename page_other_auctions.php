@@ -20,12 +20,12 @@
         <div class="tab-content profile_features bg-white my-5" id="v-pills-tabContent">
             <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel"
                 aria-labelledby="v-pills-profile-tab" tabindex="0">
-                <div class="auctionslide__cards d-flex overflow-hidden px-5">
-                    <div class=" px-2 pt-5">
+                <div class="row py-5 px-4 gx-2">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-12">
                         <div class="card auction_card border-0 px-0">
                             <div class="text-center active_btn position-relative">
                                 <a href="#" class="d-block position-absolute">Active</a>
-                                <img src="assets/images/cards/clip222.png"
+                                <img src="assets/images/cards/webp (1).webp"
                                 class="card-img-top img-fluid" alt="...">
                             </div>
                             <div class="card-body px-0 heading">
@@ -37,7 +37,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" px-2 pt-5">
+                      <div class="col-sm-6 col-md-4 col-lg-3 col-12">
                         <div class="card auction_card border-0 px-0">
                             <div class="text-center terminat_btn active_btn position-relative">
                                 <a href="#" class="d-block position-absolute">Terminated</a>
@@ -53,11 +53,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" px-2 pt-5">
+                         <div class="col-sm-6 col-md-4 col-lg-3 col-12">
                         <div class="card auction_card border-0 px-0">
                             <div class="text-center active_btn position-relative">
                                 <a href="#" class="d-block position-absolute">Active</a>
-                                <img src="assets/images/cards/clip444.png"
+                                <img src="assets/images/cards/webp (2).webp"
                                 class="card-img-top img-fluid" alt="...">
                             </div>
                             <div class="card-body px-0 heading">
@@ -69,11 +69,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" px-2 pt-5">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-12">
                         <div class="card auction_card border-0 px-0">
                             <div class="text-center terminat_btn active_btn position-relative">
                                 <a href="#" class="d-block position-absolute">Terminated</a>
-                                <img src="assets/images/cards/clip111.png"
+                                <img src="assets/images/cards/post_7_6485.jpg"
                                 class="card-img-top img-fluid" alt="...">
                             </div>
                             <div class="card-body px-0 heading">
