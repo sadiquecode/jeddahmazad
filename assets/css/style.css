@@ -8,7 +8,19 @@
 ------------ */
 
 /* 1 .=============================== General Start ===============================*/
-@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+@font-face {
+    font-family: 'Cairo Play';
+    src: url('../fonts/CairoPlay-Regular.eot');
+    src: local('Cairo Play Regular'), local('CairoPlay-Regular'),
+        url('../fonts/CairoPlay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CairoPlay-Regular.woff2') format('woff2'),
+        url('../fonts/CairoPlay-Regular.woff') format('woff'),
+        url('../fonts/CairoPlay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 * {
     box-sizing: border-box;
