@@ -652,8 +652,15 @@ h5 h6 {
 }
 
 .slide_item img {
-    width : 387px;
-    height: 195px
+    width     : 387px;
+    height    : 195px;
+    object-fit: scale-down;
+}
+
+.slick-initialized .slick-slide {
+    float         : inherit;
+    display       : inline-block !important;
+    vertical-align: middle;
 }
 
 .slick-prev:before,
@@ -1887,20 +1894,15 @@ button:focus {
         object-fit: cover;
     }
 
-    .caption_carousel h5 {
-        font-size    : 20px;
-        margin-bottom: 0;
-    }
 
-    .caption_carousel a {
-        font-size    : 20px;
-        padding      : 0px 10px 0px 10px;
-        border-radius: 6px;
+    .caption_carousel h5 {
+        font-size    : 35px;
+        margin-bottom: 0;
     }
 
     .item_carousel .caption_carousel {
         padding-bottom: 0;
-        bottom        : 10px;
+        bottom        : 30px;
     }
 
     .dropdownbrand {
@@ -1971,10 +1973,6 @@ button:focus {
 }
 
 @media (max-width: 575px) {
-    .caption_carousel h5 {
-        font-size    : 16px;
-        margin-bottom: 0;
-    }
 
     .custom_control {
         background-color: var(--white-smoke);

@@ -122,9 +122,9 @@
                                     10:00</small>
                             </p>
                             <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center justify-content-center">
                                 <a href="#" class="card_bidbtn">BID</a>
-                                <a href="#"><img src="assets/images/icons/info.png" alt="info" class="info_btn"></a>
+                                <!-- <a href="#"><img src="assets/images/icons/info.png" alt="info" class="info_btn"></a> -->
                             </div>
                         </div>
                     </div>
@@ -140,9 +140,9 @@
                                     10:00</small>
                             </p>
                             <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center justify-content-center">
                                 <a href="#" class="card_bidbtn">BID</a>
-                                <a href="#"><img src="assets/images/icons/info.png" alt="info" class="info_btn"></a>
+                                <!-- <a href="#"><img src="assets/images/icons/info.png" alt="info" class="info_btn"></a> -->
                             </div>
                         </div>
                     </div>
@@ -158,9 +158,9 @@
                                     10:00</small>
                             </p>
                             <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center justify-content-center">
                                 <a href="#" class="card_bidbtn">BID</a>
-                                <a href="#"><img src="assets/images/icons/info.png" alt="info" class="info_btn"></a>
+                                <!-- <a href="#"><img src="assets/images/icons/info.png" alt="info" class="info_btn"></a> -->
                             </div>
                         </div>
                     </div>
@@ -176,9 +176,9 @@
                                     10:00</small>
                             </p>
                             <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center justify-content-center">
                                 <a href="#" class="card_bidbtn">BID</a>
-                                <a href="#"><img src="assets/images/icons/info.png" alt="info" class="info_btn"></a>
+                                <!-- <a href="#"><img src="assets/images/icons/info.png" alt="info" class="info_btn"></a> -->
                             </div>
                         </div>
                     </div>
@@ -414,9 +414,9 @@
     </section>
     <!-- ==============================Upcoming Auction End==============================-->
     <!-- ==============================Luxury Brand Start==============================-->
-    <section class="Brand_wrapper">
+    <section class="Brand_wrapper py-5">
         <div class="container">
-            <div class="heading pt-5">
+            <div class="heading">
                 <h4><span>Our Luxury</span> Brands</h4>
             </div>
             <div class="row mt-5 gy-3">
@@ -457,13 +457,28 @@
                         <div class="col-10 mx-auto">
                             <div class="slideimgs slidertlimgs">
                                 <div class="slide_item">
-                                    <img src="assets/images/main/mb_logo.png" class="img-fluid m-auto" alt="montblance">
+                                    <img src="assets/images/main/mb_logo.png" class=" m-auto" alt="montblance">
                                 </div>
                                 <div class="slide_item">
-                                    <img src="assets/images/main/rolex.png" class="img-fluid m-auto" alt="montblance">
+                                    <img src="assets/images/main/rolex.png" class=" m-auto" alt="montblance">
                                 </div>
                                 <div class="slide_item">
-                                    <img src="assets/images/main/Jaeger.png" class="img-fluid m-auto" alt="montblance">
+                                    <img src="assets/images/main/Jaeger.png" class=" m-auto" alt="montblance">
+                                </div>
+                                <div class="slide_item">
+                                    <img src="assets/images/main/brand-05.png" class=" m-auto" alt="montblance">
+                                </div>
+                                <div class="slide_item">
+                                    <img src="assets/images/main/brand-01.png" class=" m-auto" alt="montblance">
+                                </div>
+                                <div class="slide_item">
+                                    <img src="assets/images/main/brand-02.png" class=" m-auto" alt="montblance">
+                                </div>
+                                <div class="slide_item">
+                                    <img src="assets/images/main/brand-03.png" class=" m-auto" alt="montblance">
+                                </div>
+                                <div class="slide_item">
+                                    <img src="assets/images/main/brand-04.png" class=" m-auto" alt="montblance">
                                 </div>
                             </div>
                         </div>
