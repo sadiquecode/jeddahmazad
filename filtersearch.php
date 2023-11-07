@@ -4,7 +4,7 @@
         <?php include('include/page_head.php') ?> 
         <div class="search_content">
             <div class="container">
-                <div class="search_check d-flex gap-3 pt-5 pb-3">
+                <div class="search_check d-flex gap-3 pt-lg-5 pt-3 pb-3">
                     <div class="custom_checks p-1 rounded d-inline-flex">
                         <input type="checkbox" class="form-check-input shadow-none" id="flexCheckMen">
                         <label class="form-check-label ps-2 w-100" for="flexCheckMen">Men</label>
@@ -229,7 +229,7 @@
                     <div class="col-md-3 col-sm-6 col-12">
                         <div class="d-grid filter_search">
                             <button type="submit" class="border-0" id="#">
-                                <i class="fa-solid fa-magnifying-glass me-2"></i><span>Search</span>
+                                <i class="fa-solid fa-magnifying-glass"></i><span>Search</span>
                             </button>
                         </div>
                     </div>
@@ -237,7 +237,7 @@
 <!-- /////////////// -->
 <div class="py-5">
     <div class="row">
-        <div class="col-sm-6 col-md-4 col-lg-3 col-12">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-6">
             <div class="card auction_card customsearch__card  border-0 px-0">
                <div class="active_btn position-relative">
                   <a href="#" class="d-block position-absolute">Active</a>
@@ -254,14 +254,14 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-12">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-6">
          <div class="card auction_card customsearch__card border-0 px-0">
            <div class="active_btn position-relative">
              <a href="#" class="d-block position-absolute">Active</a>
                   <img src="assets/images/cards/post_7_6485.jpg" class="card-img-top" alt="...">
            </div>
            <div class="card-body px-0 heading">
-             <a href="#">  <h4 class="card_title mb-4">GG Marmont</h4></a>
+             <a href="#">  <h4 class="card_title mb-4">pieces of sofa with slippers</h4></a>
                 <p class="card_text d-flex"><small>11 AUGUST - 11 SEPTEMBER 2023 | 10:00</small></p>
                  <p class=" card_text d-flex mb-5"><small>(GMT+3) KSA</small></p>
            <div class="d-flex align-items-center">
@@ -271,7 +271,7 @@
            </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-12">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-6">
          <div class="card auction_card customsearch__card border-0 px-0">
         <div class="active_btn position-relative">
             <a href="#" class="d-block position-absolute">Active</a>
@@ -290,7 +290,7 @@
         </div>
          </div>  
       </div>
-    <div class="col-sm-6 col-md-4 col-lg-3 col-12">
+    <div class="col-sm-6 col-md-4 col-lg-3 col-6">
     <div class="card auction_card customsearch__card border-0 px-0">
         <div class="active_btn position-relative">
             <a href="#" class="d-block position-absolute">Active</a>
@@ -314,7 +314,7 @@
 <!-- /////////////// -->
 <div class="py-5">
     <div class="row">
-        <div class="col-sm-6 col-md-4 col-lg-3 col-12">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-6">
                                 <div class="card auction_card customsearch__card border-0 px-0">
                             <div class="active_btn position-relative">
                                 <a href="#" class="d-block position-absolute">Active</a>
@@ -333,7 +333,7 @@
                             </div>
                         </div>
     </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-12">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-6">
                         <div class="card auction_card customsearch__card border-0 px-0">
                             <div class="active_btn position-relative">
                                 <a href="#" class="d-block position-absolute">Active</a>
@@ -352,7 +352,7 @@
                             </div>
                         </div>
 </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-12">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-6">
                                   <div class="card auction_card customsearch__card border-0 px-0">
                             <div class="active_btn position-relative">
                                 <a href="#" class="d-block position-absolute">Active</a>
@@ -371,7 +371,7 @@
                             </div>
                         </div>  
 </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 col-12">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-6">
                                   <div class="card auction_card customsearch__card border-0 px-0">
                             <div class="active_btn position-relative">
                                 <a href="#" class="d-block position-absolute">Active</a>

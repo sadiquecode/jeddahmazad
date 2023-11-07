@@ -11,14 +11,14 @@
 
 @font-face {
     font-family: 'Cairo Play';
-    src: url('../fonts/CairoPlay-Regular.eot');
-    src: local('Cairo Play Regular'), local('CairoPlay-Regular'),
+    src        : url('../fonts/CairoPlay-Regular.eot');
+    src        : local('Cairo Play Regular'), local('CairoPlay-Regular'),
         url('../fonts/CairoPlay-Regular.eot?#iefix') format('embedded-opentype'),
         url('../fonts/CairoPlay-Regular.woff2') format('woff2'),
         url('../fonts/CairoPlay-Regular.woff') format('woff'),
         url('../fonts/CairoPlay-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-weight : normal;
+    font-style  : normal;
     font-display: swap;
 }
 
@@ -870,7 +870,7 @@ h6 {
 }
 
 .auction_card .active_btn img {
-    width     : 260px;
+    width     : 100%;
     height    : 285px;
     object-fit: cover;
 }
@@ -1870,7 +1870,7 @@ button:focus {
     .addpost_heading,
     .product_detail,
     .about_heading {
-        padding-top: 63px;
+        padding-top: 70px;
     }
 
     .caption_carousel h5 {
@@ -1926,6 +1926,11 @@ button:focus {
         border-radius: 20px 0 0 20px;
     }
 
+    .auction_card .active_btn img,
+    .maincards .active_btn img {
+        width : 100% !important;
+        height: 250px;
+    }
 
     .about h1 {
         font-size    : 35px;
@@ -1999,14 +2004,27 @@ button:focus {
         margin          : auto;
     }
 
-    .auction_card .active_btn img {
-        width : 100%;
-        height: 100%;
+    .heading h4 {
+        font-size: 18px;
     }
 
-    .maincards .active_btn img {
-        width : 260px;
-        height: 285px;
+    .dropdown_wrapper h6 {
+        margin-bottom: 0px;
+        font-size    : 14px;
+        padding      : 5px 5px 0px 8px;
+    }
+
+    .dropdown_wrapper .dropdown a {
+        padding: 0px 5px 5px 8px;
+    }
+
+    .card_bidbtn {
+        background-color: var(--white);
+        color           : var(--leather) !important;
+        filter          : var(--btn-box-shadow);
+        font-size       : 17px;
+        padding         : 5px 30px 5px 30px;
+        border-radius   : 7px;
     }
 
     .dropdown_wrapper {
@@ -2043,7 +2061,7 @@ button:focus {
 
     .filter_search button {
         width        : 95px;
-        height       : 59px;
+        height       : 50px;
         border-radius: 15px;
     }
 
