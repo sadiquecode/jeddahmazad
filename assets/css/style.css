@@ -529,6 +529,7 @@ h6 {
     font-size       : 20px;
     padding         : 9px 65px 9px 65px;
     border-radius   : 7px;
+    margin-top      : 20px;
 }
 
 .info_btn {
@@ -1340,6 +1341,10 @@ h6 {
     background-color: var(--white-smoke);
 }
 
+.chat_user {
+    background-color: var(--white-smoke);
+}
+
 .chat-list .active {
     display      : block;
     content      : '';
@@ -2005,7 +2010,8 @@ button:focus {
     }
 
     .heading h4 {
-        font-size: 18px;
+        font-size    : 18px;
+        margin-bottom: 10px !important;
     }
 
     .dropdown_wrapper h6 {
@@ -2025,6 +2031,11 @@ button:focus {
         font-size       : 17px;
         padding         : 5px 30px 5px 30px;
         border-radius   : 7px;
+    }
+
+    .active_btn a {
+        padding  : 6px 10px;
+        font-size: 10px;
     }
 
     .dropdown_wrapper {
@@ -2083,6 +2094,10 @@ button:focus {
 
     .user_profile small {
         font-size: 9.01867961883545px;
+    }
+
+    .auction_card p {
+        margin-bottom: 0 !important;
     }
 }
 

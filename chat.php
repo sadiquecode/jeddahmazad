@@ -26,7 +26,7 @@
                                 <div class="modal-body">
                                     <!-- chat-list -->
                                         <div class="chat-list">
-                                            <a href="#" class="d-flex p-2">
+                                            <a href="#" class="d-flex chat_user p-2">
                                                 <div class="flex-shrink-0">
                                                     <img class="img-fluid rounded-pill"
                                                         src="assets/images/user/user1.png" alt="user img" width="45"
