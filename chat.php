@@ -142,7 +142,7 @@
                                         <div class="col-8">
                                             <div class="d-flex align-items-center">
                                                 <span class="chat-icon"><img class="img-fluid"
-                                                        src="assets/images/icons/leftarrow - Copy.png"
+                                                        src="assets/images/icons/leftarrow_11x16.png"
                                                         alt="image title"></span>
                                                 <div class="">
                                                     <h5 class="mb-0">Kassem Ali</h5>
@@ -160,7 +160,7 @@
                                         <div class="col-7">
                                             <div class="d-flex align-items-center justify-content-between">
                                                 <span class="chat-icon d-flex"><img class="img-fluid"
-                                                        src="assets/images/icons/leftarrow - Copy.png"
+                                                        src="assets/images/icons/leftarrow_11x16.png"
                                                         alt="image title">
                                                     <a href="#">
                                                         <h5 class="mb-0 ms-2">All Chats</h5>
@@ -259,7 +259,7 @@
                         <div class="modal-dialog-scrollable">
                             <div class="modal-content">
                                 <span class="profile-icon"><img class="img-fluid"
-                                        src="assets/images/icons/leftarrow - Copy.png" alt="image title"></span>
+                                        src="assets/images/icons/leftarrow_11x16.png" alt="image title"></span>
                                 <div class="profile-head text-center bg-white">
                                     <img class="img-fluid rounded-pill" src="assets/images/user/user1.png"
                                         alt="user img" width="45" height="45">
