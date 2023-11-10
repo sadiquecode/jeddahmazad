@@ -71,9 +71,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "NouvelleVague-Black";
-    font-weight: 600;
-    color      : var(--blue-zodiac);
+    font-family   : "NouvelleVague-Black";
+    font-weight   : 600;
+    /* color      : var(--blue-zodiac); */
 }
 
 .container,
@@ -871,7 +871,7 @@ h6 {
 }
 
 .auction_card .active_btn img {
-    width     : 100%;
+    width     : 260px;
     height    : 285px;
     object-fit: cover;
 }
@@ -1931,11 +1931,7 @@ button:focus {
         border-radius: 20px 0 0 20px;
     }
 
-    .auction_card .active_btn img,
-    .maincards .active_btn img {
-        width : 100% !important;
-        height: 250px;
-    }
+
 
     .about h1 {
         font-size    : 35px;
@@ -2022,6 +2018,16 @@ button:focus {
 
     .dropdown_wrapper .dropdown a {
         padding: 0px 5px 5px 8px;
+    }
+
+    .maincards .active_btn img {
+        width : 260px !important;
+        height: 250px;
+    }
+
+    .auction_card .active_btn img {
+        width : 100% !important;
+        height: 250px;
     }
 
     .card_bidbtn {

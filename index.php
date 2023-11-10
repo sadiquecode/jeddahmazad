@@ -38,7 +38,7 @@
                     <div class="card auction_card maincards border-0 px-0">
                         <div class="text-center active_btn position-relative">
                             <a href="#" class="d-block position-absolute">Active</a>
-                            <img src="assets/images/cards/webp (1).webp" class="card-img-top img-fluid" alt="...">
+                            <img src="assets/images/cards/webp (1).webp" class="card-img-top img-fluid" width="260px" height="285px" alt="...">
                         </div>
                         <div class="card-body px-0 heading">
                            <a href="#"> <h4 class="card_title mb-4">GG Marmont</h4></a>
