@@ -40,7 +40,7 @@
                         <div class="ownuserprofile">
                             <div class="justify-content-between align-items-center d-flex flex-column">
                                 <div class="d-flex">
-                                    <img src="assets/images/user/Clipuser.png" alt="user" class="img-fluid me-2">
+                                    <img src="assets/images/user/Clipuser.png" alt="user" class="rounded-circle img-fluid me-2">
                                     <div class="flex-column d-flex text-center">
                                         <strong>Ahmad Kabbani</strong>
                                         <small>ahmad.kabbani@gmail.com</small>
