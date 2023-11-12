@@ -1277,8 +1277,8 @@ h6 {
 
 .chatbox {
     width   : 476px;
-    overflow: hidden;
-    height  : 100vh;
+    overflow: scroll;
+    height  : 630px;
 
 }
 
@@ -2173,8 +2173,8 @@ button:focus {
     }
 
     .chatbox {
-        overflow: hidden;
-        height  : 75vh;
+        overflow: scroll;
+        height  : 630px;
 
     }
 }
