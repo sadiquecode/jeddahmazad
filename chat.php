@@ -233,13 +233,49 @@
                                                     src="assets/images/user/user1.png" alt="user img" width="38"
                                                     height="38">
                                             </li>
+                                            <li class="repaly d-flex justify-content-between">
+                                                <div class="flex-column">
+                                                    <p>I could chat in a hour or so - would that work?</p>
+                                                    <span class="time text-end">10:43 am</span>
+                                                </div>
+                                                <img class="rounded-pill ms-2 align-self-end"
+                                                    src="assets/images/user/user1.png" alt="user img" width="38"
+                                                    height="38">
+                                            </li>
+                                            <li class="repaly d-flex justify-content-between">
+                                                <div class="flex-column">
+                                                    <p>I could chat in a hour or so - would that work?</p>
+                                                    <span class="time text-end">10:43 am</span>
+                                                </div>
+                                                <img class="rounded-pill ms-2 align-self-end"
+                                                    src="assets/images/user/user1.png" alt="user img" width="38"
+                                                    height="38">
+                                            </li>
+                                            <li class="repaly d-flex justify-content-between">
+                                                <div class="flex-column">
+                                                    <p>I could chat in a hour or so - would that work?</p>
+                                                    <span class="time text-end">10:43 am</span>
+                                                </div>
+                                                <img class="rounded-pill ms-2 align-self-end"
+                                                    src="assets/images/user/user1.png" alt="user img" width="38"
+                                                    height="38">
+                                            </li>
+                                            <li class="repaly d-flex justify-content-between">
+                                                <div class="flex-column">
+                                                    <p>I could chat in a hour or so - would that work?</p>
+                                                    <span class="time text-end">10:43 am</span>
+                                                </div>
+                                                <img class="rounded-pill ms-2 align-self-end"
+                                                    src="assets/images/user/user1.png" alt="user img" width="38"
+                                                    height="38">
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
 
                                 <div class="send-box">
                                     <form action="">
-                                                                                <div class="sendbtn">
+                                 <div class="sendbtn">
                                             <button class="btn shadow-none" type="button"><img src="./assets/images/icons/send.png" alt="send" width="16" height="14">
                                             </button>
                                         </div>
