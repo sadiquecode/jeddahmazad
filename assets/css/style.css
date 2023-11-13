@@ -1277,7 +1277,7 @@ h6 {
 
 .chatbox {
     width   : 476px;
-    overflow: scroll;
+    overflow: auto;
     height  : 630px;
 
 }
@@ -1290,7 +1290,7 @@ h6 {
 
 .chat-area .form-control {
     display           : block;
-    width             : 90%;
+    width             : 100%;
     padding           : 6px 8px 8px 35px;
     font-size         : 14px;
     font-weight       : 400;
@@ -1693,8 +1693,7 @@ button:focus {
     }
 
     .send-box {
-        position: -webkit-sticky;
-        position: sticky !important;
+        position: sticky;
         bottom  : 0;
     }
 
