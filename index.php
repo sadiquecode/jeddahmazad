@@ -418,14 +418,6 @@
     </section>
     <!-- ==============================Upcoming Auction End==============================-->
     <!-- ==============================Luxury Brand Start==============================-->
-    <style>
-        .heading_hr{
-            width: 15%;
-            height:2px !important;
-            color: #AD7B2B;
-            opacity: 1;
-        }
-    </style>
     <section class="Brand_wrapper py-5">
         <div class="container">
             <div class="heading text-center">
