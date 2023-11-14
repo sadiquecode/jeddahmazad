@@ -236,7 +236,7 @@
 
                                             <li>
                                                 <div class="divider">
-                                                    <h6><i class="fa-solid fa-turn-down"></i></h6>
+                                                    <i class="fa-solid fa-turn-down text-secondary"></i>
                                                 </div>
                                             </li>
                                             <li class="repaly d-flex justify-content-between">
