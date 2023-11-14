@@ -141,9 +141,7 @@
                                     <div class="row align-items-center">
                                         <div class="col-8">
                                             <div class="d-flex align-items-center">
-                                                <span class="chat-icon"><img class="img-fluid"
-                                                        src="assets/images/icons/leftarrow_11x16.png"
-                                                        alt="image title"></span>
+                                                <span class="chat-icon"><img class="img-fluid" src="assets/images/icons/leftarrow_11x16.png" alt="image title"></span>
                                                 <div class="">
                                                     <h5 class="mb-0">Kassem Ali</h5>
                                                 </div>
@@ -219,9 +217,24 @@
                                                     src="assets/images/user/user1.png" alt="user img" width="38"
                                                     height="38">
                                             </li>
+
+<!-- Product reference with responsive image -->
+<li class="repaly d-flex justify-content-between">
+    <div class="card text-center" style="max-width: 120px;">
+        <a href="#">
+            <img class="card-img-top img-fluid" src="assets/images/user/user1.png" alt="Card image cap">
+            <div class="card-body justify-content-left">
+                <b class="card-title text-dark">Card title</b>
+                <p>Lorem ipsum dolor sit amet, consectetur</p>
+            </div>
+        </a>
+    </div>
+
+</li>
+
                                             <li>
                                                 <div class="divider">
-                                                    <h6>Today</h6>
+                                                    <h6><i class="fa-solid fa-turn-down"></i></h6>
                                                 </div>
                                             </li>
                                             <li class="repaly d-flex justify-content-between">
