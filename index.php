@@ -18,8 +18,9 @@
                 <div class=" px-2 py-5">
                     <div class="card auction_card maincards border-0 px-0">
                         <div class="text-center active_btn position-relative">
-                            <a href="#" class="d-block position-absolute">Active</a>
-                            <img src="assets/images/cards/clip222.png" class="card-img-top img-fluid" alt="...">
+                            <a href="#" class="d-block position-absolute cardactive_btn">Active</a>
+                            <a href="#"><img src="assets/images/cards/clip222.png" class="card-img-top img-fluid" alt="...">
+</a>
                         </div>
                         <div class="card-body px-0 heading">
                           <a href="#">  <h4 class="card_title mb-4">GG Marmont</h4></a>
@@ -37,8 +38,9 @@
                 <div class=" px-2 py-5">
                     <div class="card auction_card maincards border-0 px-0">
                         <div class="text-center active_btn position-relative">
-                            <a href="#" class="d-block position-absolute">Active</a>
-                            <img src="assets/images/cards/webp (1).webp" class="card-img-top img-fluid" width="260px" height="285px" alt="...">
+                            <a href="#" class="d-block position-absolute cardactive_btn">Active</a>
+                            <a href="#"><img src="assets/images/cards/webp (1).webp" class="card-img-top img-fluid" width="260px" height="285px" alt="...">
+</a>
                         </div>
                         <div class="card-body px-0 heading">
                            <a href="#"> <h4 class="card_title mb-4">GG Marmont</h4></a>
@@ -56,8 +58,9 @@
                 <div class=" px-2 py-5">
                     <div class="card auction_card maincards  border-0 px-0">
                         <div class="text-center active_btn position-relative">
-                            <a href="#" class="d-block position-absolute">Active</a>
-                            <img src="assets/images/cards/post_7_6485.jpg" class="card-img-top img-fluid" alt="...">
+                            <a href="#" class="d-block position-absolute cardactive_btn">Active</a>
+                            <a href="#"><img src="assets/images/cards/post_7_6485.jpg" class="card-img-top img-fluid" alt="...">
+</a>
                         </div>
                         <div class="card-body px-0 heading">
                           <a href="#">  <h4 class="card-title mb-4">Ongoing Auctions</h4></a>
@@ -75,8 +78,9 @@
                 <div class=" px-2 py-5">
                     <div class="card auction_card maincards border-0 px-0">
                         <div class="text-center active_btn position-relative">
-                            <a href="#" class="d-block position-absolute">Active</a>
-                            <img src="assets/images/cards/webp (2).webp" class="card-img-top img-fluid" alt="...">
+                            <a href="#" class="d-block position-absolute cardactive_btn">Active</a>
+                            <a href="#"><img src="assets/images/cards/webp (2).webp" class="card-img-top img-fluid" alt="...">
+</a>
                         </div>
                         <div class="card-body px-0 heading">
                          <a href="#">   <h4 class="card-title mb-4">Ongoing Auctions</h4></a>
@@ -414,13 +418,22 @@
     </section>
     <!-- ==============================Upcoming Auction End==============================-->
     <!-- ==============================Luxury Brand Start==============================-->
+    <style>
+        .heading_hr{
+            width: 15%;
+            height:2px !important;
+            color: #AD7B2B;
+            opacity: 1;
+        }
+    </style>
     <section class="Brand_wrapper py-5">
         <div class="container">
-            <div class="heading">
-                <h4><span>Our Luxury</span> Brands</h4>
+            <div class="heading text-center">
+                <h4>Our Luxury Brands</h4>
+                <hr class="mx-auto heading_hr">
             </div>
-            <div class="row mt-5 gy-3">
-                <div class="col-md-2 col-12">
+            <div class="row gy-3">
+                <div class="col-md-2 col-12 d-none">
                     <div class="custom_control">
                         <div class="custom_checks p-1 rounded mb-3 d-inline-flex w-100">
                             <input type="checkbox" class="form-check-input shadow-none" id="flexCheckMen">
@@ -432,7 +445,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-12">
+                <div class="col-md-2 col-12 d-none">
                     <div class="custom_control">
                         <div class="custom_checks p-1 rounded  mb-3 d-inline-flex w-100">
                             <input type="checkbox" class="form-check-input shadow-none" id="customCheckBags">
@@ -452,7 +465,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-8 col-12">
+                <div class="col-md-8 col-12 mx-auto">
                     <div class="row">
                         <div class="col-10 mx-auto">
                             <div class="slideimgs slidertlimgs">

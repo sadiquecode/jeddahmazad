@@ -223,9 +223,11 @@
     <div class="card text-center" style="max-width: 120px;">
         <a href="#">
             <img class="card-img-top img-fluid" src="assets/images/user/user1.png" alt="Card image cap">
-            <div class="card-body justify-content-left">
-                <b class="card-title text-dark">Card title</b>
-                <p>Lorem ipsum dolor sit amet, consectetur</p>
+            <div class="card-body p-0" style="background-color: #E8E9ED;">
+                <h5 class="card-title text-dark" style="padding-top: 5px;
+    font-size: 14px;
+    margin: 0;">Card title</h5>
+                <p class="">Lorem ipsum dolor sit amet, consectetur</p>
             </div>
         </a>
     </div>

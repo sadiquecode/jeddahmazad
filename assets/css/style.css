@@ -475,7 +475,7 @@ h6 {
     max-width: 1100px !important;
 }
 
-.active_btn a {
+.cardactive_btn {
     background-color: #16204A;
     border-radius   : 7px;
     padding         : 8px 20px;
@@ -2057,7 +2057,7 @@ button:focus {
         border-radius   : 7px;
     }
 
-    .active_btn a {
+    .cardactive_btn {
         padding  : 6px 10px;
         font-size: 10px;
     }
@@ -2082,6 +2082,10 @@ button:focus {
     .categorizz .dropdown-menu {
         background   : black;
         border-radius: 20px 20px 0 0;
+    }
+
+    .Brand_wrapper {
+        display: none;
     }
 
     .filter_search {
@@ -2126,9 +2130,6 @@ button:focus {
 }
 
 @media (max-width: 414px) {
-    .Brand_wrapper {
-        display: none;
-    }
 
     .contect_detail h1 {
         font-size: 20px;
